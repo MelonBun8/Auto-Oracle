@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T16:28:01.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="IpoMkq78riGo37k5A2ci" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T16:32:42.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0Jrb39dm1F6RMfTVYtQR" version="22.0.4" type="github">
   <diagram name="Page-1" id="VbT2AXL3NxatUCNaOw7W">
     <mxGraphModel dx="1900" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
         <mxCell id="9EdJ5cW4g2u-1m6N94yv-2" value="Start Screen / Login/ Title GUI page" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="370" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3hjuimiY7uAzhOEAK05u-9" value="1. View Current Ads for Cars&lt;br&gt;2. Put up car for sale&lt;br&gt;3. Car Sale Recommender System&lt;br&gt;4. View Your Profile / Cars you have sold&lt;br&gt;5. Search for specific Cars/ models etc." style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="3hjuimiY7uAzhOEAK05u-9" value="1. View Current Ads for Cars&lt;br&gt;2. Put up car for sale&lt;br&gt;3. AI Car Sale Recommender&lt;br&gt;5. Search.&lt;br&gt;6. Seller Profile Page" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="550" y="650" width="380" height="270" as="geometry" />
         </mxCell>
         <mxCell id="U0qqM5ackRJWeSOB-rKI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0qqM5ackRJWeSOB-rKI-1" target="U0qqM5ackRJWeSOB-rKI-6">
@@ -48,7 +48,7 @@
         <mxCell id="U0qqM5ackRJWeSOB-rKI-5" value="As Seller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="535" y="408" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0qqM5ackRJWeSOB-rKI-6" value="1. View Current Ads for Cars&lt;br&gt;2. Put up car for sale&lt;br&gt;3. Car Sale Recommender System&lt;br&gt;4. View Your Profile / Cars you have sold&lt;br&gt;5. Search for specific Cars/ models etc." style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="U0qqM5ackRJWeSOB-rKI-6" value="1. View Current Ads for Cars&lt;br&gt;3. Car Buying Advice System&lt;br&gt;4. View Your Profile / Cars you have sold&lt;br&gt;5. Search for specific Cars/ models etc.&lt;br&gt;6.Buyer Account Page" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-110" y="650" width="380" height="270" as="geometry" />
         </mxCell>
       </root>
