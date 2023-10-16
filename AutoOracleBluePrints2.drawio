@@ -1,43 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T10:01:30.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-CwcbZSDifc6ApQThPjL" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T05:42:16.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PEN5mP8hfB_lpyHW-nP1" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B0B0B0" math="0" shadow="0">
+    <mxGraphModel dx="2327" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B0B0B0" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-1" target="T2LJMCe71ug5yXVKgrJa-3">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-1" target="T2LJMCe71ug5yXVKgrJa-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;START&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;START&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="414" y="100" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-3" target="T2LJMCe71ug5yXVKgrJa-4">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-3" target="T2LJMCe71ug5yXVKgrJa-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Start Screen / Login/ Title GUI page&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Start Screen / Login/ Title GUI page&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#99CCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="364" y="360" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="T2LJMCe71ug5yXVKgrJa-5">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="T2LJMCe71ug5yXVKgrJa-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="T2LJMCe71ug5yXVKgrJa-9">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="T2LJMCe71ug5yXVKgrJa-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. View Current Ads for Cars&lt;br&gt;2. Seller Status&lt;br&gt;3. Car Buying Price Recommender System&lt;br&gt;4. View Your Profile / Cars you have bought&lt;br&gt;5. Search for specific Cars/ models etc.&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="650" width="380" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-5" target="T2LJMCe71ug5yXVKgrJa-7">
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="_QZk5ddEU9ZAaiRIG99U-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IF SELLER STATUS IS TRUE&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFB3;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="685" width="260" height="200" as="geometry" />
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-4" target="_QZk5ddEU9ZAaiRIG99U-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="1050" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-7" target="T2LJMCe71ug5yXVKgrJa-11">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. View Current Ads for Cars&lt;br&gt;2. Seller Status&lt;br&gt;4. View Your Profile / Cars you have bought&lt;br&gt;5. Search for specific Cars/ models etc.&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-110" y="670" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-5" target="T2LJMCe71ug5yXVKgrJa-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1) Option to Put a car for sale&lt;br&gt;2) Option to see the best price for car by AI predictor&lt;br&gt;3) Update on Profile | &lt;br&gt;A section appears telling about the cars the user has sold&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IF SELLER STATUS IS TRUE&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFB3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="510" y="585" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-7" target="T2LJMCe71ug5yXVKgrJa-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1) Option to Put a car for sale&lt;br&gt;2) Option to see the best price for car by AI predictor&lt;br&gt;3) Update on Profile | &lt;br&gt;A section appears telling about the cars the user has sold&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="1010" width="480" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-9">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#030303;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T2LJMCe71ug5yXVKgrJa-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="1360" as="targetPoint" />
             <Array as="points">
@@ -46,11 +54,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IF SELLER STATUS IS FALSE&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IF SELLER STATUS IS FALSE&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="960" width="260" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="T2LJMCe71ug5yXVKgrJa-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;END&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2LJMCe71ug5yXVKgrJa-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;END&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="700" y="1380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_QZk5ddEU9ZAaiRIG99U-0" target="_QZk5ddEU9ZAaiRIG99U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_QZk5ddEU9ZAaiRIG99U-0" target="_QZk5ddEU9ZAaiRIG99U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-0" value="Home Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-430" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-2" value="Sorting" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-690" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-5" value="Search and Filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_QZk5ddEU9ZAaiRIG99U-6" target="_QZk5ddEU9ZAaiRIG99U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-6" value="Regular Car List Display" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-430" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_QZk5ddEU9ZAaiRIG99U-8" target="_QZk5ddEU9ZAaiRIG99U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-8" value="Detailed View" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QZk5ddEU9ZAaiRIG99U-10" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3. Car Buying Price Recommender System&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
