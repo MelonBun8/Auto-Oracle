@@ -19,12 +19,12 @@
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>161</width>
+      <width>201</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>Saad | Shariq | Taha</string>
+     <string>Saad | Shariq | Taha | BCS-3B</string>
     </property>
    </widget>
   </widget>
@@ -34,7 +34,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuAuto_Oracle">
