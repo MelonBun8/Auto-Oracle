@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Admin home.png</file>
+        <file>pxfuel.jpg</file>
+        <file>_22x_xa1vt0w0o_1740413052.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>../../../../DS Project Auto Oracle/Best UI Ideas/welcome window 3.jpg</file>
+        <file>../../../../DS Project Auto Oracle/Best UI Ideas/Welcome_Page_1-transformed.jpg</file>
+        <file>../../../../DS Project Auto Oracle/Best UI Ideas/Login portal 2.png</file>
+        <file>../../../../DS Project Auto Oracle/Best UI Ideas/welcome 4.jpg</file>
+        <file>C:/Users/SAAD COMMUNICATION/Downloads/pxfuel.jpg</file>
+    </qresource>
+</RCC>
