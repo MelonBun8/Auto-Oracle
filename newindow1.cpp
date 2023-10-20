@@ -7,8 +7,14 @@
 #include <iostream>
 #include <iomanip>
 #include <QMessageBox>
+<<<<<<< Updated upstream
 
 
+=======
+#include <QTimer>
+
+int currentIndex = 0;
+>>>>>>> Stashed changes
 //void Newindow1::showNewWindow()
 //{
 //    NewWindow2 *newWindow = new NewWindow2();
@@ -38,8 +44,69 @@ Newindow1::Newindow1(QWidget *parent) :
         }
   });
 
+<<<<<<< Updated upstream
 }
 
+=======
+        QTimer *timer = new QTimer(this);
+        connect(timer, &QTimer::timeout, this, &Newindow1::changePictureAndText);
+
+        // Set the timer interval to control the speed of changes (e.g., 3000ms for 3 seconds)
+        timer->start(3000);
+
+}
+
+void Newindow1::changePictureAndText() {
+
+    QStringList picturePaths = {
+        ":/new/prefix1/pic1.jpg",
+            ":/new/prefix1/pic2.jpg",
+            ":/new/prefix1/pic3.jpg",
+            ":/new/prefix1/pic4.jpg"
+    };
+
+    QStringList textLabels = {
+        "Buy your Dream Car",
+        "Become a Seller",
+        "Keep up with your Profile",
+        "Find Best Price with AI"
+    };
+            // Update the picture and text labels
+            ui->label_6->setPixmap(QPixmap(picturePaths[currentIndex]));
+
+            if(currentIndex==0)
+            {
+               ui->label_5->setText(textLabels[currentIndex]);
+               ui->label_10->setText(" ");
+               ui->label_9->setText(" ");
+               ui->label_11->setText(" ");
+            }
+            else if(currentIndex==1)
+            {
+               ui->label_10->setText(textLabels[currentIndex]);
+               ui->label_9->setText(" ");
+               ui->label_11->setText(" ");
+               ui->label_5->setText(" ");
+            }
+            else if(currentIndex==2)
+            {
+               ui->label_9->setText(textLabels[currentIndex]);
+               ui->label_10->setText(" ");
+               ui->label_11->setText(" ");
+               ui->label_5->setText(" ");
+            }
+            else{
+                ui->label_11->setText(textLabels[currentIndex]);
+                ui->label_10->setText(" ");
+                ui->label_9->setText(" ");
+                ui->label_5->setText(" ");
+            }
+
+            // Increment the index and loop back to 0 if necessary
+            currentIndex = (currentIndex + 1) % picturePaths.size();
+        }
+
+>>>>>>> Stashed changes
 Newindow1::~Newindow1()
 {
     delete ui;
