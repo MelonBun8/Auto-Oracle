@@ -8,8 +8,14 @@
 #include <iomanip>
 #include <QMessageBox>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
+=======
+#include <QTimer>
+
+int currentIndex = 0;
+>>>>>>> Stashed changes
 =======
 #include <QTimer>
 
@@ -45,6 +51,7 @@ Newindow1::Newindow1(QWidget *parent) :
   });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 
 =======
@@ -56,6 +63,16 @@ Newindow1::Newindow1(QWidget *parent) :
 
 }
 
+=======
+        QTimer *timer = new QTimer(this);
+        connect(timer, &QTimer::timeout, this, &Newindow1::changePictureAndText);
+
+        // Set the timer interval to control the speed of changes (e.g., 3000ms for 3 seconds)
+        timer->start(3000);
+
+}
+
+>>>>>>> Stashed changes
 void Newindow1::changePictureAndText() {
 
     QStringList picturePaths = {
@@ -106,6 +123,9 @@ void Newindow1::changePictureAndText() {
             currentIndex = (currentIndex + 1) % picturePaths.size();
         }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Newindow1::~Newindow1()
 {

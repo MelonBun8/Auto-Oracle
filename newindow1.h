@@ -27,6 +27,10 @@ public slots:
 //    void showNewWindow();
 //    void showNewWindow2();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    void changePictureAndText();
+>>>>>>> Stashed changes
 =======
     void changePictureAndText();
 >>>>>>> Stashed changes

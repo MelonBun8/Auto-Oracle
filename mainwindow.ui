@@ -7,8 +7,13 @@
     <x>0</x>
     <y>0</y>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <width>1300</width>
     <height>680</height>
+=======
+    <width>1540</width>
+    <height>800</height>
+>>>>>>> Stashed changes
 =======
     <width>1540</width>
     <height>800</height>
@@ -30,15 +35,22 @@
     <property name="geometry">
      <rect>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <x>460</x>
       <y>60</y>
       <width>671</width>
       <height>151</height>
+=======
+      <x>390</x>
+      <y>150</y>
+      <width>831</width>
+      <height>81</height>
+>>>>>>> Stashed changes
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe MDL2 Assets</family>
+      <family>Algerian</family>
       <pointsize>35</pointsize>
       <italic>false</italic>
       <bold>true</bold>
@@ -63,16 +75,16 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>200</y>
-      <width>401</width>
-      <height>71</height>
+      <x>540</x>
+      <y>240</y>
+      <width>491</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Brush Script MT</family>
-      <pointsize>30</pointsize>
+      <family>Copperplate Gothic Bold</family>
+      <pointsize>18</pointsize>
       <italic>true</italic>
       <bold>false</bold>
       <underline>false</underline>
@@ -132,6 +144,7 @@
     </property>
     <property name="text">
      <string>Accelerating your future</string>
+<<<<<<< Updated upstream
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -266,6 +279,8 @@ background-color: rgb(2, 5, 14);</string>
     <property name="text">
 <<<<<<< Updated upstream
      <string>Accelerating the future</string>
+=======
+>>>>>>> Stashed changes
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -307,14 +322,15 @@ background-color: rgb(2, 5, 14);</string>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>570</y>
-      <width>171</width>
+      <x>620</x>
+      <y>690</y>
+      <width>221</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <pointsize>11</pointsize>
       <italic>true</italic>
      </font>
     </property>
@@ -326,7 +342,7 @@ background-color: rgb(2, 5, 14);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(19, 19, 25);</string>
+background-color: rgb(2, 5, 14);</string>
     </property>
     <property name="text">
      <string>Press Here to Continue</string>
@@ -339,10 +355,10 @@ background-color: rgb(19, 19, 25);</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>-50</x>
-      <y>-30</y>
-      <width>1380</width>
-      <height>900</height>
+      <x>-10</x>
+      <y>-20</y>
+      <width>1560</width>
+      <height>850</height>
      </rect>
     </property>
     <property name="frameShadow">
@@ -355,7 +371,11 @@ background-color: rgb(19, 19, 25);</string>
      <string/>
     </property>
     <property name="pixmap">
+<<<<<<< Updated upstream
      <pixmap resource="resources.qrc">:/new/prefix1/pngkit_clouds-png_16590.png</pixmap>
+=======
+     <pixmap resource="resources.qrc">:/new/prefix1/MainUi Background.jpg</pixmap>
+>>>>>>> Stashed changes
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -389,10 +409,10 @@ background-color: rgb(19, 19, 25);</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>220</y>
-      <width>631</width>
-      <height>91</height>
+      <x>1240</x>
+      <y>50</y>
+      <width>81</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -414,7 +434,11 @@ background-color: rgb(19, 19, 25);</string>
     </property>
     <property name="pixmap">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <pixmap>C:/Users/SAAD COMMUNICATION/Downloads/pngkit_clouds-png_16590.png</pixmap>
+=======
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+>>>>>>> Stashed changes
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -423,8 +447,8 @@ background-color: rgb(19, 19, 25);</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>370</y>
+      <x>960</x>
+      <y>310</y>
       <width>631</width>
       <height>91</height>
      </rect>
@@ -436,8 +460,50 @@ background-color: rgb(19, 19, 25);</string>
      <string/>
     </property>
     <property name="pixmap">
+<<<<<<< Updated upstream
      <pixmap>C:/Users/SAAD COMMUNICATION/Downloads/pngkit_clouds-png_16590.png</pixmap>
 =======
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+>>>>>>> Stashed changes
+=======
+     <pixmap resource="resources.qrc">:/new/prefix1/pngkit_clouds-png_16590.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>516</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>206</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
      <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
 >>>>>>> Stashed changes
     </property>
@@ -448,7 +514,10 @@ background-color: rgb(19, 19, 25);</string>
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    <zorder>label_5</zorder>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
    <zorder>label</zorder>
@@ -456,6 +525,12 @@ background-color: rgb(19, 19, 25);</string>
    <zorder>pushButton</zorder>
    <zorder>label_6</zorder>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_5</zorder>
+>>>>>>> Stashed changes
 =======
    <zorder>label_7</zorder>
    <zorder>label_8</zorder>

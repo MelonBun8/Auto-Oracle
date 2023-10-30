@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/new/prefix1">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <file>Admin home.png</file>
         <file>pxfuel.jpg</file>
         <file>_22x_xa1vt0w0o_1740413052.jpg</file>
@@ -12,6 +13,8 @@
         <file>../../../../DS Project Auto Oracle/Best UI Ideas/welcome 4.jpg</file>
         <file>C:/Users/SAAD COMMUNICATION/Downloads/pxfuel.jpg</file>
 =======
+=======
+>>>>>>> Stashed changes
         <file>MainUi Background.jpg</file>
         <file>glow light png.png</file>
         <file>pngkit_clouds-png_16590.png</file>
@@ -20,6 +23,9 @@
         <file>pic3.jpg</file>
         <file>pic4.jpg</file>
         <file>Login_ui-transformed.jpg</file>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </qresource>
 </RCC>

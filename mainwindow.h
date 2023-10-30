@@ -26,7 +26,11 @@ public:
 
 public slots:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+    void toggleStackingOrder();
+>>>>>>> Stashed changes
 =======
     void toggleStackingOrder();
 >>>>>>> Stashed changes

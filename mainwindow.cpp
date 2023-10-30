@@ -4,7 +4,13 @@
 #include "./ui_mainwindow.h"
 #include <QPropertyAnimation>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #include <QEasingCurve>
+=======
+#include <QTimer>
+#include <QEasingCurve>
+#include <QSequentialAnimationGroup>
+>>>>>>> Stashed changes
 =======
 #include <QTimer>
 #include <QEasingCurve>
@@ -18,6 +24,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 //    QPropertyAnimation *animation = new QPropertyAnimation(ui->label_3, "geometry");
 //    animation->setDuration(3000);
@@ -46,29 +53,41 @@ MainWindow::MainWindow(QWidget *parent)
     animation2->setStartValue(QRect(430, 700, 0, 0));
     animation2->setEndValue(QRect(430, 150, 831, 91));
 >>>>>>> Stashed changes
+=======
+    QTimer* timer = new QTimer(this);
+
+        // Connect the timer to a slot that toggles the stacking order
+        connect(timer, &QTimer::timeout, this, &MainWindow::toggleStackingOrder);
+
+        // Set the animation interval (time between bringToFront and sendToBack)
+        timer->start(500);
+
+
+
+    QPropertyAnimation *animation2 = new QPropertyAnimation(ui->label, "geometry");
+    animation2->setDuration(3000);
+    animation2->setStartValue(QRect(430, 700, 0, 0));
+    animation2->setEndValue(QRect(430, 150, 831, 91));
+>>>>>>> Stashed changes
     animation2->setEasingCurve(QEasingCurve::InOutQuad);
     animation2->start(QAbstractAnimation::DeleteWhenStopped);
 
     QPropertyAnimation *animation3 = new QPropertyAnimation(ui->label_2, "geometry");
     animation3->setDuration(3000);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     animation3->setStartValue(QRect(550, 560, 0, 0));
     animation3->setEndValue(QRect(550, 110, 399, 91));
+=======
+    animation3->setStartValue(QRect(540, 725, 0, 0));
+    animation3->setEndValue(QRect(540, 240, 491, 41));
+>>>>>>> Stashed changes
     animation3->setEasingCurve(QEasingCurve::InOutQuad);
     animation3->start(QAbstractAnimation::DeleteWhenStopped);
 
-    QPropertyAnimation *animation4 = new QPropertyAnimation(ui->label_5, "pos");
-    animation4->setDuration(25000); // 25 seconds
-    animation4->setStartValue(QPoint(width(), height() / 2));
-    animation4->setEndValue(QPoint(-ui->label_5->width(), height() / 2));
-    animation4->setEasingCurve(QEasingCurve::Linear);
-    animation4->setLoopCount(-1); // Loop indefinitely
-
-    // Start the animation
-    animation4->start();
-
     QPropertyAnimation *animation5 = new QPropertyAnimation(ui->label_6, "pos");
     animation5->setDuration(25000); // 25 seconds
+<<<<<<< Updated upstream
     animation5->setStartValue(QPoint(width(), height() / 2+ 50));
     animation5->setEndValue(QPoint(-ui->label_6->width(), height() / 2 +50));
 =======
@@ -79,6 +98,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     QPropertyAnimation *animation5 = new QPropertyAnimation(ui->label_6, "pos");
     animation5->setDuration(25000); // 25 seconds
+    animation5->setStartValue(QPoint(width(), height() / 2 -100));
+    animation5->setEndValue(QPoint(-ui->label_6->width(), height() / 2-100));
+>>>>>>> Stashed changes
+=======
     animation5->setStartValue(QPoint(width(), height() / 2 -100));
     animation5->setEndValue(QPoint(-ui->label_6->width(), height() / 2-100));
 >>>>>>> Stashed changes
@@ -96,7 +119,10 @@ MainWindow::~MainWindow()
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 void MainWindow::toggleStackingOrder() {
     if (ui->label_5->isHidden() && ui->label_7->isHidden() && ui->label_8->isHidden()) {
         // Make the label visible and bring it to the front
@@ -117,6 +143,9 @@ void MainWindow::toggleStackingOrder() {
     }
 }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 void MainWindow::showNewWindow()
 {
