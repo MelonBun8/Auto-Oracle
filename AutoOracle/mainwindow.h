@@ -25,11 +25,7 @@ public:
 
 
 public slots:
-<<<<<<< Updated upstream
-
-=======
     void toggleStackingOrder();
->>>>>>> Stashed changes
     void showNewWindow();
 
 private slots:

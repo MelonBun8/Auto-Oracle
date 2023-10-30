@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen",
+	"CMAKE_BINARY_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle",
+	"CMAKE_SOURCE_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle",
+	"INCLUDE_DIR" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/pic4.jpg",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/MainUi Background.jpg",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/pngkit_clouds-png_16590.png",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/pic3.jpg",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/pic1.jpg",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/glow light png.png",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/Login_ui-transformed.jpg",
+		"D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/pic2.jpg"
+	],
+	"LOCK_FILE" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/AutoOracle_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.4.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/AutoOracle_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/resources.qrc",
+	"VERBOSITY" : 0
+}

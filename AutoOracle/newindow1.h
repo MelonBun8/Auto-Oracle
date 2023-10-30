@@ -26,10 +26,7 @@ public:
 public slots:
 //    void showNewWindow();
 //    void showNewWindow2();
-<<<<<<< Updated upstream
-=======
     void changePictureAndText();
->>>>>>> Stashed changes
 
 private slots:
     void on_pushButton_clicked();

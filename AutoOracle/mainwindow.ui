@@ -167,7 +167,7 @@ background-color: rgb(2, 5, 14);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/new/prefix1/MainUi Background.jpg</pixmap>
+     <pixmap resource="resources.qrc">:/MainUi Background.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -189,7 +189,7 @@ background-color: rgb(2, 5, 14);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+     <pixmap resource="resources.qrc">:/glow light png.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -198,7 +198,7 @@ background-color: rgb(2, 5, 14);</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>960</x>
+      <x>890</x>
       <y>310</y>
       <width>631</width>
       <height>91</height>
@@ -211,7 +211,7 @@ background-color: rgb(2, 5, 14);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/new/prefix1/pngkit_clouds-png_16590.png</pixmap>
+     <pixmap resource="resources.qrc">:/pngkit_clouds-png_16590.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -230,7 +230,7 @@ background-color: rgb(2, 5, 14);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+     <pixmap resource="resources.qrc">:/glow light png.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -249,12 +249,15 @@ background-color: rgb(2, 5, 14);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+     <pixmap resource="resources.qrc">:/glow light png.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <zorder>label_5</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>label</zorder>

@@ -7,14 +7,9 @@
 #include <iostream>
 #include <iomanip>
 #include <QMessageBox>
-<<<<<<< Updated upstream
-
-
-=======
 #include <QTimer>
 
 int currentIndex = 0;
->>>>>>> Stashed changes
 //void Newindow1::showNewWindow()
 //{
 //    NewWindow2 *newWindow = new NewWindow2();
@@ -44,10 +39,6 @@ Newindow1::Newindow1(QWidget *parent) :
         }
   });
 
-<<<<<<< Updated upstream
-}
-
-=======
         QTimer *timer = new QTimer(this);
         connect(timer, &QTimer::timeout, this, &Newindow1::changePictureAndText);
 
@@ -59,10 +50,10 @@ Newindow1::Newindow1(QWidget *parent) :
 void Newindow1::changePictureAndText() {
 
     QStringList picturePaths = {
-        ":/new/prefix1/pic1.jpg",
-            ":/new/prefix1/pic2.jpg",
-            ":/new/prefix1/pic3.jpg",
-            ":/new/prefix1/pic4.jpg"
+        ":/pic1.jpg",
+            ":/pic2.jpg",
+            ":/pic3.jpg",
+            ":/pic4.jpg"
     };
 
     QStringList textLabels = {
@@ -106,7 +97,6 @@ void Newindow1::changePictureAndText() {
             currentIndex = (currentIndex + 1) % picturePaths.size();
         }
 
->>>>>>> Stashed changes
 Newindow1::~Newindow1()
 {
     delete ui;
