@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1540</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Auto Oracle</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (2).png</normaloff>C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (2).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>150</y>
+      <width>831</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>35</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Welcome to Auto Oracle</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>240</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Copperplate Gothic Bold</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Accelerating your future</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>340</y>
+      <width>111</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/SAAD COMMUNICATION/Downloads/Untitled (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>690</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(2, 5, 14);</string>
+    </property>
+    <property name="text">
+     <string>Press Here to Continue</string>
+    </property>
+    <property name="icon">
+     <iconset theme="applications-graphics">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-20</y>
+      <width>1560</width>
+      <height>850</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/MainUi Background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>50</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>310</y>
+      <width>631</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/pngkit_clouds-png_16590.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>516</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>206</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/new/prefix1/glow light png.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label_6</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
