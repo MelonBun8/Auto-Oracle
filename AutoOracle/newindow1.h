@@ -24,7 +24,7 @@ public:
     QDialog *newWindow;
 
 public slots:
-//    void showNewWindow();
+    void showNewWindow();
 //    void showNewWindow2();
     void changePictureAndText();
 

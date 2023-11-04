@@ -21,6 +21,9 @@ set(PROJECT_SOURCES
         newindow1.cpp
         newindow1.h
         newindow1.ui
+        dashboard.cpp
+        dashboard.h
+        dashboard.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

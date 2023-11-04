@@ -1,5 +1,7 @@
 #include "newindow1.h"
 #include "./ui_newindow1.h"
+#include "dashboard.h"
+#include "./ui_dashboard.h"
 #include <QtCore/QFile>
 #include <QtCore/QTextStream>
 #include <QtCore/QStringList>
@@ -10,9 +12,16 @@
 #include <QTimer>
 
 int currentIndex = 0;
-//void Newindow1::showNewWindow()
+void Newindow1::showNewWindow()
+{
+    Dashboard *newWindow = new Dashboard();
+    newWindow->show();
+    this->close();
+}
+
+//void MainWindow::showNewWindow()
 //{
-//    NewWindow2 *newWindow = new NewWindow2();
+//    Newindow1 *newWindow = new Newindow1;
 //    newWindow->show();
 //    this->close();
 //}
@@ -166,7 +175,7 @@ UserManager user(f);
                     out.seek(file->size());
                     out << username<< "\n";
                     file->close();
-//                    showNewWindow();
+                    showNewWindow();
                 }
             }
         }
@@ -186,7 +195,7 @@ UserManager user(f);
                 out.seek(file->size());
                 out << username<< "\n";
                 file->close();
-//                showNewWindow();
+                showNewWindow();
             }
 
             else if(res2)
@@ -201,6 +210,7 @@ UserManager user(f);
 }
 
 }
+
 
 
 //void Newindow1::on_pushButton_2_clicked()

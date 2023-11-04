@@ -7,6 +7,9 @@
         <file>pic2.jpg</file>
         <file>pic3.jpg</file>
         <file>pic4.jpg</file>
+	<file>side bar-PhotoRoom.png</file>
+	<file>menu-bar.png</file>
+	<file>profile.png</file>
         <file>Login_ui-transformed.jpg</file>
     </qresource>
 </RCC>
