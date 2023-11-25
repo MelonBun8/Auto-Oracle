@@ -4,6 +4,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtCore/QFile \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QTextStream \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qarraydata.h \
@@ -116,7 +117,10 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
+  C:/Qt/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \

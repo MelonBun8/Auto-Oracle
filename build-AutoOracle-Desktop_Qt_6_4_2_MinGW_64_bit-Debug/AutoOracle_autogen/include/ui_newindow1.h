@@ -13,10 +13,12 @@
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -46,6 +48,17 @@ public:
     QLabel *label_9;
     QLabel *label_10;
     QLabel *label_11;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QPushButton *pushButton_4;
+    QLineEdit *lineEdit_4;
+    QLineEdit *lineEdit_5;
+    QWidget *tab_2;
+    QLineEdit *lineEdit;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_3;
+    QPushButton *pushButton_3;
+    QComboBox *comboBox;
 
     void setupUi(QMainWindow *Newindow1)
     {
@@ -80,7 +93,7 @@ public:
         label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(4, 22, 72);"));
         name_label = new QLabel(centralwidget);
         name_label->setObjectName("name_label");
-        name_label->setGeometry(QRect(80, 150, 111, 20));
+        name_label->setGeometry(QRect(20, 150, 111, 20));
         QFont font1;
         font1.setFamilies({QString::fromUtf8("Palatino Linotype")});
         font1.setPointSize(11);
@@ -89,7 +102,7 @@ public:
         name_label->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         namelineEdit = new QLineEdit(centralwidget);
         namelineEdit->setObjectName("namelineEdit");
-        namelineEdit->setGeometry(QRect(80, 190, 381, 31));
+        namelineEdit->setGeometry(QRect(20, 190, 381, 31));
         QFont font2;
         font2.setFamilies({QString::fromUtf8("Palatino Linotype")});
         font2.setPointSize(10);
@@ -97,16 +110,16 @@ public:
         namelineEdit->setFont(font2);
         id_label = new QLabel(centralwidget);
         id_label->setObjectName("id_label");
-        id_label->setGeometry(QRect(80, 270, 71, 20));
+        id_label->setGeometry(QRect(20, 270, 71, 20));
         id_label->setFont(font1);
         id_label->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         idlineEdit = new QLineEdit(centralwidget);
         idlineEdit->setObjectName("idlineEdit");
-        idlineEdit->setGeometry(QRect(80, 310, 381, 31));
+        idlineEdit->setGeometry(QRect(20, 310, 381, 31));
         idlineEdit->setFont(font2);
         password_label = new QLabel(centralwidget);
         password_label->setObjectName("password_label");
-        password_label->setGeometry(QRect(80, 390, 111, 31));
+        password_label->setGeometry(QRect(30, 380, 111, 31));
         QFont font3;
         font3.setFamilies({QString::fromUtf8("Palatino Linotype")});
         font3.setPointSize(11);
@@ -116,12 +129,12 @@ public:
         password_label->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         passlineEdit = new QLineEdit(centralwidget);
         passlineEdit->setObjectName("passlineEdit");
-        passlineEdit->setGeometry(QRect(80, 430, 381, 31));
+        passlineEdit->setGeometry(QRect(30, 420, 381, 31));
         passlineEdit->setFont(font3);
         passlineEdit->setClearButtonEnabled(false);
         logincheck = new QCheckBox(centralwidget);
         logincheck->setObjectName("logincheck");
-        logincheck->setGeometry(QRect(80, 510, 291, 26));
+        logincheck->setGeometry(QRect(30, 490, 291, 26));
         logincheck->setFont(font1);
         logincheck->setAutoFillBackground(false);
         logincheck->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
@@ -138,12 +151,12 @@ public:
 "border-color: rgb(255, 255, 255);"));
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(550, 20, 71, 61));
+        label_4->setGeometry(QRect(1130, 10, 71, 61));
         label_4->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (1).png")));
         label_4->setScaledContents(true);
         checkBox = new QCheckBox(centralwidget);
         checkBox->setObjectName("checkBox");
-        checkBox->setGeometry(QRect(490, 430, 21, 31));
+        checkBox->setGeometry(QRect(450, 420, 21, 31));
         checkBox->setCursor(QCursor(Qt::PointingHandCursor));
         checkBox->setStyleSheet(QString::fromUtf8(""));
         QIcon icon1;
@@ -151,7 +164,7 @@ public:
         checkBox->setIcon(icon1);
         label_7 = new QLabel(centralwidget);
         label_7->setObjectName("label_7");
-        label_7->setGeometry(QRect(505, 420, 61, 51));
+        label_7->setGeometry(QRect(460, 410, 61, 51));
         label_7->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/Lovepik_com-401039678-eye-icon-vector-element.png")));
         label_7->setScaledContents(true);
         label_2 = new QLabel(centralwidget);
@@ -193,6 +206,53 @@ public:
         label_11->setGeometry(QRect(770, 480, 711, 71));
         label_11->setFont(font5);
         label_11->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName("tabWidget");
+        tabWidget->setGeometry(QRect(590, 80, 501, 391));
+        tab = new QWidget();
+        tab->setObjectName("tab");
+        pushButton_4 = new QPushButton(tab);
+        pushButton_4->setObjectName("pushButton_4");
+        pushButton_4->setGeometry(QRect(80, 230, 161, 31));
+        lineEdit_4 = new QLineEdit(tab);
+        lineEdit_4->setObjectName("lineEdit_4");
+        lineEdit_4->setGeometry(QRect(20, 50, 271, 31));
+        lineEdit_5 = new QLineEdit(tab);
+        lineEdit_5->setObjectName("lineEdit_5");
+        lineEdit_5->setGeometry(QRect(20, 110, 271, 31));
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName("tab_2");
+        lineEdit = new QLineEdit(tab_2);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(20, 30, 271, 31));
+        lineEdit_2 = new QLineEdit(tab_2);
+        lineEdit_2->setObjectName("lineEdit_2");
+        lineEdit_2->setGeometry(QRect(20, 90, 271, 31));
+        lineEdit_3 = new QLineEdit(tab_2);
+        lineEdit_3->setObjectName("lineEdit_3");
+        lineEdit_3->setGeometry(QRect(20, 150, 271, 31));
+        pushButton_3 = new QPushButton(tab_2);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setGeometry(QRect(100, 250, 121, 29));
+        comboBox = new QComboBox(tab_2);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(20, 210, 101, 28));
+        tabWidget->addTab(tab_2, QString());
         Newindow1->setCentralWidget(centralwidget);
         label->raise();
         label_2->raise();
@@ -215,8 +275,12 @@ public:
         label_9->raise();
         label_10->raise();
         label_11->raise();
+        tabWidget->raise();
 
         retranslateUi(Newindow1);
+
+        tabWidget->setCurrentIndex(0);
+
 
         QMetaObject::connectSlotsByName(Newindow1);
     } // setupUi
@@ -246,6 +310,28 @@ public:
         label_9->setText(QString());
         label_10->setText(QString());
         label_11->setText(QString());
+#if QT_CONFIG(whatsthis)
+        tabWidget->setWhatsThis(QString());
+#endif // QT_CONFIG(whatsthis)
+        pushButton_4->setText(QCoreApplication::translate("Newindow1", "Log In", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Newindow1", "Log In", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("Newindow1", "Sign Up Now", nullptr));
+        comboBox->setItemText(0, QCoreApplication::translate("Newindow1", "Below 18", nullptr));
+        comboBox->setItemText(1, QCoreApplication::translate("Newindow1", "18", nullptr));
+        comboBox->setItemText(2, QCoreApplication::translate("Newindow1", "19", nullptr));
+        comboBox->setItemText(3, QCoreApplication::translate("Newindow1", "20", nullptr));
+        comboBox->setItemText(4, QCoreApplication::translate("Newindow1", "21", nullptr));
+        comboBox->setItemText(5, QCoreApplication::translate("Newindow1", "22", nullptr));
+        comboBox->setItemText(6, QCoreApplication::translate("Newindow1", "23", nullptr));
+        comboBox->setItemText(7, QCoreApplication::translate("Newindow1", "24", nullptr));
+        comboBox->setItemText(8, QCoreApplication::translate("Newindow1", "25", nullptr));
+        comboBox->setItemText(9, QCoreApplication::translate("Newindow1", "26", nullptr));
+        comboBox->setItemText(10, QCoreApplication::translate("Newindow1", "27", nullptr));
+        comboBox->setItemText(11, QCoreApplication::translate("Newindow1", "28", nullptr));
+        comboBox->setItemText(12, QCoreApplication::translate("Newindow1", "29", nullptr));
+        comboBox->setItemText(13, QCoreApplication::translate("Newindow1", "30", nullptr));
+
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("Newindow1", "Sign Up", nullptr));
     } // retranslateUi
 
 };

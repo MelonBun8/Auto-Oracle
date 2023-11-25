@@ -23,6 +23,7 @@ AutoOracle_autogen/timestamp: \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QtCoreDepends \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20algorithm.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20iterator.h \
@@ -374,6 +375,7 @@ AutoOracle_autogen/timestamp: \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QCommonStyle \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QLayout \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QScrollerProperties \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QtWidgets \

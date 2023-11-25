@@ -4,6 +4,14 @@
 #include <QMainWindow>
 #include <QtWidgets>
 #include <QPropertyAnimation>
+#include <QtCore/QFile>
+#include <QtCore/QTextStream>
+#include <QtCore/QStringList>
+#include <QtCore/QDebug>
+#include <iostream>
+#include <iomanip>
+#include <QMessageBox>
+#include <QtGlobal>
 
 
 namespace Ui {
@@ -21,6 +29,36 @@ public:
 public slots:
     void expandRightWithAnimation();
     void expandLeftWithAnimation();
+    void updateProfile();
+    void purchaseData();
+    void soldData();
+    void hideSells();
+    void hidePurchase();
+    void putSell();
+    void putPurchase();
+
+private slots:
+    void on_pushButton_9_clicked();
+
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_10_clicked();
+
+    void on_pushButton_14_clicked();
+
+    void on_pushButton_13_clicked();
+
+    void on_pushButton_12_clicked();
+
+    void on_pushButton_11_clicked();
+
+    void on_pushButton_15_clicked();
+
+    void on_pushButton_16_clicked();
+
+    void on_pushButton_17_clicked();
+
+    void on_pushButton_18_clicked();
 
 private:
     Ui::Dashboard *ui;

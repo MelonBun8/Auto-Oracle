@@ -1,7 +1,9 @@
 D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/EWIEGA46WW/moc_dashboard.cpp: D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/dashboard.h \
   D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/moc_predefs.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QDeadlineTimer \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QEvent \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QFile \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QHash \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QList \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QMap \
@@ -17,9 +19,11 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QStringList \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QtCoreDepends \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20algorithm.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/q20iterator.h \
@@ -370,6 +374,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QCommonStyle \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QLayout \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QScrollerProperties \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QtWidgets \
   C:/Qt/6.4.2/mingw_64/include/QtWidgets/QtWidgetsDepends \
@@ -574,6 +579,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
@@ -673,6 +679,8 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
