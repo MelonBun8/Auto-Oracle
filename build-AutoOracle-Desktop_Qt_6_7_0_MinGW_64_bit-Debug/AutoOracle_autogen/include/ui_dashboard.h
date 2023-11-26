@@ -1225,7 +1225,7 @@ public:
 
         retranslateUi(Dashboard);
 
-        stackedWidget->setCurrentIndex(3);
+        stackedWidget->setCurrentIndex(4);
         stackedWidget_2->setCurrentIndex(4);
         stackedWidget_3->setCurrentIndex(3);
 
@@ -1422,7 +1422,7 @@ public:
         label_137->setText(QCoreApplication::translate("Dashboard", "Cylinder:", nullptr));
         label_138->setText(QCoreApplication::translate("Dashboard", "Fuel:", nullptr));
         label_139->setText(QCoreApplication::translate("Dashboard", "Paint Color:", nullptr));
-        label_140->setText(QCoreApplication::translate("Dashboard", "Posting Date :", nullptr));
+        label_140->setText(QCoreApplication::translate("Dashboard", "Manufacture Date :", nullptr));
         label_141->setText(QCoreApplication::translate("Dashboard", "Discription:", nullptr));
         pushButton_22->setText(QCoreApplication::translate("Dashboard", "Post", nullptr));
         label_142->setText(QCoreApplication::translate("Dashboard", "Enter Your Car Detials ", nullptr));

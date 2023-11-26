@@ -403,7 +403,7 @@ background-color: rgb(6, 69, 207);
 background-color: rgb(1, 15, 45);</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -453,14 +453,15 @@ background-color: rgb(1, 15, 45);</string>
       </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
+        <family>Palatino Linotype</family>
         <pointsize>10</pointsize>
-        <italic>true</italic>
-        <bold>true</bold>
+        <italic>false</italic>
+        <bold>false</bold>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);</string>
+       <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Palatino Linotype&quot;;</string>
       </property>
       <property name="text">
        <string>USER NAME :</string>
@@ -476,7 +477,8 @@ background-color: rgb(1, 15, 45);</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);</string>
+       <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Palatino Linotype&quot;;</string>
       </property>
       <property name="text">
        <string>PASSWORD :</string>

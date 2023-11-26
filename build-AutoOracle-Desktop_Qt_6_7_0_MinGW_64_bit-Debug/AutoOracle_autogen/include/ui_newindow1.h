@@ -205,16 +205,18 @@ public:
         label_12->setObjectName("label_12");
         label_12->setGeometry(QRect(30, 35, 111, 21));
         QFont font5;
-        font5.setFamilies({QString::fromUtf8("Segoe UI")});
+        font5.setFamilies({QString::fromUtf8("Palatino Linotype")});
         font5.setPointSize(10);
-        font5.setBold(true);
-        font5.setItalic(true);
+        font5.setBold(false);
+        font5.setItalic(false);
         label_12->setFont(font5);
-        label_12->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_12->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 10pt \"Palatino Linotype\";"));
         label_13 = new QLabel(tab);
         label_13->setObjectName("label_13");
         label_13->setGeometry(QRect(30, 125, 91, 21));
-        label_13->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_13->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 10pt \"Palatino Linotype\";"));
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName("tab_2");
@@ -285,7 +287,7 @@ public:
 
         retranslateUi(Newindow1);
 
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(Newindow1);

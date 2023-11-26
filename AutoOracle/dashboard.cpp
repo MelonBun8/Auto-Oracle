@@ -1745,7 +1745,7 @@ void Dashboard::on_pushButton_22_clicked()
         QString pos = ui->lineEdit_15->text();
         QString desc = ui->lineEdit_17->text();
 
-        current_car.setValues(pr, ye, man, mo, cy, fl, pai, pos, desc);
+        current_car.setValues(pr, ye, mo, man, cy, fl, pai, pos, desc);
         s1.push(current_car.id);
         QMessageBox::information(this, "Success", "Posted Successfully");
     }
