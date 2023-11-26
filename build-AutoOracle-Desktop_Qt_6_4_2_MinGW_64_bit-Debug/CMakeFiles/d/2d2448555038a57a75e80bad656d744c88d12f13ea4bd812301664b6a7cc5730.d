@@ -13,6 +13,7 @@ AutoOracle_autogen/timestamp: \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QPointF \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QPropertyAnimation \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QRandomGenerator \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QRect \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QScopedPointer \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QSize \

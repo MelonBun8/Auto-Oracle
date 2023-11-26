@@ -159,6 +159,16 @@ public:
             profile_pic= ":/profile_pic1.jpg";
         }
     }
+
+    void addCarSold(QString id)
+    {
+        int i=0;
+        while(cars_sold[i]!="-")
+        {
+            i++;
+        }
+        cars_sold[i]=id;
+    }
 };
 
 
@@ -173,8 +183,9 @@ public:
     QString cylinders;
     QString fuel;
     QString paint_color;
-    QString posting_date;
+    QString status;
     QString discription;
+    QString pic;
 
 
     // Default Constructor
@@ -187,14 +198,14 @@ public:
         cylinders = "-";
         fuel = "-";
         paint_color = "-";
-        posting_date = "-";
+        status= "false";
         discription = "-";
+        pic= "-";
     }
 
     // Parameterized Constructor
     Car(QString enter_price, QString enter_year, QString enter_manufacture, QString enter_model,
-        QString enter_cylinder, QString enter_fuel, QString enter_paint_color,
-        QString enter_posting_date, QString enter_dispription) {
+        QString enter_cylinder, QString enter_fuel, QString enter_paint_color, QString enter_dispription) {
         id = id_value();
         price = enter_price;
         year = enter_year;
@@ -203,20 +214,88 @@ public:
         cylinders = enter_cylinder;
         fuel = enter_fuel;
         paint_color = enter_paint_color;
-        posting_date = enter_posting_date;
+        status= "false";
         discription = enter_dispription;
+        pic= changePic();
+    }
+
+    QString changePic()
+    {
+        if(manufacture=="Camaro")
+        {
+            return ":/camaro.jpg";
+        }
+        else if(manufacture=="Tata Nexon")
+        {
+            return ":/tata_nexon.jpg";
+        }
+        else if(manufacture=="Camry")
+        {
+            return ":/camry.jpg";
+        }
+        else if(manufacture=="Yaris")
+        {
+            return ":/yaris.jpg";
+        }
+        else if(manufacture=="Hyundai Venue")
+        {
+            return ":/hyundai_venue.jpg";
+        }
+        else if(manufacture=="Ford Escape")
+        {
+            return ":/ford_escape.jpg";
+        }
+        else if(manufacture=="Volkswagen Beetle")
+        {
+            return ":/volkswagen.jpg";
+        }
+        else if(manufacture=="Passat")
+        {
+            return ":/passat.jpg";
+        }
+        else if(manufacture=="Toyota RAV4")
+        {
+            return ":/toyota_rav4.jpg";
+        }
+        else if(manufacture=="Civic")
+        {
+            return ":/civic.jpg";
+        }
+        else if(manufacture=="Prius")
+        {
+            return ":/prius.jpg";
+        }
+        else if(manufacture=="BMW 5 Series")
+        {
+            return ":/bmw5_series.jpg";
+        }
+        else if(manufacture=="Toyota Fortuner")
+        {
+            return ":/toyota_fortuner.jpg";
+        }
+        else if(manufacture=="Ford Mustang")
+        {
+            return ":/ford_mustang.jpg";
+        }
+        else if(manufacture=="Corolla")
+        {
+            return ":/corolla.jpg";
+        }
+        else{
+            return "-";
+        }
     }
 
     // Parsing Function
     static Car* carcreateFromString(const QString& line) {
         QStringList parts = line.split(';');
 
-        if (parts.size() != 10) {
+        if (parts.size() != 11) {
             // Handle invalid input format
             return nullptr;
         }
 
-        Car* newCar = new Car("-", "-", "-", "-", "-", "-", "-", "-", "-");
+        Car* newCar = new Car("-", "-", "-", "-", "-", "-", "-", "-");
 
         newCar->id = parts[0].trimmed();
         newCar->price = parts[1].trimmed();
@@ -226,8 +305,9 @@ public:
         newCar->cylinders = parts[5].trimmed();
         newCar->fuel = parts[6].trimmed();
         newCar->paint_color = parts[7].trimmed();
-        newCar->posting_date = parts[8].trimmed();
+        newCar->status= parts[8].trimmed();
         newCar->discription = parts[9].trimmed();
+        newCar->pic= parts[10].trimmed();
 
         return newCar;
     }
@@ -235,7 +315,7 @@ public:
     // Member Function to Set Values
     void setValues(QString enter_price, QString enter_year, QString enter_manufacture,
                    QString enter_model, QString enter_cylinder, QString enter_fuel,
-                   QString enter_paint_color, QString enter_posting_date, QString enter_description) {
+                   QString enter_paint_color, QString enter_description) {
         id = id_value();
         price = enter_price;
         year = enter_year;
@@ -244,19 +324,17 @@ public:
         cylinders = enter_cylinder;
         fuel = enter_fuel;
         paint_color = enter_paint_color;
-        posting_date = enter_posting_date;
+        status= "false";
         discription = enter_description;
+        pic= changePic();
     }
 
-private:
     QString id_value() {
         // Generate a random ID using QRandomGenerator
         QString randomId = "ID" + QString::number(QRandomGenerator::global()->generate());
         return randomId;
     }
 };
-
-
 
 
 class Node {
@@ -345,6 +423,166 @@ public:
         }
         return temp->data;
     }
+
+    void saveUser(User obj)
+    {
+        QFile fp("newUser.txt");
+        fp.open(QIODevice::WriteOnly | QIODevice::Text);
+        QTextStream out1(&fp);
+        Node* temp= head;
+        while(temp!=NULL)
+        {
+            if(temp->data.id!=obj.id)
+            {
+                out1<<temp->data.username<<";"<<temp->data.id<<";"<<temp->data.password<<";"<<temp->data.description<<";"<<temp->data.profile_pic<<";"<<temp->data.age<<";"<<temp->data.status<<";"<<temp->data.phone<<";"<<temp->data.email<<";";
+                for(int i=0; i<25; i++)
+                {
+                    out1<<temp->data.cars_purchased[i]<<",";
+                }
+                out1<<";";
+                for(int j=0; j<25; j++)
+                {
+                    out1<<temp->data.cars_sold[j]<<",";
+                }
+                out1<<"\n";
+            }
+            temp= temp->next;
+        }
+
+        out1<<obj.username<<";"<<obj.id<<";"<<obj.password<<";"<<obj.description<<";"<<obj.profile_pic<<";"<<obj.age<<";"<<obj.status<<";"<<obj.phone<<";"<<obj.email<<";";
+        for(int i=0; i<25; i++)
+        {
+            out1<<obj.cars_purchased[i]<<",";
+        }
+        out1<<";";
+        for(int j=0; j<25; j++)
+        {
+            out1<<obj.cars_sold[j]<<",";
+        }
+        out1<<"\n";
+
+        fp.close();
+
+        QString oldfile= "Userdetails.txt";
+
+        QFile::remove(oldfile);
+        QFile::rename("newUser.txt",oldfile);
+    }
+
+
+};
+
+class Node2 {
+public:
+    Car data;
+    Node2* next;
+
+    Node2(const Car& userData) : data(userData), next(nullptr) {}
+};
+
+class LinkedList2 {
+public:
+    Node2* head;
+
+    LinkedList2() : head(nullptr) {}
+
+    // Function to add a new node to the linked list (Add to Head)
+    void addNode(const Car& userData) {
+        Node2* newNode = new Node2(userData);
+        newNode->next = head;
+        head = newNode;
+    }
+
+    void saveData()
+    {
+        QFile file("newFile.txt");
+        file.open(QIODevice::WriteOnly | QIODevice::Text);
+        QTextStream out(&file);
+              //  out << "Save your data here";
+              //  file.close();
+
+        Node2* temp= head;
+        while(temp!=NULL)
+        {
+            out<<temp->data.id<<";"<<temp->data.price<<";"<<temp->data.year<<";"<<temp->data.manufacture<<";"<<temp->data.model<<";"<<temp->data.cylinders<<";"<<temp->data.fuel<<";"<<temp->data.paint_color<<";"<<temp->data.status<<";"<<temp->data.discription<<";"<<temp->data.pic<<"\n";
+            temp= temp->next;
+        }
+
+        file.close();
+        QString oldfilen= "Cardetails.txt";
+
+        QFile::remove(oldfilen);
+        QFile::rename("newFile.txt",oldfilen);
+    }
+
+    Car currentid_search2(QString search_id)
+    {
+        Node2* temp= head;
+        while(temp!=NULL)
+        {
+            if(temp->data.id==search_id)
+            {
+                return temp->data;
+            }
+            temp= temp->next;
+        }
+        return temp->data;
+    }
+
+//    bool login_search(const User& userData)
+//    {
+//        Node* n= new Node(userData);
+//        Node* temp= head;
+//        while(temp!=NULL)
+//        {
+//            if(temp->data.id==n->data.id && temp->data.password==n->data.password)
+//            {
+
+//                return true;
+//            }
+//            if(temp->data.id==n->data.id && temp->data.password!=n->data.password)
+//            {
+//               // QMessageBox::warning(this,"Incorrect Password","Password is wrong! Try Again");
+//                return false;
+//            }
+//            temp= temp->next;
+//        }
+
+//        return false;
+
+//    }
+
+//    bool signup_search(const User& userData)
+//    {
+//        Node* n= new Node(userData);
+//        Node* temp= head;
+//        while(temp!=NULL)
+//        {
+//            if(temp->data.id==n->data.id)
+//            {
+
+//                return false;
+//            }
+//            temp= temp->next;
+//        }
+
+//        return true;
+
+//    }
+
+//    User currentid_search(QString search_id)
+//    {
+//        Node* temp= head;
+//        while(temp!=NULL)
+//        {
+//            if(temp->data.id==search_id)
+//            {
+//                return temp->data;
+//            }
+//            temp= temp->next;
+//        }
+//        return temp->data;
+//    }
 
 
 };
@@ -443,7 +681,7 @@ public:
 //            rest();
 //        }
         storage[++top1]=add_purchase;
-        rest();
+        ++restore1;
 //		User_obj->cars_sold[++top]=add_purchase;
       }
 
@@ -553,49 +791,6 @@ public:
 
 
 
-};
-
-
-class UserManager {
-public:
-    UserManager(QFile *f ){
-        file = f;
-
-    }
-
-    int checkCredentials(QString username, QString userid, QString password) {
-        QTextStream in(file);
-
-        while (!in.atEnd()) {
-            QString line = in.readLine();
-            QStringList parts = line.split(",");
-
-            if(parts[1]==userid && parts[2]==password)
-            {
-                return 2;
-            }
-            else if(parts[1] == userid )
-            {
-                return 1;
-            }
-        }
-        return 0;
-    }
-
-    bool saveUserDetails(QString username,QString userid, QString password) {
-
-        QTextStream out(file);
-        out.seek(file->size()); // Move to end of file
-        out << username << "," << userid << "," << password << "\n";
-        return true;
-    }
-
-    ~UserManager() {
-        file->close();
-    }
-
-public:
-    QFile* file;
 };
 
 

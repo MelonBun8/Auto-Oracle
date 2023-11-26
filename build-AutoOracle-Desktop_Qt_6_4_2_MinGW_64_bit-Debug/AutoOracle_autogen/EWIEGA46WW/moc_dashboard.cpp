@@ -28,7 +28,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_Dashboard_t {
-    uint offsetsAndSizes[44];
+    uint offsetsAndSizes[52];
     char stringdata0[10];
     char stringdata1[25];
     char stringdata2[1];
@@ -51,6 +51,10 @@ struct qt_meta_stringdata_Dashboard_t {
     char stringdata19[25];
     char stringdata20[25];
     char stringdata21[25];
+    char stringdata22[25];
+    char stringdata23[25];
+    char stringdata24[25];
+    char stringdata25[25];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_Dashboard_t::offsetsAndSizes) + ofs), len 
@@ -77,7 +81,11 @@ Q_CONSTINIT static const qt_meta_stringdata_Dashboard_t qt_meta_stringdata_Dashb
         QT_MOC_LITERAL(312, 24),  // "on_pushButton_15_clicked"
         QT_MOC_LITERAL(337, 24),  // "on_pushButton_16_clicked"
         QT_MOC_LITERAL(362, 24),  // "on_pushButton_17_clicked"
-        QT_MOC_LITERAL(387, 24)   // "on_pushButton_18_clicked"
+        QT_MOC_LITERAL(387, 24),  // "on_pushButton_18_clicked"
+        QT_MOC_LITERAL(412, 24),  // "on_pushButton_19_clicked"
+        QT_MOC_LITERAL(437, 24),  // "on_pushButton_20_clicked"
+        QT_MOC_LITERAL(462, 24),  // "on_pushButton_21_clicked"
+        QT_MOC_LITERAL(487, 24)   // "on_pushButton_22_clicked"
     },
     "Dashboard",
     "expandRightWithAnimation",
@@ -100,7 +108,11 @@ Q_CONSTINIT static const qt_meta_stringdata_Dashboard_t qt_meta_stringdata_Dashb
     "on_pushButton_15_clicked",
     "on_pushButton_16_clicked",
     "on_pushButton_17_clicked",
-    "on_pushButton_18_clicked"
+    "on_pushButton_18_clicked",
+    "on_pushButton_19_clicked",
+    "on_pushButton_20_clicked",
+    "on_pushButton_21_clicked",
+    "on_pushButton_22_clicked"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -111,7 +123,7 @@ Q_CONSTINIT static const uint qt_meta_data_Dashboard[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      20,   14, // methods
+      24,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -119,28 +131,36 @@ Q_CONSTINIT static const uint qt_meta_data_Dashboard[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,  134,    2, 0x0a,    1 /* Public */,
-       3,    0,  135,    2, 0x0a,    2 /* Public */,
-       4,    0,  136,    2, 0x0a,    3 /* Public */,
-       5,    0,  137,    2, 0x0a,    4 /* Public */,
-       6,    0,  138,    2, 0x0a,    5 /* Public */,
-       7,    0,  139,    2, 0x0a,    6 /* Public */,
-       8,    0,  140,    2, 0x0a,    7 /* Public */,
-       9,    0,  141,    2, 0x0a,    8 /* Public */,
-      10,    0,  142,    2, 0x0a,    9 /* Public */,
-      11,    0,  143,    2, 0x08,   10 /* Private */,
-      12,    0,  144,    2, 0x08,   11 /* Private */,
-      13,    0,  145,    2, 0x08,   12 /* Private */,
-      14,    0,  146,    2, 0x08,   13 /* Private */,
-      15,    0,  147,    2, 0x08,   14 /* Private */,
-      16,    0,  148,    2, 0x08,   15 /* Private */,
-      17,    0,  149,    2, 0x08,   16 /* Private */,
-      18,    0,  150,    2, 0x08,   17 /* Private */,
-      19,    0,  151,    2, 0x08,   18 /* Private */,
-      20,    0,  152,    2, 0x08,   19 /* Private */,
-      21,    0,  153,    2, 0x08,   20 /* Private */,
+       1,    0,  158,    2, 0x0a,    1 /* Public */,
+       3,    0,  159,    2, 0x0a,    2 /* Public */,
+       4,    0,  160,    2, 0x0a,    3 /* Public */,
+       5,    0,  161,    2, 0x0a,    4 /* Public */,
+       6,    0,  162,    2, 0x0a,    5 /* Public */,
+       7,    0,  163,    2, 0x0a,    6 /* Public */,
+       8,    0,  164,    2, 0x0a,    7 /* Public */,
+       9,    0,  165,    2, 0x0a,    8 /* Public */,
+      10,    0,  166,    2, 0x0a,    9 /* Public */,
+      11,    0,  167,    2, 0x08,   10 /* Private */,
+      12,    0,  168,    2, 0x08,   11 /* Private */,
+      13,    0,  169,    2, 0x08,   12 /* Private */,
+      14,    0,  170,    2, 0x08,   13 /* Private */,
+      15,    0,  171,    2, 0x08,   14 /* Private */,
+      16,    0,  172,    2, 0x08,   15 /* Private */,
+      17,    0,  173,    2, 0x08,   16 /* Private */,
+      18,    0,  174,    2, 0x08,   17 /* Private */,
+      19,    0,  175,    2, 0x08,   18 /* Private */,
+      20,    0,  176,    2, 0x08,   19 /* Private */,
+      21,    0,  177,    2, 0x08,   20 /* Private */,
+      22,    0,  178,    2, 0x08,   21 /* Private */,
+      23,    0,  179,    2, 0x08,   22 /* Private */,
+      24,    0,  180,    2, 0x08,   23 /* Private */,
+      25,    0,  181,    2, 0x08,   24 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -213,6 +233,14 @@ Q_CONSTINIT const QMetaObject Dashboard::staticMetaObject = { {
         // method 'on_pushButton_17_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_pushButton_18_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_19_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_20_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_21_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_22_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -244,6 +272,10 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 17: _t->on_pushButton_16_clicked(); break;
         case 18: _t->on_pushButton_17_clicked(); break;
         case 19: _t->on_pushButton_18_clicked(); break;
+        case 20: _t->on_pushButton_19_clicked(); break;
+        case 21: _t->on_pushButton_20_clicked(); break;
+        case 22: _t->on_pushButton_21_clicked(); break;
+        case 23: _t->on_pushButton_22_clicked(); break;
         default: ;
         }
     }
@@ -269,13 +301,13 @@ int Dashboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 20)
+        if (_id < 24)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 20;
+        _id -= 24;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 20)
+        if (_id < 24)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 20;
+        _id -= 24;
     }
     return _id;
 }

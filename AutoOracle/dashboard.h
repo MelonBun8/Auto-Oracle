@@ -74,6 +74,9 @@ private:
     QPropertyAnimation *rightWidgetAnimation;
     QPropertyAnimation *stackWidgetAnimation;
 
+protected:
+    void closeEvent(QCloseEvent *event) override;
+
 };
 
 #endif // DASHBOARD_H

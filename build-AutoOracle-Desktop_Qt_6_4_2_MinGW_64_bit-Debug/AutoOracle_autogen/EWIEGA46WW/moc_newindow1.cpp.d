@@ -2,6 +2,8 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/moc_predefs.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QRandomGenerator \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal \
@@ -59,6 +61,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qpoint.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qprocessordetection.h \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/qrandom.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qrefcount.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qscopedpointer.h \
@@ -285,6 +288,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \

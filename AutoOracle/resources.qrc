@@ -14,6 +14,21 @@
 	<file>profile.png</file>
 	<file>profile_round.png</file>
 	<file>profile_cover.jpg</file>
+	<file>bmw5_series.jpg</file>
+	<file>camaro.jpg</file>
+	<file>camry.jpg</file>
+	<file>civic.jpg</file>
+	<file>corolla.jpg</file>
+	<file>ford_escape.jpg</file>
+	<file>ford_mustang.jpg</file>
+	<file>hyundai_venue.jpg</file>
+	<file>passat.jpg</file>
+	<file>prius.jpg</file>
+	<file>tata_nexon.jpg</file>
+	<file>toyota_fortuner.jpg</file>
+	<file>toyota_rav4.jpg</file>
+	<file>volkswagen.jpg</file>
+	<file>yaris.jpg</file>
         <file>Login_ui-transformed.jpg</file>
     </qresource>
 </RCC>

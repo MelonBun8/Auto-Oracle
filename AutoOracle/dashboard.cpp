@@ -21,6 +21,8 @@ int sell_move=0;
 int sell_back=0;
 int purchase_move=0;
 int purchase_back=0;
+LinkedList2 carList;
+LinkedList L1;
 
 Dashboard::Dashboard(QWidget *parent) :
     QMainWindow(parent),
@@ -64,6 +66,16 @@ Dashboard::Dashboard(QWidget *parent) :
         ui->stackedWidget->setCurrentIndex(1);
     });
 
+    if(current_user.status=="false")
+    {
+        ui->stackedWidget_4->setCurrentIndex(0);
+    }
+    else
+    {
+        ui->pushButton_5->setText("Sell Your Car");
+        ui->stackedWidget_4->setCurrentIndex(1);
+    }
+
     //purple #9141d9 blue #263173 white #ffffff
     QObject::connect(ui->pushButton_5, &QPushButton::clicked, [&]() {
         ui->pushButton_5->setStyleSheet("background-color: #9141d9; border: none; color: #ffffff;");
@@ -72,6 +84,15 @@ Dashboard::Dashboard(QWidget *parent) :
         ui->pushButton_6->setStyleSheet("background-color: #263173; border: none; color: #ffffff;");
         ui->pushButton_7->setStyleSheet("background-color: #263173; border: none; color: #ffffff;");
         ui->stackedWidget->setCurrentIndex(4);
+        if(current_user.status=="false")
+        {
+            ui->stackedWidget_4->setCurrentIndex(0);
+        }
+        else
+        {
+
+            ui->stackedWidget_4->setCurrentIndex(1);
+        }
     });
 
     QObject::connect(ui->pushButton_6, &QPushButton::clicked, [&]() {
@@ -154,10 +175,54 @@ Dashboard::Dashboard(QWidget *parent) :
     }
 
     fp1.close();
-    LinkedList L1;
     for(int i=0; i<numberOfObjects; ++i)
     {
         L1.addNode(userArray[i]);
+    }
+
+
+    QFile fp3("Cardetails.txt");
+    if (!fp3.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        // Handle error opening file
+        //return 1;
+    }
+
+    QTextStream init(&fp3);
+    int numberOfCarObjects = 0;
+
+    while (!init.atEnd()) {
+        QString line1 = init.readLine();
+//            User* newUser = User::createFromString(line);
+        // Add 'newUser' to your dynamic array or linked list
+        // (you'll need to manage memory appropriately)
+        ++numberOfCarObjects;
+    }
+
+    fp3.close();
+
+    Car* carArray = new Car[numberOfCarObjects];
+
+        // Read the file again to populate your dynamically allocated object array
+    QFile fp4("Cardetails.txt");
+    if (!fp4.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        // Handle error opening file
+        delete[] carArray; // Clean up allocated memory
+        //return 1;
+    }
+    QTextStream init2(&fp4);
+    int currentIndex1 = 0;
+    Car temp3;
+    while (!init2.atEnd()) {
+        QString line1 = init2.readLine();
+        Car* newCar = temp3.carcreateFromString(line1);
+        carArray[currentIndex1] = *newCar; // Assuming User is copyable
+        ++currentIndex1;
+    }
+
+    fp4.close();
+    for(int i=0; i<numberOfCarObjects; ++i)
+    {
+        carList.addNode(carArray[i]);
     }
 
     current_user= L1.currentid_search(userDetails);
@@ -172,6 +237,7 @@ Dashboard::Dashboard(QWidget *parent) :
     putSell();
     putPurchase();
 
+
     ui->label->setText(current_user.username);
     ui->textEdit->setText(current_user.description);
     ui->label_19->setText(current_user.age);
@@ -180,6 +246,8 @@ Dashboard::Dashboard(QWidget *parent) :
     ui->label_14->setText(current_user.password);
     ui->label_21->setText(current_user.age);
     ui->textEdit_2->setText(current_user.description);
+    ui->label_130->setText(current_user.email);
+    ui->label_131->setText(current_user.phone);
     ui->label_16->setPixmap(QPixmap(current_user.profile_pic));
     ui->label_22->setPixmap(QPixmap(current_user.profile_pic));
 
@@ -250,29 +318,97 @@ void Dashboard::hidePurchase()
 
 void Dashboard::putSell()
 {
+    Car obj;
+    QString id;
+    soldData();
     if(Max_sell==-1)
     {
         return;
     }
     if(Max_sell>=0)
     {
-        ui->label_25->setText(s1.pop());
+        id= s1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_146->raise();
+        ui->label_23->raise();
+        ui->label_140->raise();
+        ui->label_147->raise();
+        ui->label_145->raise();
+        ui->label_144->raise();
+        ui->label_143->raise();
+        ui->label_146->setPixmap(QPixmap(obj.pic));
+        ui->label_23->setText(obj.manufacture);
+        ui->label_140->setText(obj.model);
+        ui->label_147->setText(obj.price);
+        ui->label_145->setText(obj.status);
     }
     if(Max_sell>=1)
     {
-        ui->label_27->setText(s1.pop());
+        id= s1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_148->raise();
+        ui->label_149->raise();
+        ui->label_150->raise();
+        ui->label_151->raise();
+        ui->label_152->raise();
+        ui->label_153->raise();
+        ui->label_154->raise();
+        ui->label_148->setPixmap(QPixmap(obj.pic));
+        ui->label_149->setText(obj.manufacture);
+        ui->label_150->setText(obj.model);
+        ui->label_153->setText(obj.price);
+        ui->label_154->setText(obj.status);
     }
     if(Max_sell>=2)
     {
-        ui->label_29->setText(s1.pop());
+        id= s1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_155->raise();
+        ui->label_156->raise();
+        ui->label_157->raise();
+        ui->label_158->raise();
+        ui->label_159->raise();
+        ui->label_160->raise();
+        ui->label_161->raise();
+        ui->label_155->setPixmap(QPixmap(obj.pic));
+        ui->label_156->setText(obj.manufacture);
+        ui->label_157->setText(obj.model);
+        ui->label_160->setText(obj.price);
+        ui->label_161->setText(obj.status);
     }
     if(Max_sell>=3)
     {
-        ui->label_31->setText(s1.pop());
+        id= s1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_162->raise();
+        ui->label_163->raise();
+        ui->label_164->raise();
+        ui->label_165->raise();
+        ui->label_166->raise();
+        ui->label_167->raise();
+        ui->label_168->raise();
+        ui->label_162->setPixmap(QPixmap(obj.pic));
+        ui->label_163->setText(obj.manufacture);
+        ui->label_164->setText(obj.model);
+        ui->label_167->setText(obj.price);
+        ui->label_168->setText(obj.status);
     }
     if(Max_sell>=4)
     {
-        ui->label_33->setText(s1.pop());
+        id= s1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_169->raise();
+        ui->label_170->raise();
+        ui->label_171->raise();
+        ui->label_172->raise();
+        ui->label_173->raise();
+        ui->label_174->raise();
+        ui->label_175->raise();
+        ui->label_169->setPixmap(QPixmap(obj.pic));
+        ui->label_170->setText(obj.manufacture);
+        ui->label_171->setText(obj.model);
+        ui->label_174->setText(obj.price);
+        ui->label_175->setText(obj.status);
     }
     if(Max_sell>=5)
     {
@@ -1436,6 +1572,16 @@ Dashboard::~Dashboard()
     delete ui;
 }
 
+void Dashboard::closeEvent(QCloseEvent *event)
+{
+    // Perform your actions before the Dashboard window closes
+    carList.saveData();
+    L1.saveUser(current_user);
+
+    // Call the base class implementation
+    QMainWindow::closeEvent(event);
+}
+
 void Dashboard::on_pushButton_9_clicked()
 {
     current_user.changeDP();
@@ -1671,11 +1817,21 @@ void Dashboard::on_pushButton_19_clicked()
 {
     if(ui->lineEdit_5->text().isEmpty())
     {
-        QMessageBox::warning(this,"Email Error","Can't proceed without Email");
+        QMessageBox msgBox(QMessageBox::Warning, "Email Error", "Can't proceed without Email", QMessageBox::Ok, this);
+        msgBox.setStyleSheet("QLabel{ color : white; }");
+        msgBox.exec();
+
+//        QMessageBox::setStyleSheet("QLabel{ color : white; }");
+//        QMessageBox::warning(this,"Email Error","Can't proceed without Email");
     }
     else if(ui->lineEdit_6->text().isEmpty())
     {
-        QMessageBox::warning(this,"Phone Error","Kindly enter your phone number");
+        QMessageBox msgBox(QMessageBox::Warning, "Phone Error", "Kindly enter your phone number", QMessageBox::Ok, this);
+        msgBox.setStyleSheet("QLabel{ color : white; }");
+        msgBox.exec();
+
+//        QMessageBox::setStyleSheet("QLabel{ color : white; }");
+//        QMessageBox::warning(this,"Phone Error","Kindly enter your phone number");
     }
     else
     {
@@ -1730,8 +1886,7 @@ void Dashboard::on_pushButton_22_clicked()
 {
     if (ui->lineEdit_16->text().isEmpty() || ui->lineEdit_10->text().isEmpty() ||
         ui->lineEdit_11->text().isEmpty() || ui->lineEdit_12->text().isEmpty() ||
-        ui->lineEdit_13->text().isEmpty() || ui->lineEdit_14->text().isEmpty() ||
-        ui->lineEdit_15->text().isEmpty() || ui->lineEdit_17->text().isEmpty()) {
+        ui->lineEdit_13->text().isEmpty() || ui->lineEdit_14->text().isEmpty() || ui->lineEdit_17->text().isEmpty()) {
         QMessageBox::warning(this, "Error", "Enter all the data");
 
     } else {
@@ -1742,13 +1897,20 @@ void Dashboard::on_pushButton_22_clicked()
         QString cy = ui->lineEdit_12->text();
         QString fl = ui->lineEdit_13->text();
         QString pai = ui->lineEdit_14->text();
-        QString pos = ui->lineEdit_15->text();
         QString desc = ui->lineEdit_17->text();
 
-        current_car.setValues(pr, ye, mo, man, cy, fl, pai, pos, desc);
+        current_car.setValues(pr, ye, mo, man, cy, fl, pai, desc);
+        carList.addNode(current_car);
+        current_user.addCarSold(current_car.id);
         s1.push(current_car.id);
-        QMessageBox::information(this, "Success", "Posted Successfully");
+        //QMessageBox::information(this, "Success", "Posted Successfully");
+        QMessageBox msgBox(QMessageBox::Information, "Success", "Posted Successfully", QMessageBox::Ok, this);
+        msgBox.setStyleSheet("QLabel{ color : white; }");
+        Max_sell++;
+        msgBox.exec();
+        hideSells();
+        soldData();
+        putSell();
     }
 
 }
-
