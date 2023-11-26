@@ -6,11 +6,13 @@
 #include <QPushButton>
 #include <QPalette>
 #include <QFile>
+#include <QMessageBox>
 #include <QTextStream>
 
 User current_user;
 Stack_sell s1;
 Stack_purchase p1;
+Car current_car;
 int Max_sell=-1;
 int Max_purchase= -1;
 int sell_toggle=0;
@@ -1326,6 +1328,8 @@ void Dashboard::updateProfile()
     ui->label_14->setText(current_user.password);
     ui->label_21->setText(current_user.age);
     ui->textEdit_2->setText(current_user.description);
+    ui->label_130->setText(current_user.email);
+    ui->label_131->setText(current_user.phone);
     ui->label_16->setPixmap(QPixmap(current_user.profile_pic));
     ui->label_22->setPixmap(QPixmap(current_user.profile_pic));
 }
@@ -1660,5 +1664,91 @@ void Dashboard::on_pushButton_18_clicked()
     {
         return;
     }
+}
+
+
+void Dashboard::on_pushButton_19_clicked()
+{
+    if(ui->lineEdit_5->text().isEmpty())
+    {
+        QMessageBox::warning(this,"Email Error","Can't proceed without Email");
+    }
+    else if(ui->lineEdit_6->text().isEmpty())
+    {
+        QMessageBox::warning(this,"Phone Error","Kindly enter your phone number");
+    }
+    else
+    {
+        QString em=ui->lineEdit_5->text();
+        QString ph=ui->lineEdit_6->text();
+        QString dis=ui->lineEdit_7->text();
+        current_user.email=em;
+        current_user.phone=ph;
+        current_user.description=dis;
+        current_user.status="true";
+        updateProfile();
+        ui->stackedWidget_4->setCurrentIndex(1);
+    }
+}
+
+
+void Dashboard::on_pushButton_20_clicked()
+{
+    if(ui->pushButton_20->text()=="change")
+    {
+        ui->lineEdit_8->raise();
+        ui->pushButton_20->setText("done");
+    }
+    else{
+        QString new_email= ui->lineEdit_8->text();
+        current_user.email= new_email;
+        updateProfile();
+        ui->label_130->raise();
+        ui->pushButton_20->setText("change");
+    }
+}
+
+
+void Dashboard::on_pushButton_21_clicked()
+{
+    if(ui->pushButton_21->text()=="change")
+    {
+        ui->lineEdit_9->raise();
+        ui->pushButton_21->setText("done");
+    }
+    else{
+        QString new_phone= ui->lineEdit_9->text();
+        current_user.phone= new_phone;
+        updateProfile();
+        ui->label_131->raise();
+        ui->pushButton_21->setText("change");
+    }
+}
+
+
+void Dashboard::on_pushButton_22_clicked()
+{
+    if (ui->lineEdit_16->text().isEmpty() || ui->lineEdit_10->text().isEmpty() ||
+        ui->lineEdit_11->text().isEmpty() || ui->lineEdit_12->text().isEmpty() ||
+        ui->lineEdit_13->text().isEmpty() || ui->lineEdit_14->text().isEmpty() ||
+        ui->lineEdit_15->text().isEmpty() || ui->lineEdit_17->text().isEmpty()) {
+        QMessageBox::warning(this, "Error", "Enter all the data");
+
+    } else {
+        QString man = ui->lineEdit_16->text();
+        QString ye = ui->lineEdit_10->text();
+        QString pr = ui->lineEdit_11->text();
+        QString mo = ui->comboBox_2->currentText();
+        QString cy = ui->lineEdit_12->text();
+        QString fl = ui->lineEdit_13->text();
+        QString pai = ui->lineEdit_14->text();
+        QString pos = ui->lineEdit_15->text();
+        QString desc = ui->lineEdit_17->text();
+
+        current_car.setValues(pr, ye, man, mo, cy, fl, pai, pos, desc);
+        s1.push(current_car.id);
+        QMessageBox::information(this, "Success", "Posted Successfully");
+    }
+
 }
 

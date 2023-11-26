@@ -1,0 +1,64 @@
+# ninja log v5
+65	1599	7226276364010031	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+65	1599	7226276364010031	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+65	1599	7226276364010031	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+65	1599	7226276364010031	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+5833	6199	7226064638079830	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp	8ec42fa3c1e4fdf
+5833	6199	7226064638079830	AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp	8ec42fa3c1e4fdf
+1721	13140	7226249566882540	CMakeFiles/AutoOracle.dir/main.cpp.obj	e9f8691aeff0f388
+1679	24253	7226276589740312	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+6242	61292	7226065188139559	CMakeFiles/AutoOracle.dir/AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp.obj	a4f649ac1300a8ee
+6097	46457	7226274752882263	CMakeFiles/AutoOracle.dir/AutoOracle_autogen/mocs_compilation.cpp.obj	8b7c78c95136a3fb
+1687	24333	7226276591119533	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+1670	24247	7226276589280586	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+24334	25823	7226276606125947	AutoOracle.exe	94d24e91dcc7f4e6
+160	3824	7226429644336790	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+160	3824	7226429644336790	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+160	3824	7226429644336790	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+160	3824	7226429644336790	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+3836	19201	7226429807083268	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+3867	33574	7226429950800705	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+3859	34220	7226429957057107	CMakeFiles/AutoOracle.dir/main.cpp.obj	e9f8691aeff0f388
+3827	34557	7226429959205857	CMakeFiles/AutoOracle.dir/AutoOracle_autogen/mocs_compilation.cpp.obj	8b7c78c95136a3fb
+3879	34590	7226429960974848	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+34596	36140	7226429976917785	AutoOracle.exe	94d24e91dcc7f4e6
+80	1520	7226434425957617	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+80	1520	7226434425957617	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+80	1520	7226434425957617	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+80	1520	7226434425957617	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+1603	22418	7226434630650011	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+1592	23070	7226434641353852	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+82	1670	7226438284629180	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+82	1670	7226438284629180	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+82	1670	7226438284629180	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+82	1670	7226438284629180	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+1740	26169	7226438506471707	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+1767	26179	7226438509819811	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+1751	26185	7226438509579941	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+26186	27636	7226438544130076	AutoOracle.exe	94d24e91dcc7f4e6
+82	1365	7226439508213346	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+82	1365	7226439508213346	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+82	1365	7226439508213346	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+82	1365	7226439508213346	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+1435	23993	7226439734223488	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+1444	24085	7226439735302861	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+1451	24258	7226439737001910	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+24259	25592	7226439750264262	AutoOracle.exe	94d24e91dcc7f4e6
+62	1408	7226442797967534	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+62	1408	7226442797967534	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+62	1408	7226442797967534	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+62	1408	7226442797967534	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+1477	24313	7226443024823281	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+1486	24323	7226443023344131	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+1494	24970	7226443033458319	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+24971	26906	7226443052797206	AutoOracle.exe	94d24e91dcc7f4e6
+87	3484	7226803475951795	AutoOracle_autogen/timestamp	c0eb5787f7f30554
+87	3484	7226803475951795	AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+87	3484	7226803475951795	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/timestamp	c0eb5787f7f30554
+87	3484	7226803475951795	C:/Users/SAAD COMMUNICATION/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/AutoOracle_autogen/mocs_compilation.cpp	c0eb5787f7f30554
+3495	25690	7226803705762599	CMakeFiles/AutoOracle.dir/main.cpp.obj	e9f8691aeff0f388
+3515	26189	7226803710527156	CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj	5f48e42063095e84
+3486	43424	7226803884068884	CMakeFiles/AutoOracle.dir/AutoOracle_autogen/mocs_compilation.cpp.obj	8b7c78c95136a3fb
+3534	45873	7226803908348341	CMakeFiles/AutoOracle.dir/dashboard.cpp.obj	244812f7a0ddfe29
+3523	47214	7226803921953996	CMakeFiles/AutoOracle.dir/newindow1.cpp.obj	b3a870618c4a3b1b
+47216	48827	7226803938000446	AutoOracle.exe	94d24e91dcc7f4e6

@@ -8,6 +8,8 @@
 #include <QtCore/QDebug>
 #include <iostream>
 #include <iomanip>
+#include <QString>
+#include <QRandomGenerator>
 #include <QMessageBox>
 #include <QtGlobal>
 #include <QDebug>
@@ -158,6 +160,104 @@ public:
         }
     }
 };
+
+
+
+class Car {
+public:
+    QString id;
+    QString price;
+    QString year;
+    QString manufacture;
+    QString model;
+    QString cylinders;
+    QString fuel;
+    QString paint_color;
+    QString posting_date;
+    QString discription;
+
+
+    // Default Constructor
+    Car() {
+        id = id_value();
+        price = "-";
+        year = "-";
+        manufacture = "-";
+        model = "-";
+        cylinders = "-";
+        fuel = "-";
+        paint_color = "-";
+        posting_date = "-";
+        discription = "-";
+    }
+
+    // Parameterized Constructor
+    Car(QString enter_price, QString enter_year, QString enter_manufacture, QString enter_model,
+        QString enter_cylinder, QString enter_fuel, QString enter_paint_color,
+        QString enter_posting_date, QString enter_dispription) {
+        id = id_value();
+        price = enter_price;
+        year = enter_year;
+        manufacture = enter_manufacture;
+        model = enter_model;
+        cylinders = enter_cylinder;
+        fuel = enter_fuel;
+        paint_color = enter_paint_color;
+        posting_date = enter_posting_date;
+        discription = enter_dispription;
+    }
+
+    // Parsing Function
+    static Car* carcreateFromString(const QString& line) {
+        QStringList parts = line.split(';');
+
+        if (parts.size() != 10) {
+            // Handle invalid input format
+            return nullptr;
+        }
+
+        Car* newCar = new Car("-", "-", "-", "-", "-", "-", "-", "-", "-");
+
+        newCar->id = parts[0].trimmed();
+        newCar->price = parts[1].trimmed();
+        newCar->year = parts[2].trimmed();
+        newCar->manufacture = parts[3].trimmed();
+        newCar->model = parts[4].trimmed();
+        newCar->cylinders = parts[5].trimmed();
+        newCar->fuel = parts[6].trimmed();
+        newCar->paint_color = parts[7].trimmed();
+        newCar->posting_date = parts[8].trimmed();
+        newCar->discription = parts[9].trimmed();
+
+        return newCar;
+    }
+
+    // Member Function to Set Values
+    void setValues(QString enter_price, QString enter_year, QString enter_manufacture,
+                   QString enter_model, QString enter_cylinder, QString enter_fuel,
+                   QString enter_paint_color, QString enter_posting_date, QString enter_description) {
+        id = id_value();
+        price = enter_price;
+        year = enter_year;
+        manufacture = enter_manufacture;
+        model = enter_model;
+        cylinders = enter_cylinder;
+        fuel = enter_fuel;
+        paint_color = enter_paint_color;
+        posting_date = enter_posting_date;
+        discription = enter_description;
+    }
+
+private:
+    QString id_value() {
+        // Generate a random ID using QRandomGenerator
+        QString randomId = "ID" + QString::number(QRandomGenerator::global()->generate());
+        return randomId;
+    }
+};
+
+
+
 
 class Node {
 public:
@@ -338,11 +438,12 @@ public:
         {
             //cout<<"Stack is full";
         }
-        if(isEmpty())
-        {
-            rest();
-        }
+//        if(isEmpty())
+//        {
+//            rest();
+//        }
         storage[++top1]=add_purchase;
+        rest();
 //		User_obj->cars_sold[++top]=add_purchase;
       }
 
@@ -440,11 +541,12 @@ public:
         {
             //cout<<"Stack is full";
         }
-        if(isEmpty())
-        {
-            rest();
-        }
+//        if(isEmpty())
+//        {
+//            rest();
+//        }
         storage2[++top2]=add_purchase;
+        rest();
 //		User_obj->cars_purchased[++top]=add_purchase;
       }
 
