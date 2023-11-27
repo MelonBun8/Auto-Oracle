@@ -1,0 +1,3 @@
+C:\Users\DELL\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\AutoOracle.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\AutoOracle.dir/objects.a @CMakeFiles\AutoOracle.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\AutoOracle.dir/objects.a -Wl,--no-whole-archive -o AutoOracle.exe -Wl,--out-implib,libAutoOracle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AutoOracle.dir\linkLibs.rsp

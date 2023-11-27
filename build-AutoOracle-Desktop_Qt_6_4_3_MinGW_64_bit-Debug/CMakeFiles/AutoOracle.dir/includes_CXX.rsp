@@ -1,0 +1,1 @@
+-I"C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/AutoOracle_autogen/include" -isystem C:/Qt/6.4.3/mingw_64/include/QtCore -isystem C:/Qt/6.4.3/mingw_64/include -isystem "C:/Qt/6.4.3/mingw_64/mkspecs/win32-g++" -isystem C:/Qt/6.4.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.4.3/mingw_64/include/QtGui

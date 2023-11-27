@@ -30,5 +30,7 @@
 	<file>volkswagen.jpg</file>
 	<file>yaris.jpg</file>
         <file>Login_ui-transformed.jpg</file>
+        <file>AboutPyra.png</file>
+	<file>TimeLine.png</file>
     </qresource>
 </RCC>

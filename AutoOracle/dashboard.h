@@ -68,6 +68,10 @@ private slots:
 
     void on_pushButton_22_clicked();
 
+    void on_pushButton_23_clicked();
+
+    void on_pushButton_24_clicked();
+
 private:
     Ui::Dashboard *ui;
     QPropertyAnimation *leftWidgetAnimation;

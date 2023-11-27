@@ -180,7 +180,7 @@ background-color: rgb(45, 65, 124);</string>
        <string notr="true">background-color: rgb(0, 0, 59);</string>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="page">
        <widget class="QPushButton" name="pushButton">
@@ -292,7 +292,457 @@ background-color: rgb(45, 65, 124);</string>
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="page_5"/>
+      <widget class="QWidget" name="page_5">
+       <widget class="QLabel" name="label_176">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>20</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>About Us</string>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>79</y>
+          <width>1021</width>
+          <height>691</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_18">
+         <widget class="QPushButton" name="pushButton_23">
+          <property name="geometry">
+           <rect>
+            <x>920</x>
+            <y>10</y>
+            <width>80</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Next Page</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_177">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>150</y>
+            <width>461</width>
+            <height>391</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="resources.qrc">:/AboutPyra.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_178">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>521</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Welcome to AutoOracle, where we prioritize trust, empowerment, 
+and transparency to redefine your car selling experience.
+ Here is how we embody our 3 core values:
+
+
+Trust:
+At AutoOracle, we build trust through honesty
+ and integrity, ensuring confidence in our valuations and process.
+ Your trust is our most valued asset.
+
+Empowerment:
+We believe in empowering you throughout the selling journey. Our platform
+ puts you in control, allowing you to showcase your vehicle, set terms, 
+and navigate the process at your pace.
+
+Transparency:
+We're committed to transparency—no hidden fees, no surprises.
+ From valuation to transaction, clear communication ensures you're
+informed every step of the way. Your peace of mind is our priority.
+
+
+Join AutoOracle today and experience a car selling experience 
+built on trust, empowerment, and transparency.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_179">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>161</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>EMPOWERMENT</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_180">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>400</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>TRANSPARENCY</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_181">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>200</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>TRUST</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_19">
+         <widget class="QPushButton" name="pushButton_24">
+          <property name="geometry">
+           <rect>
+            <x>920</x>
+            <y>10</y>
+            <width>91</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Previous Page</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_182">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>150</y>
+            <width>49</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="resources.qrc">:/TimeLine.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_183">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>80</y>
+            <width>211</width>
+            <height>581</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="resources.qrc">:/TimeLine.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_184">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>20</y>
+            <width>341</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Our Journey over the years</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_185">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>120</y>
+            <width>81</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>22</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string> 2006</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_186">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>430</y>
+            <width>81</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>22</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string> 2023</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_187">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>270</y>
+            <width>81</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>22</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string> 2015</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_188">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>130</y>
+            <width>321</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string>In 2006, AutoOracle emerged, founded
+ on a vision to optimize and simplify the
+ car-buying experience. With a modest
+ team, the company set out to revolutionize
+ the automotive market.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_189">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>430</y>
+            <width>321</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string>In 2023, AutoOracle leads not just in sales
+ but in sustainability. Introducing
+ electric and hybrid vehicles, the company
+ emphasizes eco-friendly practices, paving
+ the way for a more responsible future in the
+ automotive industry.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_190">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>280</y>
+            <width>321</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 109, 182);</string>
+          </property>
+          <property name="text">
+           <string>By 2015, AutoOracle became a leader by
+ embracing the digital shift. Launching the
+ intuitive online platform (very same you are
+ reading this on!) it redefined car
+ purchasing, allowing customers to browse
+ and customize vehicles from their homes.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
       <widget class="QWidget" name="page_4">
        <widget class="QLabel" name="label_9">
         <property name="geometry">

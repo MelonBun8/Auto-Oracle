@@ -1914,3 +1914,14 @@ void Dashboard::on_pushButton_22_clicked()
     }
 
 }
+
+void Dashboard::on_pushButton_23_clicked()
+{
+    ui->stackedWidget_5->setCurrentIndex(1);
+}
+
+void Dashboard::on_pushButton_24_clicked()
+{
+    ui->stackedWidget_5->setCurrentIndex(0);
+}
+
