@@ -21,8 +21,12 @@ int sell_move=0;
 int sell_back=0;
 int purchase_move=0;
 int purchase_back=0;
+int sale_toggle=0;
+int sale_move=0;
+int totalCarsOnSale=0;
 LinkedList2 carList;
 LinkedList L1;
+Car_Queue q1;
 
 Dashboard::Dashboard(QWidget *parent) :
     QMainWindow(parent),
@@ -123,9 +127,6 @@ Dashboard::Dashboard(QWidget *parent) :
 
     QFile file("Currentuserdetails.txt");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        // Handle error opening the file
-       // qWarning() << "Error opening file:" << filename;
-       // return QString();  // Return an empty string in case of an error
     }
 
     // Create a QTextStream to read data from the file
@@ -133,13 +134,10 @@ Dashboard::Dashboard(QWidget *parent) :
 
     // Read the content of the file into a QString
     QString userDetails = inz.readLine();
-//    QString userid = ui->lineEdit_4->text();
-//    QString password = ui->lineEdit_5->text();
-//    User temp(userid, password);
+
     QFile fp("Userdetails.txt");
     if (!fp.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        // Handle error opening file
-        //return 1;
+
     }
 
     QTextStream in(&fp);
@@ -147,9 +145,6 @@ Dashboard::Dashboard(QWidget *parent) :
 
     while (!in.atEnd()) {
         QString line = in.readLine();
-//            User* newUser = User::createFromString(line);
-        // Add 'newUser' to your dynamic array or linked list
-        // (you'll need to manage memory appropriately)
         ++numberOfObjects;
     }
 
@@ -162,7 +157,7 @@ Dashboard::Dashboard(QWidget *parent) :
     if (!fp1.open(QIODevice::ReadOnly | QIODevice::Text)) {
         // Handle error opening file
         delete[] userArray; // Clean up allocated memory
-        //return 1;
+
     }
     QTextStream iny(&fp1);
     int currentIndex = 0;
@@ -183,8 +178,6 @@ Dashboard::Dashboard(QWidget *parent) :
 
     QFile fp3("Cardetails.txt");
     if (!fp3.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        // Handle error opening file
-        //return 1;
     }
 
     QTextStream init(&fp3);
@@ -192,9 +185,6 @@ Dashboard::Dashboard(QWidget *parent) :
 
     while (!init.atEnd()) {
         QString line1 = init.readLine();
-//            User* newUser = User::createFromString(line);
-        // Add 'newUser' to your dynamic array or linked list
-        // (you'll need to manage memory appropriately)
         ++numberOfCarObjects;
     }
 
@@ -228,6 +218,11 @@ Dashboard::Dashboard(QWidget *parent) :
     current_user= L1.currentid_search(userDetails);
     s1= Stack_sell(current_user);
     p1= Stack_purchase(current_user);
+    q1.add_cars(carList.head);
+    totalCarsOnSale= q1.getCount();
+    toggle();
+    emptySales();
+    fillSales();
     Max_sell= s1.getRestore1();
     Max_purchase= p1.getRestore2();
     hideSells();
@@ -251,9 +246,229 @@ Dashboard::Dashboard(QWidget *parent) :
     ui->label_16->setPixmap(QPixmap(current_user.profile_pic));
     ui->label_22->setPixmap(QPixmap(current_user.profile_pic));
 
-    // Close the file
-    //file.close();
+}
 
+void Dashboard::fillSales()
+{
+    int j=(totalCarsOnSale-1)*17;
+    
+    for (int i = totalCarsOnSale-1; i >= 0; --i) {
+        QString id= q1.dequeue();
+        Car temp= carList.currentid_search2(id);
+            QString Brand = QString("label_%1").arg(j + 192);
+            QString Model = QString("label_%1").arg(j + 205);
+            QString Price = QString("label_%1").arg(j + 194);
+            QString MFG = QString("label_%1").arg(j + 196);
+            QString Cylinders = QString("label_%1").arg(j + 201);
+            QString Fuel = QString("label_%1").arg(j + 202);
+            QString Color = QString("label_%1").arg(j + 203);
+            QString Pic = QString("label_%1").arg(j + 197);
+            QString ID = QString("label_%1").arg(j + 207);
+            QString Description = QString("textEdit_%1").arg(i + 3);
+            QString widgetName = QString("widget_%1").arg(i + 3);
+            QLabel *label1 = ui->stackedWidget_6->findChild<QLabel *>(Brand);
+            QLabel *label2 = ui->stackedWidget_6->findChild<QLabel *>(Model);
+            QLabel *label3 = ui->stackedWidget_6->findChild<QLabel *>(Price);
+            QLabel *label4 = ui->stackedWidget_6->findChild<QLabel *>(MFG);
+            QLabel *label5 = ui->stackedWidget_6->findChild<QLabel *>(Cylinders);
+            QLabel *label6 = ui->stackedWidget_6->findChild<QLabel *>(Fuel);
+            QLabel *label7 = ui->stackedWidget_6->findChild<QLabel *>(Color);
+            QLabel *label8 = ui->stackedWidget_6->findChild<QLabel *>(Pic);
+            QLabel *label9 = ui->stackedWidget_6->findChild<QLabel *>(ID);
+
+            QTextEdit *textEdit = ui->stackedWidget_6->findChild<QTextEdit *>(Description);
+            QWidget *childWidget = ui->stackedWidget_6->findChild<QWidget *>(widgetName);
+            label1->setText(temp.manufacture);
+            label2->setText(temp.model);
+            label3->setText(temp.price);
+            label4->setText(temp.year);
+            label5->setText(temp.cylinders);
+            label6->setText(temp.fuel);
+            QColor color(temp.paint_color); // Convert color name to QColor
+            label7->setStyleSheet(QString("background-color: %1;").arg(color.name()));
+            label8->setPixmap(QPixmap(temp.pic));
+            label9->setText(temp.id);
+            textEdit->setPlainText(temp.discription);
+            childWidget->show();
+
+
+            j= j-17;
+        }
+}
+
+void Dashboard::emptySales()
+{
+    if(totalCarsOnSale<24)
+    {
+         ui->widget_26->hide();
+    }
+    if(totalCarsOnSale<23)
+    {
+         ui->widget_25->hide();
+    }
+    if(totalCarsOnSale<22)
+    {
+         ui->widget_24->hide();
+    }
+    if(totalCarsOnSale<21)
+    {
+         ui->widget_23->hide();
+    }
+    if(totalCarsOnSale<20)
+    {
+         ui->widget_22->hide();
+    }
+    if(totalCarsOnSale<19)
+    {
+         ui->widget_21->hide();
+    }
+    if(totalCarsOnSale<18)
+    {
+         ui->widget_20->hide();
+    }
+    if(totalCarsOnSale<17)
+    {
+         ui->widget_19->hide();
+    }
+    if(totalCarsOnSale<16)
+    {
+         ui->widget_18->hide();
+    }
+    if(totalCarsOnSale<15)
+    {
+         ui->widget_17->hide();
+    }
+    if(totalCarsOnSale<14)
+    {
+         ui->widget_16->hide();
+    }
+    if(totalCarsOnSale<13)
+    {
+         ui->widget_15->hide();
+    }
+    if(totalCarsOnSale<12)
+    {
+         ui->widget_14->hide();
+    }
+    if(totalCarsOnSale<11)
+    {
+         ui->widget_13->hide();
+    }
+    if(totalCarsOnSale<10)
+    {
+         ui->widget_12->hide();
+    }
+    if(totalCarsOnSale<9)
+    {
+         ui->widget_11->hide();
+    }
+    if(totalCarsOnSale<8)
+    {
+         ui->widget_10->hide();
+    }
+    if(totalCarsOnSale<7)
+    {
+         ui->widget_9->hide();
+    }
+    if(totalCarsOnSale<6)
+    {
+         ui->widget_8->hide();
+    }
+    if(totalCarsOnSale<5)
+    {
+         ui->widget_7->hide();
+    }
+    if(totalCarsOnSale<4)
+    {
+         ui->widget_6->hide();
+    }
+    if(totalCarsOnSale<3)
+    {
+         ui->widget_5->hide();
+    }
+    if(totalCarsOnSale<2)
+    {
+         ui->widget_4->hide();
+    }
+    if(totalCarsOnSale<1)
+    {
+         ui->widget_3->hide();
+    }
+}
+
+void Dashboard::toggle()
+{
+    if(totalCarsOnSale<=6)
+    {
+        sale_toggle=0;
+    }
+    else if(totalCarsOnSale<=12)
+    {
+        sale_toggle=1;
+    }
+    else if(totalCarsOnSale<=18)
+    {
+        sale_toggle=2;
+    }
+    else if(totalCarsOnSale<=24)
+    {
+        sale_toggle=3;
+    }
+}
+
+void Dashboard::on_pushButton_73_clicked()
+{
+    if(sale_toggle==0)
+    {
+        return;
+    }
+    else if(sale_toggle==1 && sale_move==0)
+    {
+        sale_move++;
+        ui->stackedWidget_6->setCurrentIndex(1);
+    }
+    else if(sale_toggle==2 && sale_move==1)
+    {
+        sale_move++;
+        ui->stackedWidget_6->setCurrentIndex(2);
+    }
+    else if(sale_toggle==3 && sale_move==2)
+    {
+        sale_move++;
+        ui->stackedWidget_6->setCurrentIndex(3);
+    }
+    else
+    {
+        return;
+    }
+}
+
+
+void Dashboard::on_pushButton_74_clicked()
+{
+    if(sale_toggle==0)
+    {
+        return;
+    }
+    else if(sale_toggle==1 && sale_move==1)
+    {
+        sale_move--;
+        ui->stackedWidget_6->setCurrentIndex(0);
+    }
+    else if(sale_toggle==2 && sale_move==2)
+    {
+        sale_move--;
+        ui->stackedWidget_6->setCurrentIndex(1);
+    }
+    else if(sale_toggle==3 && sale_move==3)
+    {
+        sale_move--;
+        ui->stackedWidget_6->setCurrentIndex(2);
+    }
+    else
+    {
+        return;
+    }
 }
 
 void Dashboard::hideSells()
@@ -496,29 +711,97 @@ void Dashboard::putSell()
 
 void Dashboard::putPurchase()
 {
+    Car obj;
+    QString id;
+    purchaseData();
     if(Max_purchase==-1)
     {
         return;
     }
     if(Max_purchase>=0)
     {
-        ui->label_75->setText(p1.pop());
+        id= p1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_633->raise();
+        ui->label_630->raise();
+        ui->label_612->raise();
+        ui->label_620->raise();
+        ui->label_618->raise();
+        ui->label_609->raise();
+        ui->label_624->raise();
+        ui->label_633->setPixmap(QPixmap(obj.pic));
+        ui->label_630->setText(obj.manufacture);
+        ui->label_612->setText(obj.model);
+        ui->label_620->setText(obj.price);
+        ui->label_618->setText(obj.status);
     }
     if(Max_purchase>=1)
     {
-        ui->label_77->setText(p1.pop());
+        id= p1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_631->raise();
+        ui->label_610->raise();
+        ui->label_614->raise();
+        ui->label_628->raise();
+        ui->label_615->raise();
+        ui->label_625->raise();
+        ui->label_606->raise();
+        ui->label_631->setPixmap(QPixmap(obj.pic));
+        ui->label_610->setText(obj.manufacture);
+        ui->label_614->setText(obj.model);
+        ui->label_628->setText(obj.price);
+        ui->label_615->setText(obj.status);
     }
     if(Max_purchase>=2)
     {
-        ui->label_79->setText(p1.pop());
+        id= p1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_611->raise();
+        ui->label_632->raise();
+        ui->label_621->raise();
+        ui->label_622->raise();
+        ui->label_601->raise();
+        ui->label_613->raise();
+        ui->label_600->raise();
+        ui->label_611->setPixmap(QPixmap(obj.pic));
+        ui->label_632->setText(obj.manufacture);
+        ui->label_621->setText(obj.model);
+        ui->label_622->setText(obj.price);
+        ui->label_601->setText(obj.status);
     }
     if(Max_purchase>=3)
     {
-        ui->label_81->setText(p1.pop());
+        id= p1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_629->raise();
+        ui->label_616->raise();
+        ui->label_623->raise();
+        ui->label_608->raise();
+        ui->label_599->raise();
+        ui->label_603->raise();
+        ui->label_626->raise();
+        ui->label_629->setPixmap(QPixmap(obj.pic));
+        ui->label_616->setText(obj.manufacture);
+        ui->label_623->setText(obj.model);
+        ui->label_608->setText(obj.price);
+        ui->label_599->setText(obj.status);
     }
     if(Max_purchase>=4)
     {
-        ui->label_83->setText(p1.pop());
+        id= p1.pop();
+        obj = carList.currentid_search2(id);
+        ui->label_604->raise();
+        ui->label_619->raise();
+        ui->label_627->raise();
+        ui->label_602->raise();
+        ui->label_607->raise();
+        ui->label_617->raise();
+        ui->label_605->raise();
+        ui->label_604->setPixmap(QPixmap(obj.pic));
+        ui->label_619->setText(obj.manufacture);
+        ui->label_627->setText(obj.model);
+        ui->label_602->setText(obj.price);
+        ui->label_607->setText(obj.status);
     }
     if(Max_purchase>=5)
     {
@@ -1820,18 +2103,12 @@ void Dashboard::on_pushButton_19_clicked()
         QMessageBox msgBox(QMessageBox::Warning, "Email Error", "Can't proceed without Email", QMessageBox::Ok, this);
         msgBox.setStyleSheet("QLabel{ color : white; }");
         msgBox.exec();
-
-//        QMessageBox::setStyleSheet("QLabel{ color : white; }");
-//        QMessageBox::warning(this,"Email Error","Can't proceed without Email");
     }
     else if(ui->lineEdit_6->text().isEmpty())
     {
         QMessageBox msgBox(QMessageBox::Warning, "Phone Error", "Kindly enter your phone number", QMessageBox::Ok, this);
         msgBox.setStyleSheet("QLabel{ color : white; }");
         msgBox.exec();
-
-//        QMessageBox::setStyleSheet("QLabel{ color : white; }");
-//        QMessageBox::warning(this,"Phone Error","Kindly enter your phone number");
     }
     else
     {
@@ -1901,9 +2178,14 @@ void Dashboard::on_pushButton_22_clicked()
 
         current_car.setValues(pr, ye, mo, man, cy, fl, pai, desc);
         carList.addNode(current_car);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        toggle();
+        emptySales();
+        fillSales();
         current_user.addCarSold(current_car.id);
         s1.push(current_car.id);
-        //QMessageBox::information(this, "Success", "Posted Successfully");
         QMessageBox msgBox(QMessageBox::Information, "Success", "Posted Successfully", QMessageBox::Ok, this);
         msgBox.setStyleSheet("QLabel{ color : white; }");
         Max_sell++;
@@ -1923,5 +2205,635 @@ void Dashboard::on_pushButton_23_clicked()
 void Dashboard::on_pushButton_24_clicked()
 {
     ui->stackedWidget_5->setCurrentIndex(0);
+}
+
+void Dashboard::refresh_page()
+{
+    toggle();
+    emptySales();
+    fillSales();
+}
+
+void Dashboard::on_pushButton_25_clicked()
+{
+    QString id= ui->label_207->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+    }
+
+}
+
+
+
+void Dashboard::on_pushButton_27_clicked()
+{
+    QString id= ui->label_224->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_29_clicked()
+{
+    QString id= ui->label_241->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_31_clicked()
+{
+    QString id= ui->label_258->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_33_clicked()
+{
+    QString id= ui->label_275->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_35_clicked()
+{
+    QString id= ui->label_292->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_37_clicked()
+{
+    QString id= ui->label_309->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_39_clicked()
+{
+    QString id= ui->label_326->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_41_clicked()
+{
+    QString id= ui->label_343->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_43_clicked()
+{
+    QString id= ui->label_360->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_45_clicked()
+{
+    QString id= ui->label_377->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_47_clicked()
+{
+    QString id= ui->label_394->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_49_clicked()
+{
+    QString id= ui->label_411->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+}
+
+void Dashboard::on_pushButton_51_clicked()
+{
+    QString id= ui->label_428->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_53_clicked()
+{
+    QString id= ui->label_445->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+}
+
+void Dashboard::on_pushButton_55_clicked()
+{
+    QString id= ui->label_462->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_57_clicked()
+{
+    QString id= ui->label_479->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_59_clicked()
+{
+    QString id= ui->label_496->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_61_clicked()
+{
+    QString id= ui->label_513->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_63_clicked()
+{
+    QString id= ui->label_530->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+
+    }
+
+}
+
+void Dashboard::on_pushButton_65_clicked()
+{
+    QString id= ui->label_547->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+    }
+
+}
+
+void Dashboard::on_pushButton_67_clicked()
+{
+    QString id= ui->label_564->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+    }
+
+}
+
+void Dashboard::on_pushButton_69_clicked()
+{
+    QString id= ui->label_581->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+    }
+}
+
+void Dashboard::on_pushButton_71_clicked()
+{
+    QString id= ui->label_598->text();
+    if(current_user.searchPurchase(id))
+    {
+        QMessageBox::information(this,"Sorry, Unsuccessful!","This Car is put on sale by you.");
+    }
+    else
+    {
+        QMessageBox::information(this,"Successfully Purchased!","Thanks for Choosing Us");
+
+        p1.push(id);
+        carList.change_status(id);
+        q1.refresh();
+        q1.add_cars(carList.head);
+        totalCarsOnSale= q1.getCount();
+        current_user.addCarPurchase(id);
+        Max_purchase++;
+        hidePurchase();
+        purchaseData();
+        putPurchase();
+    }
+
+}
+
+void Dashboard::on_pushButton_75_clicked()
+{
+    refresh_page();
 }
 

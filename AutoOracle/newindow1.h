@@ -30,13 +30,9 @@ public:
 
 public slots:
     void showNewWindow();
-//    void showNewWindow2();
     void changePictureAndText();
 
 private slots:
-    //void on_pushButton_clicked();
-
-//    void on_pushButton_2_clicked();
 
     void on_pushButton_4_clicked();
 
@@ -116,10 +112,9 @@ public:
 
 
     User* createFromString(const QString& line) {
-        QStringList parts = line.split(';'); // Assuming ';' separates attributes
+        QStringList parts = line.split(';');
 
         if (parts.size() != 11) {
-            // Handle invalid input format
             return nullptr;
         }
 
@@ -143,7 +138,6 @@ public:
         for (int i = 0; i < qMin(soldCars.size(), 25); ++i) {
             newUser->cars_sold[i] = soldCars[i];
         }
-        // You can do a similar parsing for cars_sold if needed
 
         return newUser;
     }
@@ -168,6 +162,30 @@ public:
             i++;
         }
         cars_sold[i]=id;
+    }
+
+    void addCarPurchase(QString id)
+    {
+        int i=0;
+        while(cars_purchased[i]!="-")
+        {
+            i++;
+        }
+        cars_purchased[i]=id;
+    }
+
+    bool searchPurchase(QString id)
+    {
+        int i=0;
+        while(cars_sold[i]!="-")
+        {
+            if(cars_sold[i]==id)
+            {
+                return true;
+            }
+            i++;
+        }
+        return false;
     }
 };
 
@@ -291,7 +309,6 @@ public:
         QStringList parts = line.split(';');
 
         if (parts.size() != 11) {
-            // Handle invalid input format
             return nullptr;
         }
 
@@ -312,7 +329,6 @@ public:
         return newCar;
     }
 
-    // Member Function to Set Values
     void setValues(QString enter_price, QString enter_year, QString enter_manufacture,
                    QString enter_model, QString enter_cylinder, QString enter_fuel,
                    QString enter_paint_color, QString enter_description) {
@@ -330,7 +346,6 @@ public:
     }
 
     QString id_value() {
-        // Generate a random ID using QRandomGenerator
         QString randomId = "ID" + QString::number(QRandomGenerator::global()->generate());
         return randomId;
     }
@@ -358,17 +373,6 @@ public:
         head = newNode;
     }
 
-    // Function to display the linked list
-//    void displayList() {
-//        Node* current = head;
-//        while (current != nullptr) {
-//            std::cout << current->data.username << " ";
-//            // Output other data members as needed...
-//            current = current->next;
-//        }
-//        std::cout << std::endl;
-//    }
-
     bool login_search(const User& userData)
     {
         Node* n= new Node(userData);
@@ -382,7 +386,6 @@ public:
             }
             if(temp->data.id==n->data.id && temp->data.password!=n->data.password)
             {
-               // QMessageBox::warning(this,"Incorrect Password","Password is wrong! Try Again");
                 return false;
             }
             temp= temp->next;
@@ -498,8 +501,6 @@ public:
         QFile file("newFile.txt");
         file.open(QIODevice::WriteOnly | QIODevice::Text);
         QTextStream out(&file);
-              //  out << "Save your data here";
-              //  file.close();
 
         Node2* temp= head;
         while(temp!=NULL)
@@ -529,69 +530,104 @@ public:
         return temp->data;
     }
 
-//    bool login_search(const User& userData)
-//    {
-//        Node* n= new Node(userData);
-//        Node* temp= head;
-//        while(temp!=NULL)
-//        {
-//            if(temp->data.id==n->data.id && temp->data.password==n->data.password)
-//            {
+    void change_status(QString search_id)
+    {
+        Node2* temp= head;
+        while(temp!=NULL)
+        {
+            if(temp->data.id==search_id)
+            {
+                temp->data.status="true";
+            }
+            temp= temp->next;
+        }
+    }
 
-//                return true;
-//            }
-//            if(temp->data.id==n->data.id && temp->data.password!=n->data.password)
-//            {
-//               // QMessageBox::warning(this,"Incorrect Password","Password is wrong! Try Again");
-//                return false;
-//            }
-//            temp= temp->next;
-//        }
+};
 
-//        return false;
+class Car_Queue{
+    QString arr[24];
+    int front=-1,rear=-1;
+    int count=0;
 
-//    }
+public:
 
-//    bool signup_search(const User& userData)
-//    {
-//        Node* n= new Node(userData);
-//        Node* temp= head;
-//        while(temp!=NULL)
-//        {
-//            if(temp->data.id==n->data.id)
-//            {
+    Car_Queue()
+    {
+        for(int i=0; i<24; i++)
+        {
+            arr[i]="-";
+        }
+    }
 
-//                return false;
-//            }
-//            temp= temp->next;
-//        }
+    void add_cars(Node2 *head1)
+    {
+        Node2* temp= head1;
+        while(temp!=NULL)
+        {
+            if(temp->data.status=="false")
+            {
+                enqueue(temp->data.id);
+            }
+            temp= temp->next;
+        }
+    }
 
-//        return true;
+    void refresh()
+    {
+        for(int i=0; i<24; i++)
+        {
+            arr[i]="-";
+        }
+        front=-1;
+        rear=-1;
+        count=0;
+    }
+    bool isFull()
+    {
+        return (rear==24-1);
+    }
 
-//    }
+    bool isEmpty()
+    {
+        return (front==-1 || front>rear);
+    }
 
-//    User currentid_search(QString search_id)
-//    {
-//        Node* temp= head;
-//        while(temp!=NULL)
-//        {
-//            if(temp->data.id==search_id)
-//            {
-//                return temp->data;
-//            }
-//            temp= temp->next;
-//        }
-//        return temp->data;
-//    }
+    void enqueue(QString id)
+    {
+       if(isFull())
+       {
+           return;
+       }
+       if(front==-1)
+       {
+           front=0;
+       }
+       arr[++rear]=id;
+       count++;
+    }
 
+    QString dequeue()
+    {
+        if(isEmpty())
+        {
+            return " ";
+        }
+        count--;
+        return arr[front++];
 
+    }
+
+    int getCount()
+    {
+        return count;
+    }
 };
 
 class Stack_sell
 {
 
 public:
-      //User *User_obj;
       int top1;
       int restore1;
       QString storage[25];
@@ -613,18 +649,11 @@ public:
             while(obj.cars_sold[i]!="-")
             {
                 storage[i]= obj.cars_sold[i];
-                qDebug() << storage[i];
                 i++;
                 top1= top1+1;
 
             }
             restore1= top1;
-//            for(int i=0;i<User_obj->cars_sold[50].length();i++)
-//            {
-//            	storage[i]=User_obj->cars_sold[50][i];
-//              top++;
-//              restore++;
-//			}
       }
 
       int getRestore1()
@@ -651,7 +680,6 @@ public:
       {
             if (isEmpty())
             {
-                //cout<<"Stack is empty";
                 return "-";
             }
             QString value= storage[top1];
@@ -664,7 +692,7 @@ public:
       {
             if (isEmpty())
             {
-                //cout<<"Stack is empty";
+                return "-";
             }
 
             return (storage[top1]);
@@ -674,21 +702,12 @@ public:
       {
         if(isFull())
         {
-            //cout<<"Stack is full";
+            return;
         }
-//        if(isEmpty())
-//        {
-//            rest();
-//        }
+
         storage[++top1]=add_purchase;
         ++restore1;
-//		User_obj->cars_sold[++top]=add_purchase;
       }
-
-//	  ~Stack_purchase()
-//	  {
-//	  	delete(User_obj);
-//	  }
 
 
 };
@@ -697,7 +716,6 @@ class Stack_purchase
 {
 
 public:
-      //User *User_obj;
       int top2;
       int restore2;
       QString storage2[25];
@@ -719,14 +737,12 @@ public:
             while(obj.cars_purchased[i]!="-")
             {
                 storage2[i]= obj.cars_purchased[i];
-                qDebug() << storage2[i];
                 i++;
                 top2= top2+1;
 
 
             }
             restore2= top2;
-            qDebug()<< restore2;
 
 
       }
@@ -755,7 +771,6 @@ public:
       {
             if (isEmpty())
             {
-                //cout<<"Stack is empty";
                 return "-";
             }
             QString value=  storage2[top2];
@@ -767,29 +782,22 @@ public:
       {
             if (isEmpty())
             {
-                //cout<<"Stack is empty";
+                return "-";
             }
 
             return (storage2[top2]);
       }
 
-      void push(QString add_purchase)
-      {
-        if(isFull())
-        {
-            //cout<<"Stack is full";
-        }
-//        if(isEmpty())
-//        {
-//            rest();
-//        }
-        storage2[++top2]=add_purchase;
-        rest();
-//		User_obj->cars_purchased[++top]=add_purchase;
-      }
+    void push(QString add_purchase)
+    {
+    if(isFull())
+    {
+        return;
+    }
 
-
-
+    storage2[++top2]=add_purchase;
+    ++restore2;
+    }
 
 };
 

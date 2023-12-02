@@ -35,8 +35,6 @@ public:
     QCheckBox *logincheck;
     QPushButton *pushButton_2;
     QLabel *label_4;
-    QCheckBox *checkBox;
-    QLabel *label_7;
     QLabel *label_2;
     QLabel *label_6;
     QLabel *label_8;
@@ -51,6 +49,7 @@ public:
     QLineEdit *lineEdit_5;
     QLabel *label_12;
     QLabel *label_13;
+    QCheckBox *checkBox;
     QWidget *tab_2;
     QLineEdit *lineEdit;
     QLineEdit *lineEdit_2;
@@ -60,6 +59,8 @@ public:
     QLabel *name_label;
     QLabel *id_label;
     QLabel *password_label;
+    QCheckBox *checkBox_2;
+    QLabel *label_7;
 
     void setupUi(QMainWindow *Newindow1)
     {
@@ -78,7 +79,7 @@ public:
         label->setScaledContents(false);
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(20, 100, 541, 501));
+        label_3->setGeometry(QRect(20, 110, 541, 501));
         label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(4, 22, 72);"));
         namelineEdit = new QLineEdit(centralwidget);
         namelineEdit->setObjectName("namelineEdit");
@@ -128,19 +129,6 @@ public:
         label_4->setGeometry(QRect(1130, 10, 71, 61));
         label_4->setPixmap(QPixmap(QString::fromUtf8("../../../../Downloads/chrome_hqmSI9koUf (1).png")));
         label_4->setScaledContents(true);
-        checkBox = new QCheckBox(centralwidget);
-        checkBox->setObjectName("checkBox");
-        checkBox->setGeometry(QRect(450, 420, 21, 31));
-        checkBox->setCursor(QCursor(Qt::PointingHandCursor));
-        checkBox->setStyleSheet(QString::fromUtf8(""));
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8("../../../../Downloads/Lovepik_com-401039678-eye-icon-vector-element.png"), QSize(), QIcon::Normal, QIcon::Off);
-        checkBox->setIcon(icon1);
-        label_7 = new QLabel(centralwidget);
-        label_7->setObjectName("label_7");
-        label_7->setGeometry(QRect(450, 410, 61, 51));
-        label_7->setPixmap(QPixmap(QString::fromUtf8("../../../../Downloads/Lovepik_com-401039678-eye-icon-vector-element.png")));
-        label_7->setScaledContents(true);
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName("label_2");
         label_2->setGeometry(QRect(0, -10, 1545, 810));
@@ -182,25 +170,23 @@ public:
         label_11->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName("tabWidget");
-        tabWidget->setGeometry(QRect(20, 140, 501, 391));
-        tabWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(2, 28, 83);\n"
-"background-color: rgb(250, 250, 250);\n"
-"background-color: rgb(253, 253, 253);\n"
-"background-color: rgb(252, 252, 252);\n"
-"color: rgb(2, 60, 186);\n"
-"background-color: rgb(6, 69, 207);\n"
-"background-color: rgb(1, 15, 45);"));
+        tabWidget->setGeometry(QRect(10, 130, 501, 391));
+        tabWidget->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(7, 40, 129);"));
         tab = new QWidget();
         tab->setObjectName("tab");
         pushButton_4 = new QPushButton(tab);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(80, 230, 161, 31));
+        pushButton_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit_4 = new QLineEdit(tab);
         lineEdit_4->setObjectName("lineEdit_4");
         lineEdit_4->setGeometry(QRect(20, 70, 271, 31));
+        lineEdit_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit_5 = new QLineEdit(tab);
         lineEdit_5->setObjectName("lineEdit_5");
         lineEdit_5->setGeometry(QRect(20, 160, 271, 31));
+        lineEdit_5->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_12 = new QLabel(tab);
         label_12->setObjectName("label_12");
         label_12->setGeometry(QRect(30, 35, 111, 21));
@@ -214,9 +200,17 @@ public:
 "font: 10pt \"Palatino Linotype\";"));
         label_13 = new QLabel(tab);
         label_13->setObjectName("label_13");
-        label_13->setGeometry(QRect(30, 125, 91, 21));
+        label_13->setGeometry(QRect(30, 125, 131, 21));
         label_13->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 10pt \"Palatino Linotype\";"));
+        checkBox = new QCheckBox(tab);
+        checkBox->setObjectName("checkBox");
+        checkBox->setGeometry(QRect(330, 160, 21, 31));
+        checkBox->setCursor(QCursor(Qt::PointingHandCursor));
+        checkBox->setStyleSheet(QString::fromUtf8(""));
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8("../../../../Downloads/Lovepik_com-401039678-eye-icon-vector-element.png"), QSize(), QIcon::Normal, QIcon::Off);
+        checkBox->setIcon(icon1);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName("tab_2");
@@ -264,7 +258,15 @@ public:
         password_label->setGeometry(QRect(20, 150, 111, 21));
         password_label->setFont(font1);
         password_label->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        checkBox_2 = new QCheckBox(tab_2);
+        checkBox_2->setObjectName("checkBox_2");
+        checkBox_2->setGeometry(QRect(320, 185, 21, 26));
         tabWidget->addTab(tab_2, QString());
+        label_7 = new QLabel(centralwidget);
+        label_7->setObjectName("label_7");
+        label_7->setGeometry(QRect(430, 320, 61, 51));
+        label_7->setPixmap(QPixmap(QString::fromUtf8("../../../../Downloads/Lovepik_com-401039678-eye-icon-vector-element.png")));
+        label_7->setScaledContents(true);
         Newindow1->setCentralWidget(centralwidget);
         label->raise();
         label_2->raise();
@@ -276,18 +278,17 @@ public:
         namelineEdit->raise();
         idlineEdit->raise();
         passlineEdit->raise();
-        checkBox->raise();
-        label_7->raise();
         logincheck->raise();
         label_5->raise();
         label_9->raise();
         label_10->raise();
         label_11->raise();
         tabWidget->raise();
+        label_7->raise();
 
         retranslateUi(Newindow1);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(Newindow1);
@@ -305,8 +306,6 @@ public:
         logincheck->setText(QCoreApplication::translate("Newindow1", "Log in For First Time?", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Newindow1", "For Admin Log In Click Here", nullptr));
         label_4->setText(QString());
-        checkBox->setText(QString());
-        label_7->setText(QString());
         label_2->setText(QString());
         label_6->setText(QString());
         label_8->setText(QString());
@@ -320,6 +319,7 @@ public:
         pushButton_4->setText(QCoreApplication::translate("Newindow1", "Log In", nullptr));
         label_12->setText(QCoreApplication::translate("Newindow1", "USER NAME :", nullptr));
         label_13->setText(QCoreApplication::translate("Newindow1", "PASSWORD :", nullptr));
+        checkBox->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Newindow1", "Log In", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Newindow1", "Sign Up Now", nullptr));
         comboBox->setItemText(0, QCoreApplication::translate("Newindow1", "Below 18", nullptr));
@@ -340,7 +340,9 @@ public:
         name_label->setText(QCoreApplication::translate("Newindow1", "USERNAME", nullptr));
         id_label->setText(QCoreApplication::translate("Newindow1", "USERID", nullptr));
         password_label->setText(QCoreApplication::translate("Newindow1", "PASSWORD", nullptr));
+        checkBox_2->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("Newindow1", "Sign Up", nullptr));
+        label_7->setText(QString());
     } // retranslateUi
 
 };
