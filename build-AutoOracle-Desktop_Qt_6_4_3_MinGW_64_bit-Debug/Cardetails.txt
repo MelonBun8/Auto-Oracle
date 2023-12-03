@@ -1,2 +1,8 @@
-ID971951444;1000;12121;Camaro;YellowCar;16;33;Yellow;false;Banana Car;:/camaro.jpg
+ID3023786680;1111;1988;Civic;Impreiza;6;122;Aqua;false;A nice car;:/civic.jpg
+ID3943407584;1111;1988;Corolla;Impreiza;6;122;Aqua;false;A nice car;:/corolla.jpg
+ID1003378221;1111;1988;Corolla;Civic;6;122;Aqua;false;A nice car;:/corolla.jpg
+ID2820276846;1111;1988;Corolla;Civic;6;122;Aqua;false;A nice car;:/corolla.jpg
+ID1636131636;1111;1988;Corolla;Civic;6;122;Aqua;false;A nice car;:/corolla.jpg
 ID1713708866;1000;12121;Camaro;YellowCar;16;33;Yellow;false;Banana Car;:/camaro.jpg
+ID971951444;1000;12121;Camaro;YellowCar;16;33;Yellow;false;Banana Car;:/camaro.jpg
+ID1125557802;100000;2003;Corolla;Yaris;8;1212;white;false;A strong muscle car;:/corolla.jpg

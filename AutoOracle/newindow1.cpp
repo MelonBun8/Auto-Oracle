@@ -178,10 +178,9 @@ void Newindow1::on_pushButton_4_clicked()  //for login
         else{
             QMessageBox::warning(this,"Login Error","Please Enter Correct Account Details!");
         }
- }
     }
-
 }
+
 
 
 

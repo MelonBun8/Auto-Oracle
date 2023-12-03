@@ -14,8 +14,8 @@
    <string>Auto Oracle</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (2).png</normaloff>C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (2).png</iconset>
+   <iconset resource="resources.qrc">
+    <normaloff>:/Logo.png</normaloff>:/Logo.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">color: rgb(0, 0, 0);</string>
@@ -109,7 +109,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>C:/Users/SAAD COMMUNICATION/Downloads/Untitled (1).png</pixmap>
+     <pixmap>../../../../../SAAD COMMUNICATION/Downloads/Untitled (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

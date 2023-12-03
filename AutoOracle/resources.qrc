@@ -32,5 +32,12 @@
         <file>Login_ui-transformed.jpg</file>
         <file>AboutPyra.png</file>
 	<file>TimeLine.png</file>
+	<file>SearchIcon.png</file>	
+	<file>SortIcon.png</file>
+	<file>Logo.png</file>
+	<file>White.png</file>
+<file>Fuel.png</file>
+<file>Cylinder.png</file>
+<file>Paint.png</file>
     </qresource>
 </RCC>

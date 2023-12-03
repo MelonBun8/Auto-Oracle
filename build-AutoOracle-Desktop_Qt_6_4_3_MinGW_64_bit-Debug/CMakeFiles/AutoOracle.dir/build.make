@@ -85,6 +85,7 @@ AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/pngkit_clouds-png_16590.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/side\ bar-PhotoRoom.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/camaro.jpg
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/Fuel.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/toyota_rav4.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/pic3.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/pic1.jpg
@@ -95,13 +96,19 @@ AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/glow\ light\ png.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/Login_ui-transformed.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/volkswagen.jpg
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/SortIcon.png
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/White.png
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/Paint.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/profile.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/tata_nexon.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/civic.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/yaris.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/toyota_fortuner.jpg
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/SearchIcon.png
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/Logo.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/pic2.jpg
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/profile_pic2.jpg
+AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/Cylinder.png
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.4.3/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\DELL\Documents\GitHub\Auto-Oracle\build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
 	C:\Users\DELL\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -E cmake_autorcc C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/CMakeFiles/AutoOracle_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug

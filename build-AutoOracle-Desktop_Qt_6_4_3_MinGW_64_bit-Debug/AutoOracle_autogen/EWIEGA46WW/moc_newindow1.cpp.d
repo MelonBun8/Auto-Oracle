@@ -6,7 +6,6 @@ C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_Min
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QTextStream \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qarraydata.h \

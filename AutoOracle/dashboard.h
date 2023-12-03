@@ -30,6 +30,7 @@ public slots:
     void expandRightWithAnimation();
     void expandLeftWithAnimation();
     void updateProfile();
+    void inToggle(int iNum);
     void purchaseData();
     void soldData();
     void hideSells();
@@ -37,7 +38,11 @@ public slots:
     void putSell();
     void putPurchase();
     void fillSales();
+    void fillSortedSales(int iChoice);
+    void fillSearchSales(int iChoice, QString iData);
     void emptySales();
+    void emptySortedSales();
+    void emptySearchSales(int iNum);
     void toggle();
     void refresh_page();
 
@@ -130,6 +135,26 @@ private slots:
 
     void on_pushButton_75_clicked();
 
+    void on_pushButton_79_clicked();
+
+    void on_pushButton_78_clicked();
+
+    void on_comboBox_4_currentIndexChanged(int index);
+
+    void on_pushButton_77_clicked();
+
+    void on_comboBox_3_currentIndexChanged(int index);
+
+    void on_lineEdit_15_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_15_returnPressed();
+
+    void on_pushButton_76_clicked();
+
+    void on_pushButton_126_clicked();
+
+    void on_pushButton_127_clicked();
+
 private:
     Ui::Dashboard *ui;
     QPropertyAnimation *leftWidgetAnimation;
@@ -138,7 +163,6 @@ private:
 
 protected:
     void closeEvent(QCloseEvent *event) override;
-
 };
 
 #endif // DASHBOARD_H

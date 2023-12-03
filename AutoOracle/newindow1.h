@@ -7,13 +7,11 @@
 #include <QtCore/QStringList>
 #include <QtCore/QDebug>
 #include <iostream>
+#include <vector>
 #include <iomanip>
 #include <QString>
 #include <QRandomGenerator>
 #include <QMessageBox>
-#include <QtGlobal>
-#include <QDebug>
-
 namespace Ui {
 class Newindow1;
 }
@@ -544,7 +542,7 @@ public:
     }
 
 };
-
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 class Car_Queue{
     QString arr[24];
     int front=-1,rear=-1;
@@ -623,6 +621,166 @@ public:
         return count;
     }
 };
+//%%%%%%%%%%%%%%%%%%%%%%________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+class Car_Stack{
+    std::vector<Node2*> carArr;//stack will be of Car Node datatype as we need ALL the data
+    int count=0;
+
+public:
+
+    Car_Stack()
+    {
+    }
+
+    void add_cars(Node2 *head2)
+    {
+        Node2* temp= head2;
+        while(temp!=NULL)
+        {
+            if(temp->data.status=="false")
+            {
+                push(temp);
+            }
+            temp= temp->next;
+        }
+    }
+
+    void refresh()
+    {
+        carArr.clear();
+        count=0;
+    }
+
+    void push(Node2* aNode)
+    {
+        if(carArr.size()==24)
+        {
+            return;
+        }
+        carArr.push_back(aNode);
+        count++;
+    }
+
+    Node2* pop()
+    {
+        if(carArr.empty()==true)
+        {
+            return NULL;
+        }
+        count--;
+        Node2* myNode = carArr.back();//top of stack returned
+        carArr.pop_back();
+        return myNode;
+    }
+
+    int getCount()
+    {
+        return count;
+    }
+
+    int searchColor(int total, QString targetColor){
+        for (std::vector<Node2*>::iterator it = carArr.begin(); it != carArr.end();) {
+            if ((*it)->data.paint_color != targetColor) {
+                it = carArr.erase(it);
+                total -= 1;
+            }
+            else {
+                ++it;
+            }
+        }
+        return total;
+    }
+
+    int searchCylin(int total, QString targetCylin){
+        for (std::vector<Node2*>::iterator it = carArr.begin(); it != carArr.end();) {
+            if ((*it)->data.cylinders != targetCylin) {
+                it = carArr.erase(it);
+                total -= 1;
+            }
+            else {
+                ++it;
+            }
+        }
+        return total;
+    }
+
+    int searchBrand(int total, QString targetBrand){
+        for (std::vector<Node2*>::iterator it = carArr.begin(); it != carArr.end();) {
+            if ((*it)->data.manufacture != targetBrand) {
+                it = carArr.erase(it);
+                total -= 1;
+            }
+            else {
+                ++it;
+            }
+        }
+        return total;
+    }
+
+    void sortFuel(){
+        int n = carArr.size();
+        bool swapped;
+        for (int i = 0; i < n - 1; ++i) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; ++j) {
+                if ((carArr[j]->data.fuel).compare((carArr[j+1]->data.fuel)) > 0) {
+                    // Swap vec[j] and vec[j + 1]
+                    std::swap(carArr[j], carArr[j + 1]);
+                    swapped = true;
+                }
+            }
+
+            // If no two elements were swapped in the inner loop, the array is sorted
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+
+    void sortPrice(){
+        int n = carArr.size();
+        bool swapped;
+        for (int i = 0; i < n - 1; ++i) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; ++j) {
+                if ((carArr[j]->data.price).compare((carArr[j+1]->data.price)) > 0) {
+                    // Swap vec[j] and vec[j + 1]
+                    std::swap(carArr[j], carArr[j + 1]);
+                    swapped = true;
+                }
+            }
+
+            // If no two elements were swapped in the inner loop, the array is sorted
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+
+    void sortYear(){
+        int n = carArr.size();
+        bool swapped;
+        for (int i = 0; i < n - 1; ++i) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; ++j) {
+                if ((carArr[j]->data.year).compare((carArr[j+1]->data.year)) > 0) {
+                    // Swap vec[j] and vec[j + 1]
+                    std::swap(carArr[j], carArr[j + 1]);
+                    swapped = true;
+                }
+            }
+
+            // If no two elements were swapped in the inner loop, the array is sorted
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+
+
+};
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 class Stack_sell
 {

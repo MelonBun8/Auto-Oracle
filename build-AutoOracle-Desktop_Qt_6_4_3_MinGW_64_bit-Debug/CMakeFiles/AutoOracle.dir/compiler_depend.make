@@ -1218,8 +1218,7 @@ CMakeFiles/AutoOracle.dir/AutoOracle_autogen/mocs_compilation.cpp.obj: AutoOracl
   AutoOracle_autogen/EWIEGA46WW/moc_newindow1.cpp \
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator
 
 CMakeFiles/AutoOracle.dir/dashboard.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/dashboard.cpp \
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/dashboard.h \
@@ -2429,7 +2428,6 @@ CMakeFiles/AutoOracle.dir/dashboard.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug \
   AutoOracle_autogen/include/ui_dashboard.h \
   C:/Qt/6.4.3/mingw_64/include/QtGui/QIcon \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \
@@ -2866,9 +2864,6 @@ CMakeFiles/AutoOracle.dir/main.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto-Orac
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QtGlobal \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/qglobal.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3297,9 +3292,6 @@ CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj: C:/Users/DELL/Documents/GitHub/Aut
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QtGlobal \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/qglobal.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug \
   AutoOracle_autogen/include/ui_newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qvariant.h \
@@ -3738,9 +3730,6 @@ CMakeFiles/AutoOracle.dir/newindow1.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QtGlobal \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/qglobal.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug \
   AutoOracle_autogen/include/ui_newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qvariant.h \
@@ -3797,6 +3786,7 @@ CMakeFiles/AutoOracle.dir/newindow1.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QtWidgetsDepends \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QtCoreDepends \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/qglobal.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/q20algorithm.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/q20functional.h \
@@ -4574,6 +4564,7 @@ CMakeFiles/AutoOracle.dir/newindow1.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qwizard.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qtwidgetsversion.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QPropertyAnimation \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QtGlobal \
   AutoOracle_autogen/include/ui_dashboard.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QStackedWidget \

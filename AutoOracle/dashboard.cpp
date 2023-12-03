@@ -22,11 +22,19 @@ int sell_back=0;
 int purchase_move=0;
 int purchase_back=0;
 int sale_toggle=0;
+int sale_toggle1=0;
 int sale_move=0;
 int totalCarsOnSale=0;
+int totalCarsOnSale1=0;
+int sortChoice = 0;
+int searchChoice = 0;
+QString searchInput = "";
+int currPage = 0;
+
 LinkedList2 carList;
 LinkedList L1;
 Car_Queue q1;
+Car_Stack stack1;
 
 Dashboard::Dashboard(QWidget *parent) :
     QMainWindow(parent),
@@ -219,10 +227,14 @@ Dashboard::Dashboard(QWidget *parent) :
     s1= Stack_sell(current_user);
     p1= Stack_purchase(current_user);
     q1.add_cars(carList.head);
+    stack1.add_cars(carList.head); //now our stack also gets all the cars
     totalCarsOnSale= q1.getCount();
+    totalCarsOnSale1=stack1.getCount();
     toggle();
     emptySales();
     fillSales();
+    emptySearchSales(totalCarsOnSale);
+    fillSortedSales(0);
     Max_sell= s1.getRestore1();
     Max_purchase= p1.getRestore2();
     hideSells();
@@ -247,7 +259,7 @@ Dashboard::Dashboard(QWidget *parent) :
     ui->label_22->setPixmap(QPixmap(current_user.profile_pic));
 
 }
-
+//_________________________________________________________________________________
 void Dashboard::fillSales()
 {
     int j=(totalCarsOnSale-1)*17;
@@ -296,6 +308,213 @@ void Dashboard::fillSales()
         }
 }
 
+
+
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+void Dashboard::fillSortedSales(int iChoice)
+{
+    //sorted sales will call appropriate sort function based on choice
+        if(iChoice == 0){
+            //no changes
+        }
+        else if(iChoice == 1){
+            stack1.sortYear();
+        }
+        else if(iChoice == 2){
+            stack1.sortPrice();
+        }
+        else{
+            stack1.sortFuel();
+        }
+        inToggle(totalCarsOnSale);
+                QString id= stack1.pop()->data.id;
+                Car temp= carList.currentid_search2(id);
+                QString Brand = QString("label_%1").arg(636);
+                QString Model = QString("label_%1").arg(649);
+                QString Price = QString("label_%1").arg(638);
+                QString MFG = QString("label_%1").arg(640);
+                QString Cylinders = QString("label_%1").arg(645);
+                QString Fuel = QString("label_%1").arg(646);
+                QString Color = QString("label_%1").arg(647);
+                QString Pic = QString("label_%1").arg(641);
+                QString ID = QString("label_%1").arg(651);
+                QString Description = QString("textEdit_%1").arg(27);
+                QString widgetName = QString("widget_%1").arg(27);
+                QLabel *label11 = ui->stackedWidget_7->findChild<QLabel *>(Brand);
+                QLabel *label22= ui->stackedWidget_7->findChild<QLabel *>(Model);
+                QLabel *label33 = ui->stackedWidget_7->findChild<QLabel *>(Price);
+                QLabel *label44 = ui->stackedWidget_7->findChild<QLabel *>(MFG);
+                QLabel *label55 = ui->stackedWidget_7->findChild<QLabel *>(Cylinders);
+                QLabel *label66 = ui->stackedWidget_7->findChild<QLabel *>(Fuel);
+                QLabel *label77 = ui->stackedWidget_7->findChild<QLabel *>(Color);
+                QLabel *label88 = ui->stackedWidget_7->findChild<QLabel *>(Pic);
+                QLabel *label99 = ui->stackedWidget_7->findChild<QLabel *>(ID);
+                QTextEdit *textEdit1 = ui->stackedWidget_7->findChild<QTextEdit *>(Description);
+                QWidget *childWidget1 = ui->stackedWidget_7->findChild<QWidget *>(widgetName);
+                label11->setText(temp.manufacture);
+                label22->setText(temp.model);
+                label33->setText(temp.price);
+                label44->setText(temp.year);
+                label55->setText(temp.cylinders);
+                label66->setText(temp.fuel);
+                QColor color(temp.paint_color); // Convert color name to QColor
+                label77->setStyleSheet(QString("background-color: %1;").arg(color.name()));
+                label88->setPixmap(QPixmap(temp.pic));
+                label99->setText(temp.id);
+                textEdit1->setPlainText(temp.discription);
+                childWidget1->show();
+
+          int j=0;
+          for (int i = 0; i <= totalCarsOnSale-2; i++){//!!!!!!!!!!!!!!!!!!!!!!!!1possible error cause
+
+            QString id= stack1.pop()->data.id;
+            Car temp= carList.currentid_search2(id);
+            QString Brand = QString("label_%1").arg(j + 657);
+            QString Model = QString("label_%1").arg(j + 670);
+            QString Price = QString("label_%1").arg(j + 659);
+            QString MFG = QString("label_%1").arg(j + 661);
+            QString Cylinders = QString("label_%1").arg(j + 666);
+            QString Fuel = QString("label_%1").arg(j + 667);
+            QString Color = QString("label_%1").arg(j + 668);
+            QString Pic = QString("label_%1").arg(j + 662);
+            QString ID = QString("label_%1").arg(j + 672);
+            QString Description = QString("textEdit_%1").arg(i + 28);
+            QString widgetName = QString("widget_%1").arg(i + 28);
+            QLabel *label12 = ui->stackedWidget_7->findChild<QLabel *>(Brand);
+            QLabel *label23= ui->stackedWidget_7->findChild<QLabel *>(Model);
+            QLabel *label34 = ui->stackedWidget_7->findChild<QLabel *>(Price);
+            QLabel *label45 = ui->stackedWidget_7->findChild<QLabel *>(MFG);
+            QLabel *label56 = ui->stackedWidget_7->findChild<QLabel *>(Cylinders);
+            QLabel *label67 = ui->stackedWidget_7->findChild<QLabel *>(Fuel);
+            QLabel *label78 = ui->stackedWidget_7->findChild<QLabel *>(Color);
+            QLabel *label89 = ui->stackedWidget_7->findChild<QLabel *>(Pic);
+            QLabel *label90 = ui->stackedWidget_7->findChild<QLabel *>(ID);
+            QTextEdit *textEdit11 = ui->stackedWidget_7->findChild<QTextEdit *>(Description);
+            QWidget *childWidget11 = ui->stackedWidget_7->findChild<QWidget *>(widgetName);
+            label12->setText(temp.manufacture);
+            label23->setText(temp.model);
+            label34->setText(temp.price);
+            label45->setText(temp.year);
+            label56->setText(temp.cylinders);
+            label67->setText(temp.fuel);
+            QColor color(temp.paint_color); // Convert color name to QColor
+            label78->setStyleSheet(QString("background-color: %1;").arg(color.name()));
+            label89->setPixmap(QPixmap(temp.pic));
+            label90->setText(temp.id);
+            textEdit11->setPlainText(temp.discription);
+            childWidget11->show();
+        j +=17;
+    }//for end
+    stack1.add_cars(carList.head);
+}
+
+//__________________________________________________________________________________
+
+void Dashboard::fillSearchSales(int iChoice, QString iData)
+{
+ //search for matching values in stack, if found, keep, else, drop that node entirely from the
+ //stack AND decrement the totalCarsOnSale AND call the hide/empty function again
+        int totalCars = totalCarsOnSale;
+         if(iChoice == 1){//search by colors
+                    totalCars = stack1.searchColor(totalCars, iData);
+         }
+         else if (iChoice == 2){//search by cylinders
+                    totalCars = stack1.searchCylin(totalCars, iData);
+         }
+         else{//search by brand
+                    totalCars = stack1.searchBrand(totalCars, iData);
+         }
+         if(totalCars==0){
+            stack1.add_cars(carList.head);
+            return;
+         }
+         inToggle(totalCars);
+         emptySearchSales(totalCars);
+         QString id= stack1.pop()->data.id;
+         Car temp= carList.currentid_search2(id);
+         QString Brand = QString("label_%1").arg(636);
+         QString Model = QString("label_%1").arg(649);
+         QString Price = QString("label_%1").arg(638);
+         QString MFG = QString("label_%1").arg(640);
+         QString Cylinders = QString("label_%1").arg(645);
+         QString Fuel = QString("label_%1").arg(646);
+         QString Color = QString("label_%1").arg(647);
+         QString Pic = QString("label_%1").arg(641);
+         QString ID = QString("label_%1").arg(651);
+         QString Description = QString("textEdit_%1").arg(27);
+         QString widgetName = QString("widget_%1").arg(27);
+         QLabel *label111 = ui->stackedWidget_7->findChild<QLabel *>(Brand);
+         QLabel *label222= ui->stackedWidget_7->findChild<QLabel *>(Model);
+         QLabel *label333 = ui->stackedWidget_7->findChild<QLabel *>(Price);
+         QLabel *label444 = ui->stackedWidget_7->findChild<QLabel *>(MFG);
+         QLabel *label555 = ui->stackedWidget_7->findChild<QLabel *>(Cylinders);
+         QLabel *label666 = ui->stackedWidget_7->findChild<QLabel *>(Fuel);
+         QLabel *label777 = ui->stackedWidget_7->findChild<QLabel *>(Color);
+         QLabel *label888 = ui->stackedWidget_7->findChild<QLabel *>(Pic);
+         QLabel *label999 = ui->stackedWidget_7->findChild<QLabel *>(ID);
+         QTextEdit *textEdit1 = ui->stackedWidget_7->findChild<QTextEdit *>(Description);
+         QWidget *childWidget1 = ui->stackedWidget_7->findChild<QWidget *>(widgetName);
+         label111->setText(temp.manufacture);
+         label222->setText(temp.model);
+         label333->setText(temp.price);
+         label444->setText(temp.year);
+         label555->setText(temp.cylinders);
+         label666->setText(temp.fuel);
+         QColor color(temp.paint_color); // Convert color name to QColor
+         label777->setStyleSheet(QString("background-color: %1;").arg(color.name()));
+         label888->setPixmap(QPixmap(temp.pic));
+         label999->setText(temp.id);
+         textEdit1->setPlainText(temp.discription);
+         childWidget1->show();
+         if(totalCars==1){
+            stack1.add_cars(carList.head);
+            return;
+         }
+         int j=0;
+         for (int i = 0; i <= totalCars-2; i++){//!!!!!!!!!!!!!!!!!!!!!!!!1possible error cause
+
+                    QString id= stack1.pop()->data.id;
+                    Car temp= carList.currentid_search2(id);
+                    QString Brand = QString("label_%1").arg(j + 657);
+                    QString Model = QString("label_%1").arg(j + 670);
+                    QString Price = QString("label_%1").arg(j + 659);
+                    QString MFG = QString("label_%1").arg(j + 661);
+                    QString Cylinders = QString("label_%1").arg(j + 666);
+                    QString Fuel = QString("label_%1").arg(j + 667);
+                    QString Color = QString("label_%1").arg(j + 668);
+                    QString Pic = QString("label_%1").arg(j + 662);
+                    QString ID = QString("label_%1").arg(j + 672);
+                    QString Description = QString("textEdit_%1").arg(i + 28);
+                    QString widgetName = QString("widget_%1").arg(i + 28);
+                    QLabel *label123 = ui->stackedWidget_7->findChild<QLabel *>(Brand);
+                    QLabel *label234= ui->stackedWidget_7->findChild<QLabel *>(Model);
+                    QLabel *label345 = ui->stackedWidget_7->findChild<QLabel *>(Price);
+                    QLabel *label456 = ui->stackedWidget_7->findChild<QLabel *>(MFG);
+                    QLabel *label567 = ui->stackedWidget_7->findChild<QLabel *>(Cylinders);
+                    QLabel *label678 = ui->stackedWidget_7->findChild<QLabel *>(Fuel);
+                    QLabel *label789 = ui->stackedWidget_7->findChild<QLabel *>(Color);
+                    QLabel *label890 = ui->stackedWidget_7->findChild<QLabel *>(Pic);
+                    QLabel *label901 = ui->stackedWidget_7->findChild<QLabel *>(ID);
+                    QTextEdit *textEdit11 = ui->stackedWidget_7->findChild<QTextEdit *>(Description);
+                    QWidget *childWidget11 = ui->stackedWidget_7->findChild<QWidget *>(widgetName);
+                    label123->setText(temp.manufacture);
+                    label234->setText(temp.model);
+                    label345->setText(temp.price);
+                    label456->setText(temp.year);
+                    label567->setText(temp.cylinders);
+                    label678->setText(temp.fuel);
+                    QColor color(temp.paint_color); // Convert color name to QColor
+                    label789->setStyleSheet(QString("background-color: %1;").arg(color.name()));
+                    label890->setPixmap(QPixmap(temp.pic));
+                    label901->setText(temp.id);
+                    textEdit11->setPlainText(temp.discription);
+                    childWidget11->show();
+                    j +=17;
+         }//for end
+         stack1.add_cars(carList.head);
+     }
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 void Dashboard::emptySales()
 {
     if(totalCarsOnSale<24)
@@ -395,6 +614,206 @@ void Dashboard::emptySales()
          ui->widget_3->hide();
     }
 }
+void Dashboard::emptySearchSales(int iNum)
+{
+    if(iNum<24)
+    {
+         ui->widget_50->hide();
+    }
+    if(iNum<23)
+    {
+         ui->widget_49->hide();
+    }
+    if(iNum<22)
+    {
+         ui->widget_48->hide();
+    }
+    if(iNum<21)
+    {
+         ui->widget_47->hide();
+    }
+    if(iNum<20)
+    {
+         ui->widget_46->hide();
+    }
+    if(iNum<19)
+    {
+         ui->widget_45->hide();
+    }
+    if(iNum<18)
+    {
+         ui->widget_44->hide();
+    }
+    if(iNum<17)
+    {
+         ui->widget_43->hide();
+    }
+    if(iNum<16)
+    {
+         ui->widget_42->hide();
+    }
+    if(iNum<15)
+    {
+         ui->widget_41->hide();
+    }
+    if(iNum<14)
+    {
+         ui->widget_40->hide();
+    }
+    if(iNum<13)
+    {
+         ui->widget_39->hide();
+    }
+    if(iNum<12)
+    {
+         ui->widget_38->hide();
+    }
+    if(iNum<11)
+    {
+         ui->widget_37->hide();
+    }
+    if(iNum<10)
+    {
+         ui->widget_36->hide();
+    }
+    if(iNum<9)
+    {
+         ui->widget_35->hide();
+    }
+    if(iNum<8)
+    {
+         ui->widget_34->hide();
+    }
+    if(iNum<7)
+    {
+         ui->widget_33->hide();
+    }
+    if(iNum<6)
+    {
+         ui->widget_32->hide();
+    }
+    if(iNum<5)
+    {
+         ui->widget_31->hide();
+    }
+    if(iNum<4)
+    {
+         ui->widget_30->hide();
+    }
+    if(iNum<3)
+    {
+         ui->widget_29->hide();
+    }
+    if(iNum<2)
+    {
+         ui->widget_28->hide();
+    }
+    if(iNum<1)
+    {
+         ui->widget_27->hide();
+    }
+
+}
+void Dashboard::emptySortedSales()
+{
+    if(totalCarsOnSale<24)
+{
+    ui->widget_50->hide();
+}
+if(totalCarsOnSale<23)
+{
+    ui->widget_49->hide();
+}
+if(totalCarsOnSale<22)
+{
+    ui->widget_48->hide();
+}
+if(totalCarsOnSale<21)
+{
+    ui->widget_47->hide();
+}
+if(totalCarsOnSale<20)
+{
+    ui->widget_46->hide();
+}
+if(totalCarsOnSale<19)
+{
+    ui->widget_45->hide();
+}
+if(totalCarsOnSale<18)
+{
+    ui->widget_44->hide();
+}
+if(totalCarsOnSale<17)
+{
+    ui->widget_43->hide();
+}
+if(totalCarsOnSale<16)
+{
+    ui->widget_42->hide();
+}
+if(totalCarsOnSale<15)
+{
+    ui->widget_41->hide();
+}
+if(totalCarsOnSale<14)
+{
+    ui->widget_40->hide();
+}
+if(totalCarsOnSale<13)
+{
+    ui->widget_39->hide();
+}
+if(totalCarsOnSale<12)
+{
+    ui->widget_38->hide();
+}
+if(totalCarsOnSale<11)
+{
+    ui->widget_37->hide();
+}
+if(totalCarsOnSale<10)
+{
+    ui->widget_36->hide();
+}
+if(totalCarsOnSale<9)
+{
+    ui->widget_35->hide();
+}
+if(totalCarsOnSale<8)
+{
+    ui->widget_34->hide();
+}
+if(totalCarsOnSale<7)
+{
+    ui->widget_33->hide();
+}
+if(totalCarsOnSale<6)
+{
+    ui->widget_32->hide();
+}
+if(totalCarsOnSale<5)
+{
+    ui->widget_31->hide();
+}
+if(totalCarsOnSale<4)
+{
+    ui->widget_30->hide();
+}
+if(totalCarsOnSale<3)
+{
+    ui->widget_29->hide();
+}
+if(totalCarsOnSale<2)
+{
+    ui->widget_28->hide();
+}
+if(totalCarsOnSale<1)
+{
+    ui->widget_27->hide();
+}
+}
+
 
 void Dashboard::toggle()
 {
@@ -413,6 +832,26 @@ void Dashboard::toggle()
     else if(totalCarsOnSale<=24)
     {
         sale_toggle=3;
+    }
+}
+
+void Dashboard::inToggle(int iNum)
+{
+    if(iNum<=6)
+    {
+        sale_toggle1=0;
+    }
+    else if(iNum<=12)
+    {
+        sale_toggle1=1;
+    }
+    else if(iNum<=18)
+    {
+        sale_toggle1=2;
+    }
+    else if(iNum<=24)
+    {
+        sale_toggle1=3;
     }
 }
 
@@ -442,7 +881,6 @@ void Dashboard::on_pushButton_73_clicked()
         return;
     }
 }
-
 
 void Dashboard::on_pushButton_74_clicked()
 {
@@ -1849,7 +2287,6 @@ void Dashboard::expandRightWithAnimation() {
         }
 }
 
-
 Dashboard::~Dashboard()
 {
     delete ui;
@@ -1878,7 +2315,6 @@ void Dashboard::on_pushButton_8_clicked()
     updateProfile();
 }
 
-
 void Dashboard::on_pushButton_10_clicked()
 {
     if(ui->pushButton_10->text()=="change")
@@ -1894,7 +2330,6 @@ void Dashboard::on_pushButton_10_clicked()
         ui->pushButton_10->setText("change");
     }
 }
-
 
 void Dashboard::on_pushButton_14_clicked()
 {
@@ -1912,7 +2347,6 @@ void Dashboard::on_pushButton_14_clicked()
     }
 }
 
-
 void Dashboard::on_pushButton_13_clicked()
 {
     if(ui->pushButton_13->text()=="change")
@@ -1928,7 +2362,6 @@ void Dashboard::on_pushButton_13_clicked()
         ui->pushButton_13->setText("change");
     }
 }
-
 
 void Dashboard::on_pushButton_12_clicked()
 {
@@ -2835,5 +3268,100 @@ void Dashboard::on_pushButton_71_clicked()
 void Dashboard::on_pushButton_75_clicked()
 {
     refresh_page();
+}
+
+void Dashboard::on_comboBox_4_currentIndexChanged(int index)
+{//on the sortComboBox having it's value changed
+    sortChoice = index;
+}
+
+void Dashboard::on_pushButton_77_clicked()//sort button
+{//On sort button being pressed
+    if(sortChoice == 0){//no option selected, then output error message
+        QMessageBox msgBox;
+        msgBox.setText("Select a sort method first!");
+        msgBox.setWindowTitle("ERROR");
+        msgBox.setStyleSheet("QMessageBox { color: white; }");
+        msgBox.exec();
+        return;
+    }
+    else{
+        toggle();
+        emptySortedSales();
+        fillSortedSales(sortChoice);
+    }
+}
+
+
+void Dashboard::on_comboBox_3_currentIndexChanged(int index)
+{
+    searchChoice = index;
+}
+
+
+void Dashboard::on_lineEdit_15_returnPressed()
+{
+    QString enteredText = ui->lineEdit_15->text();
+    searchInput = enteredText;
+}
+
+
+void Dashboard::on_pushButton_76_clicked()//search button
+{
+    if(searchChoice==0||searchInput==""){//either did not choose from combobox or did not Input anything in field
+        QMessageBox msgBox;
+        msgBox.setText("Ensure both search category selected and\nsearch field not empty!");
+        msgBox.setWindowTitle("ERROR");
+        msgBox.setStyleSheet("QMessageBox { color: white; }");
+        msgBox.exec();
+        return;
+    }
+    toggle();
+    emptySortedSales();
+    fillSearchSales(searchChoice, searchInput);
+}
+
+
+void Dashboard::on_pushButton_126_clicked()//page advance for sorted page
+{//next page for sort page
+    if(sale_toggle1 == 0){
+        return;
+    }
+    if(currPage == 0 && sale_toggle1 >= 1){
+        currPage++;
+        ui->stackedWidget_7->setCurrentIndex(1);
+    }
+    else if(currPage == 1 && sale_toggle1 >= 2){
+        currPage++;
+        ui->stackedWidget_7->setCurrentIndex(2);
+    }
+    else if(currPage == 2 && sale_toggle1 == 3){
+        currPage++;
+        ui->stackedWidget_7->setCurrentIndex(3);
+    }
+    else if(currPage == 3){
+        return;
+    }
+
+}
+
+
+void Dashboard::on_pushButton_127_clicked()
+{//previous page for Sort Page
+    if(currPage == 0){
+        return;
+    }
+    else if(currPage == 1){
+        currPage--;
+        ui->stackedWidget_7->setCurrentIndex(0);
+    }
+    else if(currPage == 2){
+        currPage--;
+        ui->stackedWidget_7->setCurrentIndex(1);
+    }
+    else if(currPage == 3){
+        currPage--;
+        ui->stackedWidget_7->setCurrentIndex(2);
+    }
 }
 
