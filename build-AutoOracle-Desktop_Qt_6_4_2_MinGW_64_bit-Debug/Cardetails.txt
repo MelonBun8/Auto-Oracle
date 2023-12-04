@@ -1,8 +1,11 @@
-ID1721906547;85,00,000;2009;Passat;P-3002;5;663;blue;false;Very Good Condition;:/passat.jpg
-ID1991432563;56,00,000;2018;Volkswagen Beetle;VB-3900;6;620;violet;false;100% valid condition of the car.;:/volkswagen.jpg
+ID1969650285;4000000;2014;Tata Nexon;Tata-N40;6;410;black;false;solid condition;:/tata_nexon.jpg
+ID1870863314;7000000;2012;Corolla;c888;6;400;white;false;solid condition;:/corolla.jpg
+ID1721906547;8500000;2009;Passat;P-3002;5;663;blue;false;Very Good Condition;:/passat.jpg
+ID1991432563;5600000;2018;Volkswagen Beetle;VB-3900;6;620;violet;false;100% valid condition of the car.;:/volkswagen.jpg
 ID2067836310;8500000;2016;BMW 5 Series;BMW 3;3;20;black;true;Car is solid condition;:/bmw5_series.jpg
 ID1260380663;20000000;2012;Ford Mustang;F76;5;330;white;false;It's a good car;:/ford_mustang.jpg
 ID2256337834;15000000;2012;Camaro;C160;5;330;white;false;It's a good car;:/camaro.jpg
 ID3061802256;25000000;2013;Toyota RAV4;T861;5;330;white;true;It's a good car;:/toyota_rav4.jpg
 ID928337342;50000000;2013;Civic;C6688;5;330;white;false;It's a good car;:/civic.jpg
 ID1147447345;8000000;2013;Toyota Fortuner;T144;5;330;white;false;It's a good car;:/toyota_fortuner.jpg
+ID1815089631;7500000;2012;Camaro;C432;4;350;white;false;good;:/camaro.jpg

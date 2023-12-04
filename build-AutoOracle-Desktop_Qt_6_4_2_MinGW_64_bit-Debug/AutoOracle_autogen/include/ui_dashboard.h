@@ -555,7 +555,426 @@ public:
     QPushButton *pushButton_74;
     QPushButton *pushButton_75;
     QWidget *page_2;
-    QLabel *label_3;
+    QLineEdit *lineEdit_15;
+    QComboBox *comboBox_3;
+    QComboBox *comboBox_4;
+    QPushButton *pushButton_76;
+    QPushButton *pushButton_77;
+    QStackedWidget *stackedWidget_7;
+    QWidget *page_24;
+    QWidget *widget_27;
+    QLabel *label_635;
+    QLabel *label_636;
+    QLabel *label_637;
+    QLabel *label_638;
+    QLabel *label_639;
+    QLabel *label_640;
+    QLabel *label_641;
+    QLabel *label_642;
+    QLabel *label_643;
+    QLabel *label_644;
+    QLabel *label_645;
+    QLabel *label_646;
+    QLabel *label_647;
+    QTextEdit *textEdit_27;
+    QLabel *label_649;
+    QLabel *label_651;
+    QWidget *widget_28;
+    QLabel *label_653;
+    QLabel *label_657;
+    QLabel *label_658;
+    QLabel *label_659;
+    QLabel *label_660;
+    QLabel *label_661;
+    QLabel *label_662;
+    QLabel *label_663;
+    QLabel *label_664;
+    QLabel *label_665;
+    QLabel *label_666;
+    QLabel *label_667;
+    QLabel *label_668;
+    QTextEdit *textEdit_28;
+    QLabel *label_670;
+    QLabel *label_672;
+    QWidget *widget_29;
+    QLabel *label_673;
+    QLabel *label_674;
+    QLabel *label_675;
+    QLabel *label_676;
+    QLabel *label_677;
+    QLabel *label_678;
+    QLabel *label_679;
+    QLabel *label_680;
+    QLabel *label_681;
+    QLabel *label_682;
+    QLabel *label_683;
+    QLabel *label_684;
+    QLabel *label_685;
+    QTextEdit *textEdit_29;
+    QLabel *label_687;
+    QLabel *label_689;
+    QWidget *widget_30;
+    QLabel *label_690;
+    QLabel *label_691;
+    QLabel *label_692;
+    QLabel *label_693;
+    QLabel *label_694;
+    QLabel *label_695;
+    QLabel *label_696;
+    QLabel *label_697;
+    QLabel *label_698;
+    QLabel *label_699;
+    QLabel *label_700;
+    QLabel *label_701;
+    QLabel *label_702;
+    QTextEdit *textEdit_30;
+    QLabel *label_704;
+    QLabel *label_706;
+    QWidget *widget_31;
+    QLabel *label_707;
+    QLabel *label_708;
+    QLabel *label_709;
+    QLabel *label_710;
+    QLabel *label_711;
+    QLabel *label_712;
+    QLabel *label_713;
+    QLabel *label_714;
+    QLabel *label_715;
+    QLabel *label_716;
+    QLabel *label_717;
+    QLabel *label_718;
+    QLabel *label_719;
+    QTextEdit *textEdit_31;
+    QLabel *label_721;
+    QLabel *label_723;
+    QWidget *widget_32;
+    QLabel *label_724;
+    QLabel *label_725;
+    QLabel *label_726;
+    QLabel *label_727;
+    QLabel *label_728;
+    QLabel *label_729;
+    QLabel *label_730;
+    QLabel *label_731;
+    QLabel *label_732;
+    QLabel *label_733;
+    QLabel *label_734;
+    QLabel *label_735;
+    QLabel *label_736;
+    QTextEdit *textEdit_32;
+    QLabel *label_738;
+    QLabel *label_740;
+    QWidget *page_25;
+    QWidget *widget_34;
+    QLabel *label_758;
+    QLabel *label_759;
+    QLabel *label_760;
+    QLabel *label_761;
+    QLabel *label_762;
+    QLabel *label_763;
+    QLabel *label_764;
+    QLabel *label_765;
+    QLabel *label_766;
+    QLabel *label_767;
+    QLabel *label_768;
+    QLabel *label_769;
+    QLabel *label_770;
+    QTextEdit *textEdit_34;
+    QLabel *label_772;
+    QLabel *label_774;
+    QWidget *widget_37;
+    QLabel *label_809;
+    QLabel *label_810;
+    QLabel *label_811;
+    QLabel *label_812;
+    QLabel *label_813;
+    QLabel *label_814;
+    QLabel *label_815;
+    QLabel *label_816;
+    QLabel *label_817;
+    QLabel *label_818;
+    QLabel *label_819;
+    QLabel *label_820;
+    QLabel *label_821;
+    QTextEdit *textEdit_37;
+    QLabel *label_823;
+    QLabel *label_825;
+    QWidget *widget_38;
+    QLabel *label_826;
+    QLabel *label_827;
+    QLabel *label_828;
+    QLabel *label_829;
+    QLabel *label_830;
+    QLabel *label_831;
+    QLabel *label_832;
+    QLabel *label_833;
+    QLabel *label_834;
+    QLabel *label_835;
+    QLabel *label_836;
+    QLabel *label_837;
+    QLabel *label_838;
+    QTextEdit *textEdit_38;
+    QLabel *label_840;
+    QLabel *label_842;
+    QWidget *widget_33;
+    QLabel *label_741;
+    QLabel *label_742;
+    QLabel *label_743;
+    QLabel *label_744;
+    QLabel *label_745;
+    QLabel *label_746;
+    QLabel *label_747;
+    QLabel *label_748;
+    QLabel *label_749;
+    QLabel *label_750;
+    QLabel *label_751;
+    QLabel *label_752;
+    QLabel *label_753;
+    QTextEdit *textEdit_33;
+    QLabel *label_755;
+    QLabel *label_757;
+    QWidget *widget_35;
+    QLabel *label_775;
+    QLabel *label_776;
+    QLabel *label_777;
+    QLabel *label_778;
+    QLabel *label_779;
+    QLabel *label_780;
+    QLabel *label_781;
+    QLabel *label_782;
+    QLabel *label_783;
+    QLabel *label_784;
+    QLabel *label_785;
+    QLabel *label_786;
+    QLabel *label_787;
+    QTextEdit *textEdit_35;
+    QLabel *label_789;
+    QLabel *label_791;
+    QWidget *widget_36;
+    QLabel *label_792;
+    QLabel *label_793;
+    QLabel *label_794;
+    QLabel *label_795;
+    QLabel *label_796;
+    QLabel *label_797;
+    QLabel *label_798;
+    QLabel *label_799;
+    QLabel *label_800;
+    QLabel *label_801;
+    QLabel *label_802;
+    QLabel *label_803;
+    QLabel *label_804;
+    QTextEdit *textEdit_36;
+    QLabel *label_806;
+    QLabel *label_808;
+    QWidget *page_26;
+    QWidget *widget_42;
+    QLabel *label_894;
+    QLabel *label_895;
+    QLabel *label_896;
+    QLabel *label_897;
+    QLabel *label_898;
+    QLabel *label_899;
+    QLabel *label_900;
+    QLabel *label_901;
+    QLabel *label_902;
+    QLabel *label_903;
+    QLabel *label_904;
+    QLabel *label_905;
+    QLabel *label_906;
+    QTextEdit *textEdit_42;
+    QLabel *label_908;
+    QLabel *label_910;
+    QWidget *widget_43;
+    QLabel *label_911;
+    QLabel *label_912;
+    QLabel *label_913;
+    QLabel *label_914;
+    QLabel *label_915;
+    QLabel *label_916;
+    QLabel *label_917;
+    QLabel *label_918;
+    QLabel *label_919;
+    QLabel *label_920;
+    QLabel *label_921;
+    QLabel *label_922;
+    QLabel *label_923;
+    QTextEdit *textEdit_43;
+    QLabel *label_925;
+    QLabel *label_927;
+    QWidget *widget_44;
+    QLabel *label_928;
+    QLabel *label_929;
+    QLabel *label_930;
+    QLabel *label_931;
+    QLabel *label_932;
+    QLabel *label_933;
+    QLabel *label_934;
+    QLabel *label_935;
+    QLabel *label_936;
+    QLabel *label_937;
+    QLabel *label_938;
+    QLabel *label_939;
+    QLabel *label_940;
+    QTextEdit *textEdit_44;
+    QLabel *label_942;
+    QLabel *label_944;
+    QWidget *widget_39;
+    QLabel *label_843;
+    QLabel *label_844;
+    QLabel *label_845;
+    QLabel *label_846;
+    QLabel *label_847;
+    QLabel *label_848;
+    QLabel *label_849;
+    QLabel *label_850;
+    QLabel *label_851;
+    QLabel *label_852;
+    QLabel *label_853;
+    QLabel *label_854;
+    QLabel *label_855;
+    QTextEdit *textEdit_39;
+    QLabel *label_857;
+    QLabel *label_859;
+    QWidget *widget_40;
+    QLabel *label_860;
+    QLabel *label_861;
+    QLabel *label_862;
+    QLabel *label_863;
+    QLabel *label_864;
+    QLabel *label_865;
+    QLabel *label_866;
+    QLabel *label_867;
+    QLabel *label_868;
+    QLabel *label_869;
+    QLabel *label_870;
+    QLabel *label_871;
+    QLabel *label_872;
+    QTextEdit *textEdit_40;
+    QLabel *label_874;
+    QLabel *label_876;
+    QWidget *widget_41;
+    QLabel *label_877;
+    QLabel *label_878;
+    QLabel *label_879;
+    QLabel *label_880;
+    QLabel *label_881;
+    QLabel *label_882;
+    QLabel *label_883;
+    QLabel *label_884;
+    QLabel *label_885;
+    QLabel *label_886;
+    QLabel *label_887;
+    QLabel *label_888;
+    QLabel *label_889;
+    QTextEdit *textEdit_41;
+    QLabel *label_891;
+    QLabel *label_893;
+    QWidget *page_27;
+    QWidget *widget_49;
+    QLabel *label_1013;
+    QLabel *label_1014;
+    QLabel *label_1015;
+    QLabel *label_1016;
+    QLabel *label_1017;
+    QLabel *label_1018;
+    QLabel *label_1019;
+    QLabel *label_1020;
+    QLabel *label_1021;
+    QLabel *label_1022;
+    QLabel *label_1023;
+    QLabel *label_1024;
+    QLabel *label_1025;
+    QTextEdit *textEdit_49;
+    QLabel *label_1027;
+    QLabel *label_1029;
+    QWidget *widget_50;
+    QLabel *label_1030;
+    QLabel *label_1031;
+    QLabel *label_1032;
+    QLabel *label_1033;
+    QLabel *label_1034;
+    QLabel *label_1035;
+    QLabel *label_1036;
+    QLabel *label_1037;
+    QLabel *label_1038;
+    QLabel *label_1039;
+    QLabel *label_1040;
+    QLabel *label_1041;
+    QLabel *label_1042;
+    QTextEdit *textEdit_50;
+    QLabel *label_1044;
+    QLabel *label_1046;
+    QWidget *widget_45;
+    QLabel *label_945;
+    QLabel *label_946;
+    QLabel *label_947;
+    QLabel *label_948;
+    QLabel *label_949;
+    QLabel *label_950;
+    QLabel *label_951;
+    QLabel *label_952;
+    QLabel *label_953;
+    QLabel *label_954;
+    QLabel *label_955;
+    QLabel *label_956;
+    QLabel *label_957;
+    QTextEdit *textEdit_45;
+    QLabel *label_959;
+    QLabel *label_961;
+    QWidget *widget_46;
+    QLabel *label_962;
+    QLabel *label_963;
+    QLabel *label_964;
+    QLabel *label_965;
+    QLabel *label_966;
+    QLabel *label_967;
+    QLabel *label_968;
+    QLabel *label_969;
+    QLabel *label_970;
+    QLabel *label_971;
+    QLabel *label_972;
+    QLabel *label_973;
+    QLabel *label_974;
+    QTextEdit *textEdit_46;
+    QLabel *label_976;
+    QLabel *label_978;
+    QWidget *widget_47;
+    QLabel *label_979;
+    QLabel *label_980;
+    QLabel *label_981;
+    QLabel *label_982;
+    QLabel *label_983;
+    QLabel *label_984;
+    QLabel *label_985;
+    QLabel *label_986;
+    QLabel *label_987;
+    QLabel *label_988;
+    QLabel *label_989;
+    QLabel *label_990;
+    QLabel *label_991;
+    QTextEdit *textEdit_47;
+    QLabel *label_993;
+    QLabel *label_995;
+    QWidget *widget_48;
+    QLabel *label_996;
+    QLabel *label_997;
+    QLabel *label_998;
+    QLabel *label_999;
+    QLabel *label_1000;
+    QLabel *label_1001;
+    QLabel *label_1002;
+    QLabel *label_1003;
+    QLabel *label_1004;
+    QLabel *label_1005;
+    QLabel *label_1006;
+    QLabel *label_1007;
+    QLabel *label_1008;
+    QTextEdit *textEdit_48;
+    QLabel *label_1010;
+    QLabel *label_1012;
+    QPushButton *pushButton_126;
+    QPushButton *pushButton_127;
     QWidget *page_5;
     QLabel *label_176;
     QStackedWidget *stackedWidget_5;
@@ -577,6 +996,7 @@ public:
     QLabel *label_188;
     QLabel *label_189;
     QLabel *label_190;
+    QLabel *label_652;
     QWidget *page_4;
     QLabel *label_9;
     QLabel *label_10;
@@ -795,6 +1215,10 @@ public:
     QPushButton *pushButton_21;
     QLineEdit *lineEdit_8;
     QLineEdit *lineEdit_9;
+    QLabel *label_2;
+    QLabel *label_634;
+    QLabel *label_3;
+    QLabel *label_655;
     QWidget *page_3;
     QLabel *label_4;
     QStackedWidget *stackedWidget_4;
@@ -807,6 +1231,7 @@ public:
     QLineEdit *lineEdit_7;
     QLabel *label_127;
     QLabel *label_132;
+    QLabel *label_656;
     QWidget *page_17;
     QComboBox *comboBox_2;
     QLabel *label_133;
@@ -826,6 +1251,10 @@ public:
     QLineEdit *lineEdit_17;
     QPushButton *pushButton_22;
     QLabel *label_142;
+    QLabel *label_654;
+    QLabel *label_648;
+    QPushButton *pushButton_78;
+    QLabel *label_650;
     QWidget *widget_2;
     QLabel *label;
     QLabel *label_6;
@@ -841,6 +1270,9 @@ public:
         if (Dashboard->objectName().isEmpty())
             Dashboard->setObjectName("Dashboard");
         Dashboard->resize(1540, 800);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/Logo.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Dashboard->setWindowIcon(icon);
         Dashboard->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 59);"));
         centralwidget = new QWidget(Dashboard);
         centralwidget->setObjectName("centralwidget");
@@ -911,17 +1343,17 @@ public:
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(10, 50, 41, 41));
         pushButton->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/menu-bar.png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton->setIcon(icon);
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/menu-bar.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton->setIcon(icon1);
         pushButton->setIconSize(QSize(80, 30));
         pushButton_2 = new QPushButton(page);
         pushButton_2->setObjectName("pushButton_2");
         pushButton_2->setGeometry(QRect(940, 50, 51, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/profile.png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton_2->setIcon(icon1);
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/profile.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_2->setIcon(icon2);
         pushButton_2->setIconSize(QSize(80, 30));
         label_8 = new QLabel(page);
         label_8->setObjectName("label_8");
@@ -943,7 +1375,7 @@ public:
         label_191 = new QLabel(widget_3);
         label_191->setObjectName("label_191");
         label_191->setGeometry(QRect(12, 240, 16, 21));
-        label_191->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_191->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_191->setScaledContents(true);
         label_192 = new QLabel(widget_3);
         label_192->setObjectName("label_192");
@@ -1008,12 +1440,12 @@ public:
         label_199 = new QLabel(widget_3);
         label_199->setObjectName("label_199");
         label_199->setGeometry(QRect(200, 242, 21, 20));
-        label_199->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_199->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_199->setScaledContents(true);
         label_200 = new QLabel(widget_3);
         label_200->setObjectName("label_200");
         label_200->setGeometry(QRect(90, 235, 31, 31));
-        label_200->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_200->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_200->setScaledContents(true);
         label_201 = new QLabel(widget_3);
         label_201->setObjectName("label_201");
@@ -1089,7 +1521,7 @@ public:
         label_208 = new QLabel(widget_4);
         label_208->setObjectName("label_208");
         label_208->setGeometry(QRect(12, 240, 16, 21));
-        label_208->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_208->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_208->setScaledContents(true);
         label_209 = new QLabel(widget_4);
         label_209->setObjectName("label_209");
@@ -1135,12 +1567,12 @@ public:
         label_216 = new QLabel(widget_4);
         label_216->setObjectName("label_216");
         label_216->setGeometry(QRect(200, 242, 21, 20));
-        label_216->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_216->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_216->setScaledContents(true);
         label_217 = new QLabel(widget_4);
         label_217->setObjectName("label_217");
         label_217->setGeometry(QRect(90, 235, 31, 31));
-        label_217->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_217->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_217->setScaledContents(true);
         label_218 = new QLabel(widget_4);
         label_218->setObjectName("label_218");
@@ -1204,7 +1636,7 @@ public:
         label_225 = new QLabel(widget_5);
         label_225->setObjectName("label_225");
         label_225->setGeometry(QRect(12, 240, 16, 21));
-        label_225->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_225->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_225->setScaledContents(true);
         label_226 = new QLabel(widget_5);
         label_226->setObjectName("label_226");
@@ -1250,12 +1682,12 @@ public:
         label_233 = new QLabel(widget_5);
         label_233->setObjectName("label_233");
         label_233->setGeometry(QRect(200, 242, 21, 20));
-        label_233->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_233->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_233->setScaledContents(true);
         label_234 = new QLabel(widget_5);
         label_234->setObjectName("label_234");
         label_234->setGeometry(QRect(90, 235, 31, 31));
-        label_234->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_234->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_234->setScaledContents(true);
         label_235 = new QLabel(widget_5);
         label_235->setObjectName("label_235");
@@ -1319,7 +1751,7 @@ public:
         label_242 = new QLabel(widget_6);
         label_242->setObjectName("label_242");
         label_242->setGeometry(QRect(12, 240, 16, 21));
-        label_242->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_242->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_242->setScaledContents(true);
         label_243 = new QLabel(widget_6);
         label_243->setObjectName("label_243");
@@ -1365,12 +1797,12 @@ public:
         label_250 = new QLabel(widget_6);
         label_250->setObjectName("label_250");
         label_250->setGeometry(QRect(200, 242, 21, 20));
-        label_250->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_250->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_250->setScaledContents(true);
         label_251 = new QLabel(widget_6);
         label_251->setObjectName("label_251");
         label_251->setGeometry(QRect(90, 235, 31, 31));
-        label_251->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_251->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_251->setScaledContents(true);
         label_252 = new QLabel(widget_6);
         label_252->setObjectName("label_252");
@@ -1434,7 +1866,7 @@ public:
         label_259 = new QLabel(widget_7);
         label_259->setObjectName("label_259");
         label_259->setGeometry(QRect(12, 240, 16, 21));
-        label_259->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_259->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_259->setScaledContents(true);
         label_260 = new QLabel(widget_7);
         label_260->setObjectName("label_260");
@@ -1480,12 +1912,12 @@ public:
         label_267 = new QLabel(widget_7);
         label_267->setObjectName("label_267");
         label_267->setGeometry(QRect(200, 242, 21, 20));
-        label_267->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_267->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_267->setScaledContents(true);
         label_268 = new QLabel(widget_7);
         label_268->setObjectName("label_268");
         label_268->setGeometry(QRect(90, 235, 31, 31));
-        label_268->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_268->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_268->setScaledContents(true);
         label_269 = new QLabel(widget_7);
         label_269->setObjectName("label_269");
@@ -1549,7 +1981,7 @@ public:
         label_276 = new QLabel(widget_8);
         label_276->setObjectName("label_276");
         label_276->setGeometry(QRect(12, 240, 16, 21));
-        label_276->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_276->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_276->setScaledContents(true);
         label_277 = new QLabel(widget_8);
         label_277->setObjectName("label_277");
@@ -1595,12 +2027,12 @@ public:
         label_284 = new QLabel(widget_8);
         label_284->setObjectName("label_284");
         label_284->setGeometry(QRect(200, 242, 21, 20));
-        label_284->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_284->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_284->setScaledContents(true);
         label_285 = new QLabel(widget_8);
         label_285->setObjectName("label_285");
         label_285->setGeometry(QRect(90, 235, 31, 31));
-        label_285->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_285->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_285->setScaledContents(true);
         label_286 = new QLabel(widget_8);
         label_286->setObjectName("label_286");
@@ -1667,7 +2099,7 @@ public:
         label_327 = new QLabel(widget_11);
         label_327->setObjectName("label_327");
         label_327->setGeometry(QRect(12, 240, 16, 21));
-        label_327->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_327->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_327->setScaledContents(true);
         label_328 = new QLabel(widget_11);
         label_328->setObjectName("label_328");
@@ -1713,12 +2145,12 @@ public:
         label_335 = new QLabel(widget_11);
         label_335->setObjectName("label_335");
         label_335->setGeometry(QRect(200, 242, 21, 20));
-        label_335->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_335->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_335->setScaledContents(true);
         label_336 = new QLabel(widget_11);
         label_336->setObjectName("label_336");
         label_336->setGeometry(QRect(90, 235, 31, 31));
-        label_336->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_336->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_336->setScaledContents(true);
         label_337 = new QLabel(widget_11);
         label_337->setObjectName("label_337");
@@ -1782,7 +2214,7 @@ public:
         label_361 = new QLabel(widget_13);
         label_361->setObjectName("label_361");
         label_361->setGeometry(QRect(12, 240, 16, 21));
-        label_361->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_361->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_361->setScaledContents(true);
         label_362 = new QLabel(widget_13);
         label_362->setObjectName("label_362");
@@ -1828,12 +2260,12 @@ public:
         label_369 = new QLabel(widget_13);
         label_369->setObjectName("label_369");
         label_369->setGeometry(QRect(200, 242, 21, 20));
-        label_369->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_369->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_369->setScaledContents(true);
         label_370 = new QLabel(widget_13);
         label_370->setObjectName("label_370");
         label_370->setGeometry(QRect(90, 235, 31, 31));
-        label_370->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_370->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_370->setScaledContents(true);
         label_371 = new QLabel(widget_13);
         label_371->setObjectName("label_371");
@@ -1897,7 +2329,7 @@ public:
         label_378 = new QLabel(widget_14);
         label_378->setObjectName("label_378");
         label_378->setGeometry(QRect(12, 240, 16, 21));
-        label_378->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_378->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_378->setScaledContents(true);
         label_379 = new QLabel(widget_14);
         label_379->setObjectName("label_379");
@@ -1943,12 +2375,12 @@ public:
         label_386 = new QLabel(widget_14);
         label_386->setObjectName("label_386");
         label_386->setGeometry(QRect(200, 242, 21, 20));
-        label_386->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_386->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_386->setScaledContents(true);
         label_387 = new QLabel(widget_14);
         label_387->setObjectName("label_387");
         label_387->setGeometry(QRect(90, 235, 31, 31));
-        label_387->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_387->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_387->setScaledContents(true);
         label_388 = new QLabel(widget_14);
         label_388->setObjectName("label_388");
@@ -2012,7 +2444,7 @@ public:
         label_293 = new QLabel(widget_9);
         label_293->setObjectName("label_293");
         label_293->setGeometry(QRect(12, 240, 16, 21));
-        label_293->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_293->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_293->setScaledContents(true);
         label_294 = new QLabel(widget_9);
         label_294->setObjectName("label_294");
@@ -2058,12 +2490,12 @@ public:
         label_301 = new QLabel(widget_9);
         label_301->setObjectName("label_301");
         label_301->setGeometry(QRect(200, 242, 21, 20));
-        label_301->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_301->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_301->setScaledContents(true);
         label_302 = new QLabel(widget_9);
         label_302->setObjectName("label_302");
         label_302->setGeometry(QRect(90, 235, 31, 31));
-        label_302->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_302->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_302->setScaledContents(true);
         label_303 = new QLabel(widget_9);
         label_303->setObjectName("label_303");
@@ -2127,7 +2559,7 @@ public:
         label_310 = new QLabel(widget_10);
         label_310->setObjectName("label_310");
         label_310->setGeometry(QRect(12, 240, 16, 21));
-        label_310->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_310->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_310->setScaledContents(true);
         label_311 = new QLabel(widget_10);
         label_311->setObjectName("label_311");
@@ -2173,12 +2605,12 @@ public:
         label_318 = new QLabel(widget_10);
         label_318->setObjectName("label_318");
         label_318->setGeometry(QRect(200, 242, 21, 20));
-        label_318->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_318->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_318->setScaledContents(true);
         label_319 = new QLabel(widget_10);
         label_319->setObjectName("label_319");
         label_319->setGeometry(QRect(90, 235, 31, 31));
-        label_319->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_319->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_319->setScaledContents(true);
         label_320 = new QLabel(widget_10);
         label_320->setObjectName("label_320");
@@ -2242,7 +2674,7 @@ public:
         label_344 = new QLabel(widget_12);
         label_344->setObjectName("label_344");
         label_344->setGeometry(QRect(12, 240, 16, 21));
-        label_344->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_344->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_344->setScaledContents(true);
         label_345 = new QLabel(widget_12);
         label_345->setObjectName("label_345");
@@ -2288,12 +2720,12 @@ public:
         label_352 = new QLabel(widget_12);
         label_352->setObjectName("label_352");
         label_352->setGeometry(QRect(200, 242, 21, 20));
-        label_352->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_352->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_352->setScaledContents(true);
         label_353 = new QLabel(widget_12);
         label_353->setObjectName("label_353");
         label_353->setGeometry(QRect(90, 235, 31, 31));
-        label_353->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_353->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_353->setScaledContents(true);
         label_354 = new QLabel(widget_12);
         label_354->setObjectName("label_354");
@@ -2360,7 +2792,7 @@ public:
         label_429 = new QLabel(widget_17);
         label_429->setObjectName("label_429");
         label_429->setGeometry(QRect(12, 240, 16, 21));
-        label_429->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_429->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_429->setScaledContents(true);
         label_430 = new QLabel(widget_17);
         label_430->setObjectName("label_430");
@@ -2406,12 +2838,12 @@ public:
         label_437 = new QLabel(widget_17);
         label_437->setObjectName("label_437");
         label_437->setGeometry(QRect(200, 242, 21, 20));
-        label_437->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_437->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_437->setScaledContents(true);
         label_438 = new QLabel(widget_17);
         label_438->setObjectName("label_438");
         label_438->setGeometry(QRect(90, 235, 31, 31));
-        label_438->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_438->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_438->setScaledContents(true);
         label_439 = new QLabel(widget_17);
         label_439->setObjectName("label_439");
@@ -2475,7 +2907,7 @@ public:
         label_446 = new QLabel(widget_18);
         label_446->setObjectName("label_446");
         label_446->setGeometry(QRect(12, 240, 16, 21));
-        label_446->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_446->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_446->setScaledContents(true);
         label_447 = new QLabel(widget_18);
         label_447->setObjectName("label_447");
@@ -2521,12 +2953,12 @@ public:
         label_454 = new QLabel(widget_18);
         label_454->setObjectName("label_454");
         label_454->setGeometry(QRect(200, 242, 21, 20));
-        label_454->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_454->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_454->setScaledContents(true);
         label_455 = new QLabel(widget_18);
         label_455->setObjectName("label_455");
         label_455->setGeometry(QRect(90, 235, 31, 31));
-        label_455->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_455->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_455->setScaledContents(true);
         label_456 = new QLabel(widget_18);
         label_456->setObjectName("label_456");
@@ -2590,7 +3022,7 @@ public:
         label_463 = new QLabel(widget_19);
         label_463->setObjectName("label_463");
         label_463->setGeometry(QRect(12, 240, 16, 21));
-        label_463->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_463->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_463->setScaledContents(true);
         label_464 = new QLabel(widget_19);
         label_464->setObjectName("label_464");
@@ -2636,12 +3068,12 @@ public:
         label_471 = new QLabel(widget_19);
         label_471->setObjectName("label_471");
         label_471->setGeometry(QRect(200, 242, 21, 20));
-        label_471->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_471->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_471->setScaledContents(true);
         label_472 = new QLabel(widget_19);
         label_472->setObjectName("label_472");
         label_472->setGeometry(QRect(90, 235, 31, 31));
-        label_472->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_472->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_472->setScaledContents(true);
         label_473 = new QLabel(widget_19);
         label_473->setObjectName("label_473");
@@ -2705,7 +3137,7 @@ public:
         label_480 = new QLabel(widget_20);
         label_480->setObjectName("label_480");
         label_480->setGeometry(QRect(12, 240, 16, 21));
-        label_480->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_480->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_480->setScaledContents(true);
         label_481 = new QLabel(widget_20);
         label_481->setObjectName("label_481");
@@ -2751,12 +3183,12 @@ public:
         label_488 = new QLabel(widget_20);
         label_488->setObjectName("label_488");
         label_488->setGeometry(QRect(200, 242, 21, 20));
-        label_488->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_488->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_488->setScaledContents(true);
         label_489 = new QLabel(widget_20);
         label_489->setObjectName("label_489");
         label_489->setGeometry(QRect(90, 235, 31, 31));
-        label_489->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_489->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_489->setScaledContents(true);
         label_490 = new QLabel(widget_20);
         label_490->setObjectName("label_490");
@@ -2820,7 +3252,7 @@ public:
         label_412 = new QLabel(widget_16);
         label_412->setObjectName("label_412");
         label_412->setGeometry(QRect(12, 240, 16, 21));
-        label_412->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_412->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_412->setScaledContents(true);
         label_413 = new QLabel(widget_16);
         label_413->setObjectName("label_413");
@@ -2866,12 +3298,12 @@ public:
         label_420 = new QLabel(widget_16);
         label_420->setObjectName("label_420");
         label_420->setGeometry(QRect(200, 242, 21, 20));
-        label_420->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_420->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_420->setScaledContents(true);
         label_421 = new QLabel(widget_16);
         label_421->setObjectName("label_421");
         label_421->setGeometry(QRect(90, 235, 31, 31));
-        label_421->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_421->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_421->setScaledContents(true);
         label_422 = new QLabel(widget_16);
         label_422->setObjectName("label_422");
@@ -2935,7 +3367,7 @@ public:
         label_395 = new QLabel(widget_15);
         label_395->setObjectName("label_395");
         label_395->setGeometry(QRect(12, 240, 16, 21));
-        label_395->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_395->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_395->setScaledContents(true);
         label_396 = new QLabel(widget_15);
         label_396->setObjectName("label_396");
@@ -2981,12 +3413,12 @@ public:
         label_403 = new QLabel(widget_15);
         label_403->setObjectName("label_403");
         label_403->setGeometry(QRect(200, 242, 21, 20));
-        label_403->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_403->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_403->setScaledContents(true);
         label_404 = new QLabel(widget_15);
         label_404->setObjectName("label_404");
         label_404->setGeometry(QRect(90, 235, 31, 31));
-        label_404->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_404->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_404->setScaledContents(true);
         label_405 = new QLabel(widget_15);
         label_405->setObjectName("label_405");
@@ -3053,7 +3485,7 @@ public:
         label_531 = new QLabel(widget_23);
         label_531->setObjectName("label_531");
         label_531->setGeometry(QRect(12, 240, 16, 21));
-        label_531->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_531->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_531->setScaledContents(true);
         label_532 = new QLabel(widget_23);
         label_532->setObjectName("label_532");
@@ -3099,12 +3531,12 @@ public:
         label_539 = new QLabel(widget_23);
         label_539->setObjectName("label_539");
         label_539->setGeometry(QRect(200, 242, 21, 20));
-        label_539->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_539->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_539->setScaledContents(true);
         label_540 = new QLabel(widget_23);
         label_540->setObjectName("label_540");
         label_540->setGeometry(QRect(90, 235, 31, 31));
-        label_540->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_540->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_540->setScaledContents(true);
         label_541 = new QLabel(widget_23);
         label_541->setObjectName("label_541");
@@ -3168,7 +3600,7 @@ public:
         label_548 = new QLabel(widget_24);
         label_548->setObjectName("label_548");
         label_548->setGeometry(QRect(12, 240, 16, 21));
-        label_548->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_548->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_548->setScaledContents(true);
         label_549 = new QLabel(widget_24);
         label_549->setObjectName("label_549");
@@ -3214,12 +3646,12 @@ public:
         label_556 = new QLabel(widget_24);
         label_556->setObjectName("label_556");
         label_556->setGeometry(QRect(200, 242, 21, 20));
-        label_556->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_556->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_556->setScaledContents(true);
         label_557 = new QLabel(widget_24);
         label_557->setObjectName("label_557");
         label_557->setGeometry(QRect(90, 235, 31, 31));
-        label_557->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_557->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_557->setScaledContents(true);
         label_558 = new QLabel(widget_24);
         label_558->setObjectName("label_558");
@@ -3283,7 +3715,7 @@ public:
         label_565 = new QLabel(widget_25);
         label_565->setObjectName("label_565");
         label_565->setGeometry(QRect(12, 240, 16, 21));
-        label_565->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_565->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_565->setScaledContents(true);
         label_566 = new QLabel(widget_25);
         label_566->setObjectName("label_566");
@@ -3329,12 +3761,12 @@ public:
         label_573 = new QLabel(widget_25);
         label_573->setObjectName("label_573");
         label_573->setGeometry(QRect(200, 242, 21, 20));
-        label_573->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_573->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_573->setScaledContents(true);
         label_574 = new QLabel(widget_25);
         label_574->setObjectName("label_574");
         label_574->setGeometry(QRect(90, 235, 31, 31));
-        label_574->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_574->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_574->setScaledContents(true);
         label_575 = new QLabel(widget_25);
         label_575->setObjectName("label_575");
@@ -3398,7 +3830,7 @@ public:
         label_582 = new QLabel(widget_26);
         label_582->setObjectName("label_582");
         label_582->setGeometry(QRect(12, 240, 16, 21));
-        label_582->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_582->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_582->setScaledContents(true);
         label_583 = new QLabel(widget_26);
         label_583->setObjectName("label_583");
@@ -3444,12 +3876,12 @@ public:
         label_590 = new QLabel(widget_26);
         label_590->setObjectName("label_590");
         label_590->setGeometry(QRect(200, 242, 21, 20));
-        label_590->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_590->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_590->setScaledContents(true);
         label_591 = new QLabel(widget_26);
         label_591->setObjectName("label_591");
         label_591->setGeometry(QRect(90, 235, 31, 31));
-        label_591->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_591->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_591->setScaledContents(true);
         label_592 = new QLabel(widget_26);
         label_592->setObjectName("label_592");
@@ -3513,7 +3945,7 @@ public:
         label_497 = new QLabel(widget_21);
         label_497->setObjectName("label_497");
         label_497->setGeometry(QRect(12, 240, 16, 21));
-        label_497->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_497->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_497->setScaledContents(true);
         label_498 = new QLabel(widget_21);
         label_498->setObjectName("label_498");
@@ -3559,12 +3991,12 @@ public:
         label_505 = new QLabel(widget_21);
         label_505->setObjectName("label_505");
         label_505->setGeometry(QRect(200, 242, 21, 20));
-        label_505->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_505->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_505->setScaledContents(true);
         label_506 = new QLabel(widget_21);
         label_506->setObjectName("label_506");
         label_506->setGeometry(QRect(90, 235, 31, 31));
-        label_506->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_506->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_506->setScaledContents(true);
         label_507 = new QLabel(widget_21);
         label_507->setObjectName("label_507");
@@ -3628,7 +4060,7 @@ public:
         label_514 = new QLabel(widget_22);
         label_514->setObjectName("label_514");
         label_514->setGeometry(QRect(12, 240, 16, 21));
-        label_514->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (3).png")));
+        label_514->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
         label_514->setScaledContents(true);
         label_515 = new QLabel(widget_22);
         label_515->setObjectName("label_515");
@@ -3674,12 +4106,12 @@ public:
         label_522 = new QLabel(widget_22);
         label_522->setObjectName("label_522");
         label_522->setGeometry(QRect(200, 242, 21, 20));
-        label_522->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (5).png")));
+        label_522->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
         label_522->setScaledContents(true);
         label_523 = new QLabel(widget_22);
         label_523->setObjectName("label_523");
         label_523->setGeometry(QRect(90, 235, 31, 31));
-        label_523->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/output-onlinepngtools (4).png")));
+        label_523->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
         label_523->setScaledContents(true);
         label_524 = new QLabel(widget_22);
         label_524->setObjectName("label_524");
@@ -3752,10 +4184,2273 @@ public:
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
-        label_3 = new QLabel(page_2);
-        label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(170, 200, 191, 41));
-        label_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        lineEdit_15 = new QLineEdit(page_2);
+        lineEdit_15->setObjectName("lineEdit_15");
+        lineEdit_15->setGeometry(QRect(50, 10, 411, 31));
+        lineEdit_15->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 199, 255);"));
+        comboBox_3 = new QComboBox(page_2);
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->setObjectName("comboBox_3");
+        comboBox_3->setGeometry(QRect(490, 10, 121, 31));
+        comboBox_3->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 199, 255);"));
+        comboBox_4 = new QComboBox(page_2);
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->setObjectName("comboBox_4");
+        comboBox_4->setGeometry(QRect(720, 10, 121, 31));
+        comboBox_4->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 199, 255);"));
+        pushButton_76 = new QPushButton(page_2);
+        pushButton_76->setObjectName("pushButton_76");
+        pushButton_76->setGeometry(QRect(420, 10, 41, 31));
+        pushButton_76->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 199, 255);"));
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/SearchIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_76->setIcon(icon3);
+        pushButton_76->setIconSize(QSize(30, 30));
+        pushButton_77 = new QPushButton(page_2);
+        pushButton_77->setObjectName("pushButton_77");
+        pushButton_77->setGeometry(QRect(840, 10, 41, 31));
+        pushButton_77->setStyleSheet(QString::fromUtf8("background-color: rgb(169, 199, 255);"));
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/SortIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_77->setIcon(icon4);
+        pushButton_77->setIconSize(QSize(30, 30));
+        stackedWidget_7 = new QStackedWidget(page_2);
+        stackedWidget_7->setObjectName("stackedWidget_7");
+        stackedWidget_7->setGeometry(QRect(40, 90, 1001, 691));
+        page_24 = new QWidget();
+        page_24->setObjectName("page_24");
+        widget_27 = new QWidget(page_24);
+        widget_27->setObjectName("widget_27");
+        widget_27->setGeometry(QRect(30, 10, 281, 281));
+        widget_27->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_635 = new QLabel(widget_27);
+        label_635->setObjectName("label_635");
+        label_635->setGeometry(QRect(12, 240, 16, 21));
+        label_635->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_635->setScaledContents(true);
+        label_636 = new QLabel(widget_27);
+        label_636->setObjectName("label_636");
+        label_636->setGeometry(QRect(10, 10, 151, 21));
+        label_636->setFont(font2);
+        label_636->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_637 = new QLabel(widget_27);
+        label_637->setObjectName("label_637");
+        label_637->setGeometry(QRect(10, 40, 21, 16));
+        label_637->setFont(font3);
+        label_637->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_638 = new QLabel(widget_27);
+        label_638->setObjectName("label_638");
+        label_638->setGeometry(QRect(35, 40, 111, 31));
+        label_638->setFont(font4);
+        label_638->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_639 = new QLabel(widget_27);
+        label_639->setObjectName("label_639");
+        label_639->setGeometry(QRect(185, 43, 31, 21));
+        label_639->setFont(font5);
+        label_639->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_640 = new QLabel(widget_27);
+        label_640->setObjectName("label_640");
+        label_640->setGeometry(QRect(220, 43, 41, 20));
+        label_640->setFont(font5);
+        label_640->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_641 = new QLabel(widget_27);
+        label_641->setObjectName("label_641");
+        label_641->setGeometry(QRect(20, 73, 241, 111));
+        label_641->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_641->setScaledContents(true);
+        label_642 = new QLabel(widget_27);
+        label_642->setObjectName("label_642");
+        label_642->setGeometry(QRect(10, 197, 91, 16));
+        label_642->setFont(font6);
+        label_642->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_643 = new QLabel(widget_27);
+        label_643->setObjectName("label_643");
+        label_643->setGeometry(QRect(200, 242, 21, 20));
+        label_643->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_643->setScaledContents(true);
+        label_644 = new QLabel(widget_27);
+        label_644->setObjectName("label_644");
+        label_644->setGeometry(QRect(90, 235, 31, 31));
+        label_644->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_644->setScaledContents(true);
+        label_645 = new QLabel(widget_27);
+        label_645->setObjectName("label_645");
+        label_645->setGeometry(QRect(40, 242, 31, 21));
+        label_645->setFont(font7);
+        label_645->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_646 = new QLabel(widget_27);
+        label_646->setObjectName("label_646");
+        label_646->setGeometry(QRect(130, 242, 41, 20));
+        label_646->setFont(font7);
+        label_646->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_647 = new QLabel(widget_27);
+        label_647->setObjectName("label_647");
+        label_647->setGeometry(QRect(230, 242, 31, 21));
+        label_647->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_27 = new QTextEdit(widget_27);
+        textEdit_27->setObjectName("textEdit_27");
+        textEdit_27->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_27->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_649 = new QLabel(widget_27);
+        label_649->setObjectName("label_649");
+        label_649->setGeometry(QRect(180, 10, 91, 20));
+        label_649->setFont(font9);
+        label_649->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_651 = new QLabel(widget_27);
+        label_651->setObjectName("label_651");
+        label_651->setGeometry(QRect(190, 160, 63, 20));
+        label_651->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_28 = new QWidget(page_24);
+        widget_28->setObjectName("widget_28");
+        widget_28->setGeometry(QRect(350, 10, 281, 281));
+        widget_28->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_653 = new QLabel(widget_28);
+        label_653->setObjectName("label_653");
+        label_653->setGeometry(QRect(12, 240, 16, 21));
+        label_653->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_653->setScaledContents(true);
+        label_657 = new QLabel(widget_28);
+        label_657->setObjectName("label_657");
+        label_657->setGeometry(QRect(10, 10, 151, 21));
+        label_657->setFont(font2);
+        label_657->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_658 = new QLabel(widget_28);
+        label_658->setObjectName("label_658");
+        label_658->setGeometry(QRect(10, 40, 21, 16));
+        label_658->setFont(font3);
+        label_658->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_659 = new QLabel(widget_28);
+        label_659->setObjectName("label_659");
+        label_659->setGeometry(QRect(35, 40, 111, 31));
+        label_659->setFont(font4);
+        label_659->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_660 = new QLabel(widget_28);
+        label_660->setObjectName("label_660");
+        label_660->setGeometry(QRect(185, 43, 31, 21));
+        label_660->setFont(font5);
+        label_660->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_661 = new QLabel(widget_28);
+        label_661->setObjectName("label_661");
+        label_661->setGeometry(QRect(220, 43, 41, 20));
+        label_661->setFont(font5);
+        label_661->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_662 = new QLabel(widget_28);
+        label_662->setObjectName("label_662");
+        label_662->setGeometry(QRect(20, 73, 241, 111));
+        label_662->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_662->setScaledContents(true);
+        label_663 = new QLabel(widget_28);
+        label_663->setObjectName("label_663");
+        label_663->setGeometry(QRect(10, 197, 91, 16));
+        label_663->setFont(font6);
+        label_663->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_664 = new QLabel(widget_28);
+        label_664->setObjectName("label_664");
+        label_664->setGeometry(QRect(200, 242, 21, 20));
+        label_664->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_664->setScaledContents(true);
+        label_665 = new QLabel(widget_28);
+        label_665->setObjectName("label_665");
+        label_665->setGeometry(QRect(90, 235, 31, 31));
+        label_665->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_665->setScaledContents(true);
+        label_666 = new QLabel(widget_28);
+        label_666->setObjectName("label_666");
+        label_666->setGeometry(QRect(40, 242, 31, 21));
+        label_666->setFont(font7);
+        label_666->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_667 = new QLabel(widget_28);
+        label_667->setObjectName("label_667");
+        label_667->setGeometry(QRect(130, 242, 41, 20));
+        label_667->setFont(font7);
+        label_667->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_668 = new QLabel(widget_28);
+        label_668->setObjectName("label_668");
+        label_668->setGeometry(QRect(230, 242, 31, 21));
+        label_668->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_28 = new QTextEdit(widget_28);
+        textEdit_28->setObjectName("textEdit_28");
+        textEdit_28->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_28->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_670 = new QLabel(widget_28);
+        label_670->setObjectName("label_670");
+        label_670->setGeometry(QRect(180, 10, 91, 20));
+        label_670->setFont(font9);
+        label_670->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_672 = new QLabel(widget_28);
+        label_672->setObjectName("label_672");
+        label_672->setGeometry(QRect(190, 160, 63, 20));
+        label_672->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_29 = new QWidget(page_24);
+        widget_29->setObjectName("widget_29");
+        widget_29->setGeometry(QRect(670, 10, 281, 281));
+        widget_29->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_673 = new QLabel(widget_29);
+        label_673->setObjectName("label_673");
+        label_673->setGeometry(QRect(12, 240, 16, 21));
+        label_673->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_673->setScaledContents(true);
+        label_674 = new QLabel(widget_29);
+        label_674->setObjectName("label_674");
+        label_674->setGeometry(QRect(10, 10, 151, 21));
+        label_674->setFont(font2);
+        label_674->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_675 = new QLabel(widget_29);
+        label_675->setObjectName("label_675");
+        label_675->setGeometry(QRect(10, 40, 21, 16));
+        label_675->setFont(font3);
+        label_675->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_676 = new QLabel(widget_29);
+        label_676->setObjectName("label_676");
+        label_676->setGeometry(QRect(35, 40, 111, 31));
+        label_676->setFont(font4);
+        label_676->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_677 = new QLabel(widget_29);
+        label_677->setObjectName("label_677");
+        label_677->setGeometry(QRect(185, 43, 31, 21));
+        label_677->setFont(font5);
+        label_677->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_678 = new QLabel(widget_29);
+        label_678->setObjectName("label_678");
+        label_678->setGeometry(QRect(220, 43, 41, 20));
+        label_678->setFont(font5);
+        label_678->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_679 = new QLabel(widget_29);
+        label_679->setObjectName("label_679");
+        label_679->setGeometry(QRect(20, 73, 241, 111));
+        label_679->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_679->setScaledContents(true);
+        label_680 = new QLabel(widget_29);
+        label_680->setObjectName("label_680");
+        label_680->setGeometry(QRect(10, 197, 91, 16));
+        label_680->setFont(font6);
+        label_680->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_681 = new QLabel(widget_29);
+        label_681->setObjectName("label_681");
+        label_681->setGeometry(QRect(200, 242, 21, 20));
+        label_681->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_681->setScaledContents(true);
+        label_682 = new QLabel(widget_29);
+        label_682->setObjectName("label_682");
+        label_682->setGeometry(QRect(90, 235, 31, 31));
+        label_682->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_682->setScaledContents(true);
+        label_683 = new QLabel(widget_29);
+        label_683->setObjectName("label_683");
+        label_683->setGeometry(QRect(40, 242, 31, 21));
+        label_683->setFont(font7);
+        label_683->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_684 = new QLabel(widget_29);
+        label_684->setObjectName("label_684");
+        label_684->setGeometry(QRect(130, 242, 41, 20));
+        label_684->setFont(font7);
+        label_684->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_685 = new QLabel(widget_29);
+        label_685->setObjectName("label_685");
+        label_685->setGeometry(QRect(230, 242, 31, 21));
+        label_685->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_29 = new QTextEdit(widget_29);
+        textEdit_29->setObjectName("textEdit_29");
+        textEdit_29->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_29->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_687 = new QLabel(widget_29);
+        label_687->setObjectName("label_687");
+        label_687->setGeometry(QRect(180, 10, 91, 20));
+        label_687->setFont(font9);
+        label_687->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_689 = new QLabel(widget_29);
+        label_689->setObjectName("label_689");
+        label_689->setGeometry(QRect(190, 160, 63, 20));
+        label_689->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_30 = new QWidget(page_24);
+        widget_30->setObjectName("widget_30");
+        widget_30->setGeometry(QRect(30, 360, 281, 281));
+        widget_30->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_690 = new QLabel(widget_30);
+        label_690->setObjectName("label_690");
+        label_690->setGeometry(QRect(12, 240, 16, 21));
+        label_690->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_690->setScaledContents(true);
+        label_691 = new QLabel(widget_30);
+        label_691->setObjectName("label_691");
+        label_691->setGeometry(QRect(10, 10, 151, 21));
+        label_691->setFont(font2);
+        label_691->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_692 = new QLabel(widget_30);
+        label_692->setObjectName("label_692");
+        label_692->setGeometry(QRect(10, 40, 21, 16));
+        label_692->setFont(font3);
+        label_692->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_693 = new QLabel(widget_30);
+        label_693->setObjectName("label_693");
+        label_693->setGeometry(QRect(35, 40, 111, 31));
+        label_693->setFont(font4);
+        label_693->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_694 = new QLabel(widget_30);
+        label_694->setObjectName("label_694");
+        label_694->setGeometry(QRect(185, 43, 31, 21));
+        label_694->setFont(font5);
+        label_694->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_695 = new QLabel(widget_30);
+        label_695->setObjectName("label_695");
+        label_695->setGeometry(QRect(220, 43, 41, 20));
+        label_695->setFont(font5);
+        label_695->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_696 = new QLabel(widget_30);
+        label_696->setObjectName("label_696");
+        label_696->setGeometry(QRect(20, 73, 241, 111));
+        label_696->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_696->setScaledContents(true);
+        label_697 = new QLabel(widget_30);
+        label_697->setObjectName("label_697");
+        label_697->setGeometry(QRect(10, 197, 91, 16));
+        label_697->setFont(font6);
+        label_697->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_698 = new QLabel(widget_30);
+        label_698->setObjectName("label_698");
+        label_698->setGeometry(QRect(200, 242, 21, 20));
+        label_698->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_698->setScaledContents(true);
+        label_699 = new QLabel(widget_30);
+        label_699->setObjectName("label_699");
+        label_699->setGeometry(QRect(90, 235, 31, 31));
+        label_699->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_699->setScaledContents(true);
+        label_700 = new QLabel(widget_30);
+        label_700->setObjectName("label_700");
+        label_700->setGeometry(QRect(40, 242, 31, 21));
+        label_700->setFont(font7);
+        label_700->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_701 = new QLabel(widget_30);
+        label_701->setObjectName("label_701");
+        label_701->setGeometry(QRect(130, 242, 41, 20));
+        label_701->setFont(font7);
+        label_701->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_702 = new QLabel(widget_30);
+        label_702->setObjectName("label_702");
+        label_702->setGeometry(QRect(230, 242, 31, 21));
+        label_702->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_30 = new QTextEdit(widget_30);
+        textEdit_30->setObjectName("textEdit_30");
+        textEdit_30->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_30->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_704 = new QLabel(widget_30);
+        label_704->setObjectName("label_704");
+        label_704->setGeometry(QRect(180, 10, 91, 20));
+        label_704->setFont(font9);
+        label_704->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_706 = new QLabel(widget_30);
+        label_706->setObjectName("label_706");
+        label_706->setGeometry(QRect(190, 160, 63, 20));
+        label_706->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_31 = new QWidget(page_24);
+        widget_31->setObjectName("widget_31");
+        widget_31->setGeometry(QRect(350, 360, 281, 281));
+        widget_31->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_707 = new QLabel(widget_31);
+        label_707->setObjectName("label_707");
+        label_707->setGeometry(QRect(12, 240, 16, 21));
+        label_707->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_707->setScaledContents(true);
+        label_708 = new QLabel(widget_31);
+        label_708->setObjectName("label_708");
+        label_708->setGeometry(QRect(10, 10, 151, 21));
+        label_708->setFont(font2);
+        label_708->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_709 = new QLabel(widget_31);
+        label_709->setObjectName("label_709");
+        label_709->setGeometry(QRect(10, 40, 21, 16));
+        label_709->setFont(font3);
+        label_709->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_710 = new QLabel(widget_31);
+        label_710->setObjectName("label_710");
+        label_710->setGeometry(QRect(35, 40, 111, 31));
+        label_710->setFont(font4);
+        label_710->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_711 = new QLabel(widget_31);
+        label_711->setObjectName("label_711");
+        label_711->setGeometry(QRect(185, 43, 31, 21));
+        label_711->setFont(font5);
+        label_711->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_712 = new QLabel(widget_31);
+        label_712->setObjectName("label_712");
+        label_712->setGeometry(QRect(220, 43, 41, 20));
+        label_712->setFont(font5);
+        label_712->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_713 = new QLabel(widget_31);
+        label_713->setObjectName("label_713");
+        label_713->setGeometry(QRect(20, 73, 241, 111));
+        label_713->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_713->setScaledContents(true);
+        label_714 = new QLabel(widget_31);
+        label_714->setObjectName("label_714");
+        label_714->setGeometry(QRect(10, 197, 91, 16));
+        label_714->setFont(font6);
+        label_714->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_715 = new QLabel(widget_31);
+        label_715->setObjectName("label_715");
+        label_715->setGeometry(QRect(200, 242, 21, 20));
+        label_715->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_715->setScaledContents(true);
+        label_716 = new QLabel(widget_31);
+        label_716->setObjectName("label_716");
+        label_716->setGeometry(QRect(90, 235, 31, 31));
+        label_716->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_716->setScaledContents(true);
+        label_717 = new QLabel(widget_31);
+        label_717->setObjectName("label_717");
+        label_717->setGeometry(QRect(40, 242, 31, 21));
+        label_717->setFont(font7);
+        label_717->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_718 = new QLabel(widget_31);
+        label_718->setObjectName("label_718");
+        label_718->setGeometry(QRect(130, 242, 41, 20));
+        label_718->setFont(font7);
+        label_718->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_719 = new QLabel(widget_31);
+        label_719->setObjectName("label_719");
+        label_719->setGeometry(QRect(230, 242, 31, 21));
+        label_719->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_31 = new QTextEdit(widget_31);
+        textEdit_31->setObjectName("textEdit_31");
+        textEdit_31->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_31->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_721 = new QLabel(widget_31);
+        label_721->setObjectName("label_721");
+        label_721->setGeometry(QRect(180, 10, 91, 20));
+        label_721->setFont(font9);
+        label_721->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_723 = new QLabel(widget_31);
+        label_723->setObjectName("label_723");
+        label_723->setGeometry(QRect(190, 160, 63, 20));
+        label_723->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_32 = new QWidget(page_24);
+        widget_32->setObjectName("widget_32");
+        widget_32->setGeometry(QRect(670, 360, 281, 281));
+        widget_32->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_724 = new QLabel(widget_32);
+        label_724->setObjectName("label_724");
+        label_724->setGeometry(QRect(12, 240, 16, 21));
+        label_724->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_724->setScaledContents(true);
+        label_725 = new QLabel(widget_32);
+        label_725->setObjectName("label_725");
+        label_725->setGeometry(QRect(10, 10, 151, 21));
+        label_725->setFont(font2);
+        label_725->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_726 = new QLabel(widget_32);
+        label_726->setObjectName("label_726");
+        label_726->setGeometry(QRect(10, 40, 21, 16));
+        label_726->setFont(font3);
+        label_726->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_727 = new QLabel(widget_32);
+        label_727->setObjectName("label_727");
+        label_727->setGeometry(QRect(35, 40, 111, 31));
+        label_727->setFont(font4);
+        label_727->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_728 = new QLabel(widget_32);
+        label_728->setObjectName("label_728");
+        label_728->setGeometry(QRect(185, 43, 31, 21));
+        label_728->setFont(font5);
+        label_728->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_729 = new QLabel(widget_32);
+        label_729->setObjectName("label_729");
+        label_729->setGeometry(QRect(220, 43, 41, 20));
+        label_729->setFont(font5);
+        label_729->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_730 = new QLabel(widget_32);
+        label_730->setObjectName("label_730");
+        label_730->setGeometry(QRect(20, 73, 241, 111));
+        label_730->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_730->setScaledContents(true);
+        label_731 = new QLabel(widget_32);
+        label_731->setObjectName("label_731");
+        label_731->setGeometry(QRect(10, 197, 91, 16));
+        label_731->setFont(font6);
+        label_731->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_732 = new QLabel(widget_32);
+        label_732->setObjectName("label_732");
+        label_732->setGeometry(QRect(200, 242, 21, 20));
+        label_732->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_732->setScaledContents(true);
+        label_733 = new QLabel(widget_32);
+        label_733->setObjectName("label_733");
+        label_733->setGeometry(QRect(90, 235, 31, 31));
+        label_733->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_733->setScaledContents(true);
+        label_734 = new QLabel(widget_32);
+        label_734->setObjectName("label_734");
+        label_734->setGeometry(QRect(40, 242, 31, 21));
+        label_734->setFont(font7);
+        label_734->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_735 = new QLabel(widget_32);
+        label_735->setObjectName("label_735");
+        label_735->setGeometry(QRect(130, 242, 41, 20));
+        label_735->setFont(font7);
+        label_735->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_736 = new QLabel(widget_32);
+        label_736->setObjectName("label_736");
+        label_736->setGeometry(QRect(230, 242, 31, 21));
+        label_736->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_32 = new QTextEdit(widget_32);
+        textEdit_32->setObjectName("textEdit_32");
+        textEdit_32->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_32->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_738 = new QLabel(widget_32);
+        label_738->setObjectName("label_738");
+        label_738->setGeometry(QRect(180, 10, 91, 20));
+        label_738->setFont(font9);
+        label_738->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_740 = new QLabel(widget_32);
+        label_740->setObjectName("label_740");
+        label_740->setGeometry(QRect(190, 160, 63, 20));
+        label_740->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        stackedWidget_7->addWidget(page_24);
+        page_25 = new QWidget();
+        page_25->setObjectName("page_25");
+        widget_34 = new QWidget(page_25);
+        widget_34->setObjectName("widget_34");
+        widget_34->setGeometry(QRect(350, 10, 281, 281));
+        widget_34->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_758 = new QLabel(widget_34);
+        label_758->setObjectName("label_758");
+        label_758->setGeometry(QRect(12, 240, 16, 21));
+        label_758->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_758->setScaledContents(true);
+        label_759 = new QLabel(widget_34);
+        label_759->setObjectName("label_759");
+        label_759->setGeometry(QRect(10, 10, 151, 21));
+        label_759->setFont(font2);
+        label_759->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_760 = new QLabel(widget_34);
+        label_760->setObjectName("label_760");
+        label_760->setGeometry(QRect(10, 40, 21, 16));
+        label_760->setFont(font3);
+        label_760->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_761 = new QLabel(widget_34);
+        label_761->setObjectName("label_761");
+        label_761->setGeometry(QRect(35, 40, 111, 31));
+        label_761->setFont(font4);
+        label_761->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_762 = new QLabel(widget_34);
+        label_762->setObjectName("label_762");
+        label_762->setGeometry(QRect(185, 43, 31, 21));
+        label_762->setFont(font5);
+        label_762->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_763 = new QLabel(widget_34);
+        label_763->setObjectName("label_763");
+        label_763->setGeometry(QRect(220, 43, 41, 20));
+        label_763->setFont(font5);
+        label_763->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_764 = new QLabel(widget_34);
+        label_764->setObjectName("label_764");
+        label_764->setGeometry(QRect(20, 73, 241, 111));
+        label_764->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_764->setScaledContents(true);
+        label_765 = new QLabel(widget_34);
+        label_765->setObjectName("label_765");
+        label_765->setGeometry(QRect(10, 197, 91, 16));
+        label_765->setFont(font6);
+        label_765->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_766 = new QLabel(widget_34);
+        label_766->setObjectName("label_766");
+        label_766->setGeometry(QRect(200, 242, 21, 20));
+        label_766->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_766->setScaledContents(true);
+        label_767 = new QLabel(widget_34);
+        label_767->setObjectName("label_767");
+        label_767->setGeometry(QRect(90, 235, 31, 31));
+        label_767->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_767->setScaledContents(true);
+        label_768 = new QLabel(widget_34);
+        label_768->setObjectName("label_768");
+        label_768->setGeometry(QRect(40, 242, 31, 21));
+        label_768->setFont(font7);
+        label_768->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_769 = new QLabel(widget_34);
+        label_769->setObjectName("label_769");
+        label_769->setGeometry(QRect(130, 242, 41, 20));
+        label_769->setFont(font7);
+        label_769->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_770 = new QLabel(widget_34);
+        label_770->setObjectName("label_770");
+        label_770->setGeometry(QRect(230, 242, 31, 21));
+        label_770->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_34 = new QTextEdit(widget_34);
+        textEdit_34->setObjectName("textEdit_34");
+        textEdit_34->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_34->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_772 = new QLabel(widget_34);
+        label_772->setObjectName("label_772");
+        label_772->setGeometry(QRect(180, 10, 91, 20));
+        label_772->setFont(font9);
+        label_772->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_774 = new QLabel(widget_34);
+        label_774->setObjectName("label_774");
+        label_774->setGeometry(QRect(190, 160, 63, 20));
+        label_774->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_37 = new QWidget(page_25);
+        widget_37->setObjectName("widget_37");
+        widget_37->setGeometry(QRect(350, 360, 281, 281));
+        widget_37->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_809 = new QLabel(widget_37);
+        label_809->setObjectName("label_809");
+        label_809->setGeometry(QRect(12, 240, 16, 21));
+        label_809->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_809->setScaledContents(true);
+        label_810 = new QLabel(widget_37);
+        label_810->setObjectName("label_810");
+        label_810->setGeometry(QRect(10, 10, 151, 21));
+        label_810->setFont(font2);
+        label_810->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_811 = new QLabel(widget_37);
+        label_811->setObjectName("label_811");
+        label_811->setGeometry(QRect(10, 40, 21, 16));
+        label_811->setFont(font3);
+        label_811->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_812 = new QLabel(widget_37);
+        label_812->setObjectName("label_812");
+        label_812->setGeometry(QRect(35, 40, 111, 31));
+        label_812->setFont(font4);
+        label_812->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_813 = new QLabel(widget_37);
+        label_813->setObjectName("label_813");
+        label_813->setGeometry(QRect(185, 43, 31, 21));
+        label_813->setFont(font5);
+        label_813->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_814 = new QLabel(widget_37);
+        label_814->setObjectName("label_814");
+        label_814->setGeometry(QRect(220, 43, 41, 20));
+        label_814->setFont(font5);
+        label_814->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_815 = new QLabel(widget_37);
+        label_815->setObjectName("label_815");
+        label_815->setGeometry(QRect(20, 73, 241, 111));
+        label_815->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_815->setScaledContents(true);
+        label_816 = new QLabel(widget_37);
+        label_816->setObjectName("label_816");
+        label_816->setGeometry(QRect(10, 197, 91, 16));
+        label_816->setFont(font6);
+        label_816->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_817 = new QLabel(widget_37);
+        label_817->setObjectName("label_817");
+        label_817->setGeometry(QRect(200, 242, 21, 20));
+        label_817->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_817->setScaledContents(true);
+        label_818 = new QLabel(widget_37);
+        label_818->setObjectName("label_818");
+        label_818->setGeometry(QRect(90, 235, 31, 31));
+        label_818->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_818->setScaledContents(true);
+        label_819 = new QLabel(widget_37);
+        label_819->setObjectName("label_819");
+        label_819->setGeometry(QRect(40, 242, 31, 21));
+        label_819->setFont(font7);
+        label_819->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_820 = new QLabel(widget_37);
+        label_820->setObjectName("label_820");
+        label_820->setGeometry(QRect(130, 242, 41, 20));
+        label_820->setFont(font7);
+        label_820->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_821 = new QLabel(widget_37);
+        label_821->setObjectName("label_821");
+        label_821->setGeometry(QRect(230, 242, 31, 21));
+        label_821->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_37 = new QTextEdit(widget_37);
+        textEdit_37->setObjectName("textEdit_37");
+        textEdit_37->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_37->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_823 = new QLabel(widget_37);
+        label_823->setObjectName("label_823");
+        label_823->setGeometry(QRect(180, 10, 91, 20));
+        label_823->setFont(font9);
+        label_823->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_825 = new QLabel(widget_37);
+        label_825->setObjectName("label_825");
+        label_825->setGeometry(QRect(190, 160, 63, 20));
+        label_825->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_38 = new QWidget(page_25);
+        widget_38->setObjectName("widget_38");
+        widget_38->setGeometry(QRect(670, 360, 281, 281));
+        widget_38->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_826 = new QLabel(widget_38);
+        label_826->setObjectName("label_826");
+        label_826->setGeometry(QRect(12, 240, 16, 21));
+        label_826->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_826->setScaledContents(true);
+        label_827 = new QLabel(widget_38);
+        label_827->setObjectName("label_827");
+        label_827->setGeometry(QRect(10, 10, 151, 21));
+        label_827->setFont(font2);
+        label_827->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_828 = new QLabel(widget_38);
+        label_828->setObjectName("label_828");
+        label_828->setGeometry(QRect(10, 40, 21, 16));
+        label_828->setFont(font3);
+        label_828->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_829 = new QLabel(widget_38);
+        label_829->setObjectName("label_829");
+        label_829->setGeometry(QRect(35, 40, 111, 31));
+        label_829->setFont(font4);
+        label_829->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_830 = new QLabel(widget_38);
+        label_830->setObjectName("label_830");
+        label_830->setGeometry(QRect(185, 43, 31, 21));
+        label_830->setFont(font5);
+        label_830->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_831 = new QLabel(widget_38);
+        label_831->setObjectName("label_831");
+        label_831->setGeometry(QRect(220, 43, 41, 20));
+        label_831->setFont(font5);
+        label_831->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_832 = new QLabel(widget_38);
+        label_832->setObjectName("label_832");
+        label_832->setGeometry(QRect(20, 73, 241, 111));
+        label_832->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_832->setScaledContents(true);
+        label_833 = new QLabel(widget_38);
+        label_833->setObjectName("label_833");
+        label_833->setGeometry(QRect(10, 197, 91, 16));
+        label_833->setFont(font6);
+        label_833->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_834 = new QLabel(widget_38);
+        label_834->setObjectName("label_834");
+        label_834->setGeometry(QRect(200, 242, 21, 20));
+        label_834->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_834->setScaledContents(true);
+        label_835 = new QLabel(widget_38);
+        label_835->setObjectName("label_835");
+        label_835->setGeometry(QRect(90, 235, 31, 31));
+        label_835->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_835->setScaledContents(true);
+        label_836 = new QLabel(widget_38);
+        label_836->setObjectName("label_836");
+        label_836->setGeometry(QRect(40, 242, 31, 21));
+        label_836->setFont(font7);
+        label_836->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_837 = new QLabel(widget_38);
+        label_837->setObjectName("label_837");
+        label_837->setGeometry(QRect(130, 242, 41, 20));
+        label_837->setFont(font7);
+        label_837->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_838 = new QLabel(widget_38);
+        label_838->setObjectName("label_838");
+        label_838->setGeometry(QRect(230, 242, 31, 21));
+        label_838->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_38 = new QTextEdit(widget_38);
+        textEdit_38->setObjectName("textEdit_38");
+        textEdit_38->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_38->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_840 = new QLabel(widget_38);
+        label_840->setObjectName("label_840");
+        label_840->setGeometry(QRect(180, 10, 91, 20));
+        label_840->setFont(font9);
+        label_840->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_842 = new QLabel(widget_38);
+        label_842->setObjectName("label_842");
+        label_842->setGeometry(QRect(190, 160, 63, 20));
+        label_842->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_33 = new QWidget(page_25);
+        widget_33->setObjectName("widget_33");
+        widget_33->setGeometry(QRect(30, 10, 281, 281));
+        widget_33->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_741 = new QLabel(widget_33);
+        label_741->setObjectName("label_741");
+        label_741->setGeometry(QRect(12, 240, 16, 21));
+        label_741->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_741->setScaledContents(true);
+        label_742 = new QLabel(widget_33);
+        label_742->setObjectName("label_742");
+        label_742->setGeometry(QRect(10, 10, 151, 21));
+        label_742->setFont(font2);
+        label_742->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_743 = new QLabel(widget_33);
+        label_743->setObjectName("label_743");
+        label_743->setGeometry(QRect(10, 40, 21, 16));
+        label_743->setFont(font3);
+        label_743->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_744 = new QLabel(widget_33);
+        label_744->setObjectName("label_744");
+        label_744->setGeometry(QRect(35, 40, 111, 31));
+        label_744->setFont(font4);
+        label_744->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_745 = new QLabel(widget_33);
+        label_745->setObjectName("label_745");
+        label_745->setGeometry(QRect(185, 43, 31, 21));
+        label_745->setFont(font5);
+        label_745->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_746 = new QLabel(widget_33);
+        label_746->setObjectName("label_746");
+        label_746->setGeometry(QRect(220, 43, 41, 20));
+        label_746->setFont(font5);
+        label_746->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_747 = new QLabel(widget_33);
+        label_747->setObjectName("label_747");
+        label_747->setGeometry(QRect(20, 73, 241, 111));
+        label_747->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_747->setScaledContents(true);
+        label_748 = new QLabel(widget_33);
+        label_748->setObjectName("label_748");
+        label_748->setGeometry(QRect(10, 197, 91, 16));
+        label_748->setFont(font6);
+        label_748->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_749 = new QLabel(widget_33);
+        label_749->setObjectName("label_749");
+        label_749->setGeometry(QRect(200, 242, 21, 20));
+        label_749->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_749->setScaledContents(true);
+        label_750 = new QLabel(widget_33);
+        label_750->setObjectName("label_750");
+        label_750->setGeometry(QRect(90, 235, 31, 31));
+        label_750->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_750->setScaledContents(true);
+        label_751 = new QLabel(widget_33);
+        label_751->setObjectName("label_751");
+        label_751->setGeometry(QRect(40, 242, 31, 21));
+        label_751->setFont(font7);
+        label_751->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_752 = new QLabel(widget_33);
+        label_752->setObjectName("label_752");
+        label_752->setGeometry(QRect(130, 242, 41, 20));
+        label_752->setFont(font7);
+        label_752->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_753 = new QLabel(widget_33);
+        label_753->setObjectName("label_753");
+        label_753->setGeometry(QRect(230, 242, 31, 21));
+        label_753->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_33 = new QTextEdit(widget_33);
+        textEdit_33->setObjectName("textEdit_33");
+        textEdit_33->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_33->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_755 = new QLabel(widget_33);
+        label_755->setObjectName("label_755");
+        label_755->setGeometry(QRect(180, 10, 91, 20));
+        label_755->setFont(font9);
+        label_755->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_757 = new QLabel(widget_33);
+        label_757->setObjectName("label_757");
+        label_757->setGeometry(QRect(190, 160, 63, 20));
+        label_757->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_35 = new QWidget(page_25);
+        widget_35->setObjectName("widget_35");
+        widget_35->setGeometry(QRect(670, 10, 281, 281));
+        widget_35->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_775 = new QLabel(widget_35);
+        label_775->setObjectName("label_775");
+        label_775->setGeometry(QRect(12, 240, 16, 21));
+        label_775->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_775->setScaledContents(true);
+        label_776 = new QLabel(widget_35);
+        label_776->setObjectName("label_776");
+        label_776->setGeometry(QRect(10, 10, 151, 21));
+        label_776->setFont(font2);
+        label_776->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_777 = new QLabel(widget_35);
+        label_777->setObjectName("label_777");
+        label_777->setGeometry(QRect(10, 40, 21, 16));
+        label_777->setFont(font3);
+        label_777->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_778 = new QLabel(widget_35);
+        label_778->setObjectName("label_778");
+        label_778->setGeometry(QRect(35, 40, 111, 31));
+        label_778->setFont(font4);
+        label_778->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_779 = new QLabel(widget_35);
+        label_779->setObjectName("label_779");
+        label_779->setGeometry(QRect(185, 43, 31, 21));
+        label_779->setFont(font5);
+        label_779->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_780 = new QLabel(widget_35);
+        label_780->setObjectName("label_780");
+        label_780->setGeometry(QRect(220, 43, 41, 20));
+        label_780->setFont(font5);
+        label_780->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_781 = new QLabel(widget_35);
+        label_781->setObjectName("label_781");
+        label_781->setGeometry(QRect(20, 73, 241, 111));
+        label_781->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_781->setScaledContents(true);
+        label_782 = new QLabel(widget_35);
+        label_782->setObjectName("label_782");
+        label_782->setGeometry(QRect(10, 197, 91, 16));
+        label_782->setFont(font6);
+        label_782->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_783 = new QLabel(widget_35);
+        label_783->setObjectName("label_783");
+        label_783->setGeometry(QRect(200, 242, 21, 20));
+        label_783->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_783->setScaledContents(true);
+        label_784 = new QLabel(widget_35);
+        label_784->setObjectName("label_784");
+        label_784->setGeometry(QRect(90, 235, 31, 31));
+        label_784->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_784->setScaledContents(true);
+        label_785 = new QLabel(widget_35);
+        label_785->setObjectName("label_785");
+        label_785->setGeometry(QRect(40, 242, 31, 21));
+        label_785->setFont(font7);
+        label_785->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_786 = new QLabel(widget_35);
+        label_786->setObjectName("label_786");
+        label_786->setGeometry(QRect(130, 242, 41, 20));
+        label_786->setFont(font7);
+        label_786->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_787 = new QLabel(widget_35);
+        label_787->setObjectName("label_787");
+        label_787->setGeometry(QRect(230, 242, 31, 21));
+        label_787->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_35 = new QTextEdit(widget_35);
+        textEdit_35->setObjectName("textEdit_35");
+        textEdit_35->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_35->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_789 = new QLabel(widget_35);
+        label_789->setObjectName("label_789");
+        label_789->setGeometry(QRect(180, 10, 91, 20));
+        label_789->setFont(font9);
+        label_789->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_791 = new QLabel(widget_35);
+        label_791->setObjectName("label_791");
+        label_791->setGeometry(QRect(190, 160, 63, 20));
+        label_791->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_36 = new QWidget(page_25);
+        widget_36->setObjectName("widget_36");
+        widget_36->setGeometry(QRect(30, 360, 281, 281));
+        widget_36->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_792 = new QLabel(widget_36);
+        label_792->setObjectName("label_792");
+        label_792->setGeometry(QRect(12, 240, 16, 21));
+        label_792->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_792->setScaledContents(true);
+        label_793 = new QLabel(widget_36);
+        label_793->setObjectName("label_793");
+        label_793->setGeometry(QRect(10, 10, 151, 21));
+        label_793->setFont(font2);
+        label_793->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_794 = new QLabel(widget_36);
+        label_794->setObjectName("label_794");
+        label_794->setGeometry(QRect(10, 40, 21, 16));
+        label_794->setFont(font3);
+        label_794->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_795 = new QLabel(widget_36);
+        label_795->setObjectName("label_795");
+        label_795->setGeometry(QRect(35, 40, 111, 31));
+        label_795->setFont(font4);
+        label_795->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_796 = new QLabel(widget_36);
+        label_796->setObjectName("label_796");
+        label_796->setGeometry(QRect(185, 43, 31, 21));
+        label_796->setFont(font5);
+        label_796->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_797 = new QLabel(widget_36);
+        label_797->setObjectName("label_797");
+        label_797->setGeometry(QRect(220, 43, 41, 20));
+        label_797->setFont(font5);
+        label_797->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_798 = new QLabel(widget_36);
+        label_798->setObjectName("label_798");
+        label_798->setGeometry(QRect(20, 73, 241, 111));
+        label_798->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_798->setScaledContents(true);
+        label_799 = new QLabel(widget_36);
+        label_799->setObjectName("label_799");
+        label_799->setGeometry(QRect(10, 197, 91, 16));
+        label_799->setFont(font6);
+        label_799->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_800 = new QLabel(widget_36);
+        label_800->setObjectName("label_800");
+        label_800->setGeometry(QRect(200, 242, 21, 20));
+        label_800->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_800->setScaledContents(true);
+        label_801 = new QLabel(widget_36);
+        label_801->setObjectName("label_801");
+        label_801->setGeometry(QRect(90, 235, 31, 31));
+        label_801->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_801->setScaledContents(true);
+        label_802 = new QLabel(widget_36);
+        label_802->setObjectName("label_802");
+        label_802->setGeometry(QRect(40, 242, 31, 21));
+        label_802->setFont(font7);
+        label_802->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_803 = new QLabel(widget_36);
+        label_803->setObjectName("label_803");
+        label_803->setGeometry(QRect(130, 242, 41, 20));
+        label_803->setFont(font7);
+        label_803->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_804 = new QLabel(widget_36);
+        label_804->setObjectName("label_804");
+        label_804->setGeometry(QRect(230, 242, 31, 21));
+        label_804->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_36 = new QTextEdit(widget_36);
+        textEdit_36->setObjectName("textEdit_36");
+        textEdit_36->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_36->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_806 = new QLabel(widget_36);
+        label_806->setObjectName("label_806");
+        label_806->setGeometry(QRect(180, 10, 91, 20));
+        label_806->setFont(font9);
+        label_806->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_808 = new QLabel(widget_36);
+        label_808->setObjectName("label_808");
+        label_808->setGeometry(QRect(190, 160, 63, 20));
+        label_808->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        stackedWidget_7->addWidget(page_25);
+        page_26 = new QWidget();
+        page_26->setObjectName("page_26");
+        widget_42 = new QWidget(page_26);
+        widget_42->setObjectName("widget_42");
+        widget_42->setGeometry(QRect(30, 360, 281, 281));
+        widget_42->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_894 = new QLabel(widget_42);
+        label_894->setObjectName("label_894");
+        label_894->setGeometry(QRect(12, 240, 16, 21));
+        label_894->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_894->setScaledContents(true);
+        label_895 = new QLabel(widget_42);
+        label_895->setObjectName("label_895");
+        label_895->setGeometry(QRect(10, 10, 151, 21));
+        label_895->setFont(font2);
+        label_895->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_896 = new QLabel(widget_42);
+        label_896->setObjectName("label_896");
+        label_896->setGeometry(QRect(10, 40, 21, 16));
+        label_896->setFont(font3);
+        label_896->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_897 = new QLabel(widget_42);
+        label_897->setObjectName("label_897");
+        label_897->setGeometry(QRect(35, 40, 111, 31));
+        label_897->setFont(font4);
+        label_897->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_898 = new QLabel(widget_42);
+        label_898->setObjectName("label_898");
+        label_898->setGeometry(QRect(185, 43, 31, 21));
+        label_898->setFont(font5);
+        label_898->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_899 = new QLabel(widget_42);
+        label_899->setObjectName("label_899");
+        label_899->setGeometry(QRect(220, 43, 41, 20));
+        label_899->setFont(font5);
+        label_899->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_900 = new QLabel(widget_42);
+        label_900->setObjectName("label_900");
+        label_900->setGeometry(QRect(20, 73, 241, 111));
+        label_900->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_900->setScaledContents(true);
+        label_901 = new QLabel(widget_42);
+        label_901->setObjectName("label_901");
+        label_901->setGeometry(QRect(10, 197, 91, 16));
+        label_901->setFont(font6);
+        label_901->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_902 = new QLabel(widget_42);
+        label_902->setObjectName("label_902");
+        label_902->setGeometry(QRect(200, 242, 21, 20));
+        label_902->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_902->setScaledContents(true);
+        label_903 = new QLabel(widget_42);
+        label_903->setObjectName("label_903");
+        label_903->setGeometry(QRect(90, 235, 31, 31));
+        label_903->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_903->setScaledContents(true);
+        label_904 = new QLabel(widget_42);
+        label_904->setObjectName("label_904");
+        label_904->setGeometry(QRect(40, 242, 31, 21));
+        label_904->setFont(font7);
+        label_904->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_905 = new QLabel(widget_42);
+        label_905->setObjectName("label_905");
+        label_905->setGeometry(QRect(130, 242, 41, 20));
+        label_905->setFont(font7);
+        label_905->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_906 = new QLabel(widget_42);
+        label_906->setObjectName("label_906");
+        label_906->setGeometry(QRect(230, 242, 31, 21));
+        label_906->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_42 = new QTextEdit(widget_42);
+        textEdit_42->setObjectName("textEdit_42");
+        textEdit_42->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_42->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_908 = new QLabel(widget_42);
+        label_908->setObjectName("label_908");
+        label_908->setGeometry(QRect(180, 10, 91, 20));
+        label_908->setFont(font9);
+        label_908->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_910 = new QLabel(widget_42);
+        label_910->setObjectName("label_910");
+        label_910->setGeometry(QRect(190, 160, 63, 20));
+        label_910->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_43 = new QWidget(page_26);
+        widget_43->setObjectName("widget_43");
+        widget_43->setGeometry(QRect(350, 360, 281, 281));
+        widget_43->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_911 = new QLabel(widget_43);
+        label_911->setObjectName("label_911");
+        label_911->setGeometry(QRect(12, 240, 16, 21));
+        label_911->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_911->setScaledContents(true);
+        label_912 = new QLabel(widget_43);
+        label_912->setObjectName("label_912");
+        label_912->setGeometry(QRect(10, 10, 151, 21));
+        label_912->setFont(font2);
+        label_912->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_913 = new QLabel(widget_43);
+        label_913->setObjectName("label_913");
+        label_913->setGeometry(QRect(10, 40, 21, 16));
+        label_913->setFont(font3);
+        label_913->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_914 = new QLabel(widget_43);
+        label_914->setObjectName("label_914");
+        label_914->setGeometry(QRect(35, 40, 111, 31));
+        label_914->setFont(font4);
+        label_914->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_915 = new QLabel(widget_43);
+        label_915->setObjectName("label_915");
+        label_915->setGeometry(QRect(185, 43, 31, 21));
+        label_915->setFont(font5);
+        label_915->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_916 = new QLabel(widget_43);
+        label_916->setObjectName("label_916");
+        label_916->setGeometry(QRect(220, 43, 41, 20));
+        label_916->setFont(font5);
+        label_916->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_917 = new QLabel(widget_43);
+        label_917->setObjectName("label_917");
+        label_917->setGeometry(QRect(20, 73, 241, 111));
+        label_917->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_917->setScaledContents(true);
+        label_918 = new QLabel(widget_43);
+        label_918->setObjectName("label_918");
+        label_918->setGeometry(QRect(10, 197, 91, 16));
+        label_918->setFont(font6);
+        label_918->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_919 = new QLabel(widget_43);
+        label_919->setObjectName("label_919");
+        label_919->setGeometry(QRect(200, 242, 21, 20));
+        label_919->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_919->setScaledContents(true);
+        label_920 = new QLabel(widget_43);
+        label_920->setObjectName("label_920");
+        label_920->setGeometry(QRect(90, 235, 31, 31));
+        label_920->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_920->setScaledContents(true);
+        label_921 = new QLabel(widget_43);
+        label_921->setObjectName("label_921");
+        label_921->setGeometry(QRect(40, 242, 31, 21));
+        label_921->setFont(font7);
+        label_921->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_922 = new QLabel(widget_43);
+        label_922->setObjectName("label_922");
+        label_922->setGeometry(QRect(130, 242, 41, 20));
+        label_922->setFont(font7);
+        label_922->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_923 = new QLabel(widget_43);
+        label_923->setObjectName("label_923");
+        label_923->setGeometry(QRect(230, 242, 31, 21));
+        label_923->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_43 = new QTextEdit(widget_43);
+        textEdit_43->setObjectName("textEdit_43");
+        textEdit_43->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_43->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_925 = new QLabel(widget_43);
+        label_925->setObjectName("label_925");
+        label_925->setGeometry(QRect(180, 10, 91, 20));
+        label_925->setFont(font9);
+        label_925->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_927 = new QLabel(widget_43);
+        label_927->setObjectName("label_927");
+        label_927->setGeometry(QRect(190, 160, 63, 20));
+        label_927->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_44 = new QWidget(page_26);
+        widget_44->setObjectName("widget_44");
+        widget_44->setGeometry(QRect(670, 360, 281, 281));
+        widget_44->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_928 = new QLabel(widget_44);
+        label_928->setObjectName("label_928");
+        label_928->setGeometry(QRect(12, 240, 16, 21));
+        label_928->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_928->setScaledContents(true);
+        label_929 = new QLabel(widget_44);
+        label_929->setObjectName("label_929");
+        label_929->setGeometry(QRect(10, 10, 151, 21));
+        label_929->setFont(font2);
+        label_929->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_930 = new QLabel(widget_44);
+        label_930->setObjectName("label_930");
+        label_930->setGeometry(QRect(10, 40, 21, 16));
+        label_930->setFont(font3);
+        label_930->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_931 = new QLabel(widget_44);
+        label_931->setObjectName("label_931");
+        label_931->setGeometry(QRect(35, 40, 111, 31));
+        label_931->setFont(font4);
+        label_931->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_932 = new QLabel(widget_44);
+        label_932->setObjectName("label_932");
+        label_932->setGeometry(QRect(185, 43, 31, 21));
+        label_932->setFont(font5);
+        label_932->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_933 = new QLabel(widget_44);
+        label_933->setObjectName("label_933");
+        label_933->setGeometry(QRect(220, 43, 41, 20));
+        label_933->setFont(font5);
+        label_933->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_934 = new QLabel(widget_44);
+        label_934->setObjectName("label_934");
+        label_934->setGeometry(QRect(20, 73, 241, 111));
+        label_934->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_934->setScaledContents(true);
+        label_935 = new QLabel(widget_44);
+        label_935->setObjectName("label_935");
+        label_935->setGeometry(QRect(10, 197, 91, 16));
+        label_935->setFont(font6);
+        label_935->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_936 = new QLabel(widget_44);
+        label_936->setObjectName("label_936");
+        label_936->setGeometry(QRect(200, 242, 21, 20));
+        label_936->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_936->setScaledContents(true);
+        label_937 = new QLabel(widget_44);
+        label_937->setObjectName("label_937");
+        label_937->setGeometry(QRect(90, 235, 31, 31));
+        label_937->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_937->setScaledContents(true);
+        label_938 = new QLabel(widget_44);
+        label_938->setObjectName("label_938");
+        label_938->setGeometry(QRect(40, 242, 31, 21));
+        label_938->setFont(font7);
+        label_938->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_939 = new QLabel(widget_44);
+        label_939->setObjectName("label_939");
+        label_939->setGeometry(QRect(130, 242, 41, 20));
+        label_939->setFont(font7);
+        label_939->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_940 = new QLabel(widget_44);
+        label_940->setObjectName("label_940");
+        label_940->setGeometry(QRect(230, 242, 31, 21));
+        label_940->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_44 = new QTextEdit(widget_44);
+        textEdit_44->setObjectName("textEdit_44");
+        textEdit_44->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_44->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_942 = new QLabel(widget_44);
+        label_942->setObjectName("label_942");
+        label_942->setGeometry(QRect(180, 10, 91, 20));
+        label_942->setFont(font9);
+        label_942->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_944 = new QLabel(widget_44);
+        label_944->setObjectName("label_944");
+        label_944->setGeometry(QRect(190, 160, 63, 20));
+        label_944->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_39 = new QWidget(page_26);
+        widget_39->setObjectName("widget_39");
+        widget_39->setGeometry(QRect(30, 10, 281, 281));
+        widget_39->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_843 = new QLabel(widget_39);
+        label_843->setObjectName("label_843");
+        label_843->setGeometry(QRect(12, 240, 16, 21));
+        label_843->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_843->setScaledContents(true);
+        label_844 = new QLabel(widget_39);
+        label_844->setObjectName("label_844");
+        label_844->setGeometry(QRect(10, 10, 151, 21));
+        label_844->setFont(font2);
+        label_844->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_845 = new QLabel(widget_39);
+        label_845->setObjectName("label_845");
+        label_845->setGeometry(QRect(10, 40, 21, 16));
+        label_845->setFont(font3);
+        label_845->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_846 = new QLabel(widget_39);
+        label_846->setObjectName("label_846");
+        label_846->setGeometry(QRect(35, 40, 111, 31));
+        label_846->setFont(font4);
+        label_846->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_847 = new QLabel(widget_39);
+        label_847->setObjectName("label_847");
+        label_847->setGeometry(QRect(185, 43, 31, 21));
+        label_847->setFont(font5);
+        label_847->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_848 = new QLabel(widget_39);
+        label_848->setObjectName("label_848");
+        label_848->setGeometry(QRect(220, 43, 41, 20));
+        label_848->setFont(font5);
+        label_848->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_849 = new QLabel(widget_39);
+        label_849->setObjectName("label_849");
+        label_849->setGeometry(QRect(20, 73, 241, 111));
+        label_849->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_849->setScaledContents(true);
+        label_850 = new QLabel(widget_39);
+        label_850->setObjectName("label_850");
+        label_850->setGeometry(QRect(10, 197, 91, 16));
+        label_850->setFont(font6);
+        label_850->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_851 = new QLabel(widget_39);
+        label_851->setObjectName("label_851");
+        label_851->setGeometry(QRect(200, 242, 21, 20));
+        label_851->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_851->setScaledContents(true);
+        label_852 = new QLabel(widget_39);
+        label_852->setObjectName("label_852");
+        label_852->setGeometry(QRect(90, 235, 31, 31));
+        label_852->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_852->setScaledContents(true);
+        label_853 = new QLabel(widget_39);
+        label_853->setObjectName("label_853");
+        label_853->setGeometry(QRect(40, 242, 31, 21));
+        label_853->setFont(font7);
+        label_853->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_854 = new QLabel(widget_39);
+        label_854->setObjectName("label_854");
+        label_854->setGeometry(QRect(130, 242, 41, 20));
+        label_854->setFont(font7);
+        label_854->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_855 = new QLabel(widget_39);
+        label_855->setObjectName("label_855");
+        label_855->setGeometry(QRect(230, 242, 31, 21));
+        label_855->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_39 = new QTextEdit(widget_39);
+        textEdit_39->setObjectName("textEdit_39");
+        textEdit_39->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_39->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_857 = new QLabel(widget_39);
+        label_857->setObjectName("label_857");
+        label_857->setGeometry(QRect(180, 10, 91, 20));
+        label_857->setFont(font9);
+        label_857->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_859 = new QLabel(widget_39);
+        label_859->setObjectName("label_859");
+        label_859->setGeometry(QRect(190, 160, 63, 20));
+        label_859->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_40 = new QWidget(page_26);
+        widget_40->setObjectName("widget_40");
+        widget_40->setGeometry(QRect(350, 10, 281, 281));
+        widget_40->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_860 = new QLabel(widget_40);
+        label_860->setObjectName("label_860");
+        label_860->setGeometry(QRect(12, 240, 16, 21));
+        label_860->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_860->setScaledContents(true);
+        label_861 = new QLabel(widget_40);
+        label_861->setObjectName("label_861");
+        label_861->setGeometry(QRect(10, 10, 151, 21));
+        label_861->setFont(font2);
+        label_861->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_862 = new QLabel(widget_40);
+        label_862->setObjectName("label_862");
+        label_862->setGeometry(QRect(10, 40, 21, 16));
+        label_862->setFont(font3);
+        label_862->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_863 = new QLabel(widget_40);
+        label_863->setObjectName("label_863");
+        label_863->setGeometry(QRect(35, 40, 111, 31));
+        label_863->setFont(font4);
+        label_863->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_864 = new QLabel(widget_40);
+        label_864->setObjectName("label_864");
+        label_864->setGeometry(QRect(185, 43, 31, 21));
+        label_864->setFont(font5);
+        label_864->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_865 = new QLabel(widget_40);
+        label_865->setObjectName("label_865");
+        label_865->setGeometry(QRect(220, 43, 41, 20));
+        label_865->setFont(font5);
+        label_865->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_866 = new QLabel(widget_40);
+        label_866->setObjectName("label_866");
+        label_866->setGeometry(QRect(20, 73, 241, 111));
+        label_866->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_866->setScaledContents(true);
+        label_867 = new QLabel(widget_40);
+        label_867->setObjectName("label_867");
+        label_867->setGeometry(QRect(10, 197, 91, 16));
+        label_867->setFont(font6);
+        label_867->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_868 = new QLabel(widget_40);
+        label_868->setObjectName("label_868");
+        label_868->setGeometry(QRect(200, 242, 21, 20));
+        label_868->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_868->setScaledContents(true);
+        label_869 = new QLabel(widget_40);
+        label_869->setObjectName("label_869");
+        label_869->setGeometry(QRect(90, 235, 31, 31));
+        label_869->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_869->setScaledContents(true);
+        label_870 = new QLabel(widget_40);
+        label_870->setObjectName("label_870");
+        label_870->setGeometry(QRect(40, 242, 31, 21));
+        label_870->setFont(font7);
+        label_870->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_871 = new QLabel(widget_40);
+        label_871->setObjectName("label_871");
+        label_871->setGeometry(QRect(130, 242, 41, 20));
+        label_871->setFont(font7);
+        label_871->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_872 = new QLabel(widget_40);
+        label_872->setObjectName("label_872");
+        label_872->setGeometry(QRect(230, 242, 31, 21));
+        label_872->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_40 = new QTextEdit(widget_40);
+        textEdit_40->setObjectName("textEdit_40");
+        textEdit_40->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_40->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_874 = new QLabel(widget_40);
+        label_874->setObjectName("label_874");
+        label_874->setGeometry(QRect(180, 10, 91, 20));
+        label_874->setFont(font9);
+        label_874->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_876 = new QLabel(widget_40);
+        label_876->setObjectName("label_876");
+        label_876->setGeometry(QRect(190, 160, 63, 20));
+        label_876->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_41 = new QWidget(page_26);
+        widget_41->setObjectName("widget_41");
+        widget_41->setGeometry(QRect(670, 10, 281, 281));
+        widget_41->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_877 = new QLabel(widget_41);
+        label_877->setObjectName("label_877");
+        label_877->setGeometry(QRect(12, 240, 16, 21));
+        label_877->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_877->setScaledContents(true);
+        label_878 = new QLabel(widget_41);
+        label_878->setObjectName("label_878");
+        label_878->setGeometry(QRect(10, 10, 151, 21));
+        label_878->setFont(font2);
+        label_878->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_879 = new QLabel(widget_41);
+        label_879->setObjectName("label_879");
+        label_879->setGeometry(QRect(10, 40, 21, 16));
+        label_879->setFont(font3);
+        label_879->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_880 = new QLabel(widget_41);
+        label_880->setObjectName("label_880");
+        label_880->setGeometry(QRect(35, 40, 111, 31));
+        label_880->setFont(font4);
+        label_880->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_881 = new QLabel(widget_41);
+        label_881->setObjectName("label_881");
+        label_881->setGeometry(QRect(185, 43, 31, 21));
+        label_881->setFont(font5);
+        label_881->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_882 = new QLabel(widget_41);
+        label_882->setObjectName("label_882");
+        label_882->setGeometry(QRect(220, 43, 41, 20));
+        label_882->setFont(font5);
+        label_882->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_883 = new QLabel(widget_41);
+        label_883->setObjectName("label_883");
+        label_883->setGeometry(QRect(20, 73, 241, 111));
+        label_883->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_883->setScaledContents(true);
+        label_884 = new QLabel(widget_41);
+        label_884->setObjectName("label_884");
+        label_884->setGeometry(QRect(10, 197, 91, 16));
+        label_884->setFont(font6);
+        label_884->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_885 = new QLabel(widget_41);
+        label_885->setObjectName("label_885");
+        label_885->setGeometry(QRect(200, 242, 21, 20));
+        label_885->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_885->setScaledContents(true);
+        label_886 = new QLabel(widget_41);
+        label_886->setObjectName("label_886");
+        label_886->setGeometry(QRect(90, 235, 31, 31));
+        label_886->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_886->setScaledContents(true);
+        label_887 = new QLabel(widget_41);
+        label_887->setObjectName("label_887");
+        label_887->setGeometry(QRect(40, 242, 31, 21));
+        label_887->setFont(font7);
+        label_887->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_888 = new QLabel(widget_41);
+        label_888->setObjectName("label_888");
+        label_888->setGeometry(QRect(130, 242, 41, 20));
+        label_888->setFont(font7);
+        label_888->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_889 = new QLabel(widget_41);
+        label_889->setObjectName("label_889");
+        label_889->setGeometry(QRect(230, 242, 31, 21));
+        label_889->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_41 = new QTextEdit(widget_41);
+        textEdit_41->setObjectName("textEdit_41");
+        textEdit_41->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_41->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_891 = new QLabel(widget_41);
+        label_891->setObjectName("label_891");
+        label_891->setGeometry(QRect(180, 10, 91, 20));
+        label_891->setFont(font9);
+        label_891->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_893 = new QLabel(widget_41);
+        label_893->setObjectName("label_893");
+        label_893->setGeometry(QRect(190, 160, 63, 20));
+        label_893->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        stackedWidget_7->addWidget(page_26);
+        page_27 = new QWidget();
+        page_27->setObjectName("page_27");
+        widget_49 = new QWidget(page_27);
+        widget_49->setObjectName("widget_49");
+        widget_49->setGeometry(QRect(350, 360, 281, 281));
+        widget_49->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_1013 = new QLabel(widget_49);
+        label_1013->setObjectName("label_1013");
+        label_1013->setGeometry(QRect(12, 240, 16, 21));
+        label_1013->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_1013->setScaledContents(true);
+        label_1014 = new QLabel(widget_49);
+        label_1014->setObjectName("label_1014");
+        label_1014->setGeometry(QRect(10, 10, 151, 21));
+        label_1014->setFont(font2);
+        label_1014->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1015 = new QLabel(widget_49);
+        label_1015->setObjectName("label_1015");
+        label_1015->setGeometry(QRect(10, 40, 21, 16));
+        label_1015->setFont(font3);
+        label_1015->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1016 = new QLabel(widget_49);
+        label_1016->setObjectName("label_1016");
+        label_1016->setGeometry(QRect(35, 40, 111, 31));
+        label_1016->setFont(font4);
+        label_1016->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1017 = new QLabel(widget_49);
+        label_1017->setObjectName("label_1017");
+        label_1017->setGeometry(QRect(185, 43, 31, 21));
+        label_1017->setFont(font5);
+        label_1017->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1018 = new QLabel(widget_49);
+        label_1018->setObjectName("label_1018");
+        label_1018->setGeometry(QRect(220, 43, 41, 20));
+        label_1018->setFont(font5);
+        label_1018->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1019 = new QLabel(widget_49);
+        label_1019->setObjectName("label_1019");
+        label_1019->setGeometry(QRect(20, 73, 241, 111));
+        label_1019->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_1019->setScaledContents(true);
+        label_1020 = new QLabel(widget_49);
+        label_1020->setObjectName("label_1020");
+        label_1020->setGeometry(QRect(10, 197, 91, 16));
+        label_1020->setFont(font6);
+        label_1020->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1021 = new QLabel(widget_49);
+        label_1021->setObjectName("label_1021");
+        label_1021->setGeometry(QRect(200, 242, 21, 20));
+        label_1021->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_1021->setScaledContents(true);
+        label_1022 = new QLabel(widget_49);
+        label_1022->setObjectName("label_1022");
+        label_1022->setGeometry(QRect(90, 235, 31, 31));
+        label_1022->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_1022->setScaledContents(true);
+        label_1023 = new QLabel(widget_49);
+        label_1023->setObjectName("label_1023");
+        label_1023->setGeometry(QRect(40, 242, 31, 21));
+        label_1023->setFont(font7);
+        label_1023->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1024 = new QLabel(widget_49);
+        label_1024->setObjectName("label_1024");
+        label_1024->setGeometry(QRect(130, 242, 41, 20));
+        label_1024->setFont(font7);
+        label_1024->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1025 = new QLabel(widget_49);
+        label_1025->setObjectName("label_1025");
+        label_1025->setGeometry(QRect(230, 242, 31, 21));
+        label_1025->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_49 = new QTextEdit(widget_49);
+        textEdit_49->setObjectName("textEdit_49");
+        textEdit_49->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_49->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1027 = new QLabel(widget_49);
+        label_1027->setObjectName("label_1027");
+        label_1027->setGeometry(QRect(180, 10, 91, 20));
+        label_1027->setFont(font9);
+        label_1027->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1029 = new QLabel(widget_49);
+        label_1029->setObjectName("label_1029");
+        label_1029->setGeometry(QRect(190, 160, 63, 20));
+        label_1029->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_50 = new QWidget(page_27);
+        widget_50->setObjectName("widget_50");
+        widget_50->setGeometry(QRect(670, 360, 281, 281));
+        widget_50->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_1030 = new QLabel(widget_50);
+        label_1030->setObjectName("label_1030");
+        label_1030->setGeometry(QRect(12, 240, 16, 21));
+        label_1030->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_1030->setScaledContents(true);
+        label_1031 = new QLabel(widget_50);
+        label_1031->setObjectName("label_1031");
+        label_1031->setGeometry(QRect(10, 10, 151, 21));
+        label_1031->setFont(font2);
+        label_1031->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1032 = new QLabel(widget_50);
+        label_1032->setObjectName("label_1032");
+        label_1032->setGeometry(QRect(10, 40, 21, 16));
+        label_1032->setFont(font3);
+        label_1032->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1033 = new QLabel(widget_50);
+        label_1033->setObjectName("label_1033");
+        label_1033->setGeometry(QRect(35, 40, 111, 31));
+        label_1033->setFont(font4);
+        label_1033->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1034 = new QLabel(widget_50);
+        label_1034->setObjectName("label_1034");
+        label_1034->setGeometry(QRect(185, 43, 31, 21));
+        label_1034->setFont(font5);
+        label_1034->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1035 = new QLabel(widget_50);
+        label_1035->setObjectName("label_1035");
+        label_1035->setGeometry(QRect(220, 43, 41, 20));
+        label_1035->setFont(font5);
+        label_1035->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1036 = new QLabel(widget_50);
+        label_1036->setObjectName("label_1036");
+        label_1036->setGeometry(QRect(20, 73, 241, 111));
+        label_1036->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_1036->setScaledContents(true);
+        label_1037 = new QLabel(widget_50);
+        label_1037->setObjectName("label_1037");
+        label_1037->setGeometry(QRect(10, 197, 91, 16));
+        label_1037->setFont(font6);
+        label_1037->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1038 = new QLabel(widget_50);
+        label_1038->setObjectName("label_1038");
+        label_1038->setGeometry(QRect(200, 242, 21, 20));
+        label_1038->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_1038->setScaledContents(true);
+        label_1039 = new QLabel(widget_50);
+        label_1039->setObjectName("label_1039");
+        label_1039->setGeometry(QRect(90, 235, 31, 31));
+        label_1039->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_1039->setScaledContents(true);
+        label_1040 = new QLabel(widget_50);
+        label_1040->setObjectName("label_1040");
+        label_1040->setGeometry(QRect(40, 242, 31, 21));
+        label_1040->setFont(font7);
+        label_1040->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1041 = new QLabel(widget_50);
+        label_1041->setObjectName("label_1041");
+        label_1041->setGeometry(QRect(130, 242, 41, 20));
+        label_1041->setFont(font7);
+        label_1041->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1042 = new QLabel(widget_50);
+        label_1042->setObjectName("label_1042");
+        label_1042->setGeometry(QRect(230, 242, 31, 21));
+        label_1042->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_50 = new QTextEdit(widget_50);
+        textEdit_50->setObjectName("textEdit_50");
+        textEdit_50->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_50->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1044 = new QLabel(widget_50);
+        label_1044->setObjectName("label_1044");
+        label_1044->setGeometry(QRect(180, 10, 91, 20));
+        label_1044->setFont(font9);
+        label_1044->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1046 = new QLabel(widget_50);
+        label_1046->setObjectName("label_1046");
+        label_1046->setGeometry(QRect(190, 160, 63, 20));
+        label_1046->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_45 = new QWidget(page_27);
+        widget_45->setObjectName("widget_45");
+        widget_45->setGeometry(QRect(30, 10, 281, 281));
+        widget_45->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_945 = new QLabel(widget_45);
+        label_945->setObjectName("label_945");
+        label_945->setGeometry(QRect(12, 240, 16, 21));
+        label_945->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_945->setScaledContents(true);
+        label_946 = new QLabel(widget_45);
+        label_946->setObjectName("label_946");
+        label_946->setGeometry(QRect(10, 10, 151, 21));
+        label_946->setFont(font2);
+        label_946->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_947 = new QLabel(widget_45);
+        label_947->setObjectName("label_947");
+        label_947->setGeometry(QRect(10, 40, 21, 16));
+        label_947->setFont(font3);
+        label_947->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_948 = new QLabel(widget_45);
+        label_948->setObjectName("label_948");
+        label_948->setGeometry(QRect(35, 40, 111, 31));
+        label_948->setFont(font4);
+        label_948->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_949 = new QLabel(widget_45);
+        label_949->setObjectName("label_949");
+        label_949->setGeometry(QRect(185, 43, 31, 21));
+        label_949->setFont(font5);
+        label_949->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_950 = new QLabel(widget_45);
+        label_950->setObjectName("label_950");
+        label_950->setGeometry(QRect(220, 43, 41, 20));
+        label_950->setFont(font5);
+        label_950->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_951 = new QLabel(widget_45);
+        label_951->setObjectName("label_951");
+        label_951->setGeometry(QRect(20, 73, 241, 111));
+        label_951->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_951->setScaledContents(true);
+        label_952 = new QLabel(widget_45);
+        label_952->setObjectName("label_952");
+        label_952->setGeometry(QRect(10, 197, 91, 16));
+        label_952->setFont(font6);
+        label_952->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_953 = new QLabel(widget_45);
+        label_953->setObjectName("label_953");
+        label_953->setGeometry(QRect(200, 242, 21, 20));
+        label_953->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_953->setScaledContents(true);
+        label_954 = new QLabel(widget_45);
+        label_954->setObjectName("label_954");
+        label_954->setGeometry(QRect(90, 235, 31, 31));
+        label_954->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_954->setScaledContents(true);
+        label_955 = new QLabel(widget_45);
+        label_955->setObjectName("label_955");
+        label_955->setGeometry(QRect(40, 242, 31, 21));
+        label_955->setFont(font7);
+        label_955->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_956 = new QLabel(widget_45);
+        label_956->setObjectName("label_956");
+        label_956->setGeometry(QRect(130, 242, 41, 20));
+        label_956->setFont(font7);
+        label_956->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_957 = new QLabel(widget_45);
+        label_957->setObjectName("label_957");
+        label_957->setGeometry(QRect(230, 242, 31, 21));
+        label_957->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_45 = new QTextEdit(widget_45);
+        textEdit_45->setObjectName("textEdit_45");
+        textEdit_45->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_45->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_959 = new QLabel(widget_45);
+        label_959->setObjectName("label_959");
+        label_959->setGeometry(QRect(180, 10, 91, 20));
+        label_959->setFont(font9);
+        label_959->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_961 = new QLabel(widget_45);
+        label_961->setObjectName("label_961");
+        label_961->setGeometry(QRect(190, 160, 63, 20));
+        label_961->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_46 = new QWidget(page_27);
+        widget_46->setObjectName("widget_46");
+        widget_46->setGeometry(QRect(350, 10, 281, 281));
+        widget_46->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_962 = new QLabel(widget_46);
+        label_962->setObjectName("label_962");
+        label_962->setGeometry(QRect(12, 240, 16, 21));
+        label_962->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_962->setScaledContents(true);
+        label_963 = new QLabel(widget_46);
+        label_963->setObjectName("label_963");
+        label_963->setGeometry(QRect(10, 10, 151, 21));
+        label_963->setFont(font2);
+        label_963->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_964 = new QLabel(widget_46);
+        label_964->setObjectName("label_964");
+        label_964->setGeometry(QRect(10, 40, 21, 16));
+        label_964->setFont(font3);
+        label_964->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_965 = new QLabel(widget_46);
+        label_965->setObjectName("label_965");
+        label_965->setGeometry(QRect(35, 40, 111, 31));
+        label_965->setFont(font4);
+        label_965->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_966 = new QLabel(widget_46);
+        label_966->setObjectName("label_966");
+        label_966->setGeometry(QRect(185, 43, 31, 21));
+        label_966->setFont(font5);
+        label_966->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_967 = new QLabel(widget_46);
+        label_967->setObjectName("label_967");
+        label_967->setGeometry(QRect(220, 43, 41, 20));
+        label_967->setFont(font5);
+        label_967->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_968 = new QLabel(widget_46);
+        label_968->setObjectName("label_968");
+        label_968->setGeometry(QRect(20, 73, 241, 111));
+        label_968->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_968->setScaledContents(true);
+        label_969 = new QLabel(widget_46);
+        label_969->setObjectName("label_969");
+        label_969->setGeometry(QRect(10, 197, 91, 16));
+        label_969->setFont(font6);
+        label_969->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_970 = new QLabel(widget_46);
+        label_970->setObjectName("label_970");
+        label_970->setGeometry(QRect(200, 242, 21, 20));
+        label_970->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_970->setScaledContents(true);
+        label_971 = new QLabel(widget_46);
+        label_971->setObjectName("label_971");
+        label_971->setGeometry(QRect(90, 235, 31, 31));
+        label_971->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_971->setScaledContents(true);
+        label_972 = new QLabel(widget_46);
+        label_972->setObjectName("label_972");
+        label_972->setGeometry(QRect(40, 242, 31, 21));
+        label_972->setFont(font7);
+        label_972->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_973 = new QLabel(widget_46);
+        label_973->setObjectName("label_973");
+        label_973->setGeometry(QRect(130, 242, 41, 20));
+        label_973->setFont(font7);
+        label_973->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_974 = new QLabel(widget_46);
+        label_974->setObjectName("label_974");
+        label_974->setGeometry(QRect(230, 242, 31, 21));
+        label_974->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_46 = new QTextEdit(widget_46);
+        textEdit_46->setObjectName("textEdit_46");
+        textEdit_46->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_46->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_976 = new QLabel(widget_46);
+        label_976->setObjectName("label_976");
+        label_976->setGeometry(QRect(180, 10, 91, 20));
+        label_976->setFont(font9);
+        label_976->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_978 = new QLabel(widget_46);
+        label_978->setObjectName("label_978");
+        label_978->setGeometry(QRect(190, 160, 63, 20));
+        label_978->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_47 = new QWidget(page_27);
+        widget_47->setObjectName("widget_47");
+        widget_47->setGeometry(QRect(670, 10, 281, 281));
+        widget_47->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_979 = new QLabel(widget_47);
+        label_979->setObjectName("label_979");
+        label_979->setGeometry(QRect(12, 240, 16, 21));
+        label_979->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_979->setScaledContents(true);
+        label_980 = new QLabel(widget_47);
+        label_980->setObjectName("label_980");
+        label_980->setGeometry(QRect(10, 10, 151, 21));
+        label_980->setFont(font2);
+        label_980->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_981 = new QLabel(widget_47);
+        label_981->setObjectName("label_981");
+        label_981->setGeometry(QRect(10, 40, 21, 16));
+        label_981->setFont(font3);
+        label_981->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_982 = new QLabel(widget_47);
+        label_982->setObjectName("label_982");
+        label_982->setGeometry(QRect(35, 40, 111, 31));
+        label_982->setFont(font4);
+        label_982->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_983 = new QLabel(widget_47);
+        label_983->setObjectName("label_983");
+        label_983->setGeometry(QRect(185, 43, 31, 21));
+        label_983->setFont(font5);
+        label_983->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_984 = new QLabel(widget_47);
+        label_984->setObjectName("label_984");
+        label_984->setGeometry(QRect(220, 43, 41, 20));
+        label_984->setFont(font5);
+        label_984->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_985 = new QLabel(widget_47);
+        label_985->setObjectName("label_985");
+        label_985->setGeometry(QRect(20, 73, 241, 111));
+        label_985->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_985->setScaledContents(true);
+        label_986 = new QLabel(widget_47);
+        label_986->setObjectName("label_986");
+        label_986->setGeometry(QRect(10, 197, 91, 16));
+        label_986->setFont(font6);
+        label_986->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_987 = new QLabel(widget_47);
+        label_987->setObjectName("label_987");
+        label_987->setGeometry(QRect(200, 242, 21, 20));
+        label_987->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_987->setScaledContents(true);
+        label_988 = new QLabel(widget_47);
+        label_988->setObjectName("label_988");
+        label_988->setGeometry(QRect(90, 235, 31, 31));
+        label_988->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_988->setScaledContents(true);
+        label_989 = new QLabel(widget_47);
+        label_989->setObjectName("label_989");
+        label_989->setGeometry(QRect(40, 242, 31, 21));
+        label_989->setFont(font7);
+        label_989->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_990 = new QLabel(widget_47);
+        label_990->setObjectName("label_990");
+        label_990->setGeometry(QRect(130, 242, 41, 20));
+        label_990->setFont(font7);
+        label_990->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_991 = new QLabel(widget_47);
+        label_991->setObjectName("label_991");
+        label_991->setGeometry(QRect(230, 242, 31, 21));
+        label_991->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_47 = new QTextEdit(widget_47);
+        textEdit_47->setObjectName("textEdit_47");
+        textEdit_47->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_47->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_993 = new QLabel(widget_47);
+        label_993->setObjectName("label_993");
+        label_993->setGeometry(QRect(180, 10, 91, 20));
+        label_993->setFont(font9);
+        label_993->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_995 = new QLabel(widget_47);
+        label_995->setObjectName("label_995");
+        label_995->setGeometry(QRect(190, 160, 63, 20));
+        label_995->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        widget_48 = new QWidget(page_27);
+        widget_48->setObjectName("widget_48");
+        widget_48->setGeometry(QRect(30, 360, 281, 281));
+        widget_48->setStyleSheet(QString::fromUtf8("background-color: rgb(51, 65, 135);"));
+        label_996 = new QLabel(widget_48);
+        label_996->setObjectName("label_996");
+        label_996->setGeometry(QRect(12, 240, 16, 21));
+        label_996->setPixmap(QPixmap(QString::fromUtf8(":/Cylinder.png")));
+        label_996->setScaledContents(true);
+        label_997 = new QLabel(widget_48);
+        label_997->setObjectName("label_997");
+        label_997->setGeometry(QRect(10, 10, 151, 21));
+        label_997->setFont(font2);
+        label_997->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_998 = new QLabel(widget_48);
+        label_998->setObjectName("label_998");
+        label_998->setGeometry(QRect(10, 40, 21, 16));
+        label_998->setFont(font3);
+        label_998->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_999 = new QLabel(widget_48);
+        label_999->setObjectName("label_999");
+        label_999->setGeometry(QRect(35, 40, 111, 31));
+        label_999->setFont(font4);
+        label_999->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1000 = new QLabel(widget_48);
+        label_1000->setObjectName("label_1000");
+        label_1000->setGeometry(QRect(185, 43, 31, 21));
+        label_1000->setFont(font5);
+        label_1000->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1001 = new QLabel(widget_48);
+        label_1001->setObjectName("label_1001");
+        label_1001->setGeometry(QRect(220, 43, 41, 20));
+        label_1001->setFont(font5);
+        label_1001->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1002 = new QLabel(widget_48);
+        label_1002->setObjectName("label_1002");
+        label_1002->setGeometry(QRect(20, 73, 241, 111));
+        label_1002->setPixmap(QPixmap(QString::fromUtf8(":/camry.jpg")));
+        label_1002->setScaledContents(true);
+        label_1003 = new QLabel(widget_48);
+        label_1003->setObjectName("label_1003");
+        label_1003->setGeometry(QRect(10, 197, 91, 16));
+        label_1003->setFont(font6);
+        label_1003->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1004 = new QLabel(widget_48);
+        label_1004->setObjectName("label_1004");
+        label_1004->setGeometry(QRect(200, 242, 21, 20));
+        label_1004->setPixmap(QPixmap(QString::fromUtf8(":/Paint.png")));
+        label_1004->setScaledContents(true);
+        label_1005 = new QLabel(widget_48);
+        label_1005->setObjectName("label_1005");
+        label_1005->setGeometry(QRect(90, 235, 31, 31));
+        label_1005->setPixmap(QPixmap(QString::fromUtf8(":/Fuel.png")));
+        label_1005->setScaledContents(true);
+        label_1006 = new QLabel(widget_48);
+        label_1006->setObjectName("label_1006");
+        label_1006->setGeometry(QRect(40, 242, 31, 21));
+        label_1006->setFont(font7);
+        label_1006->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1007 = new QLabel(widget_48);
+        label_1007->setObjectName("label_1007");
+        label_1007->setGeometry(QRect(130, 242, 41, 20));
+        label_1007->setFont(font7);
+        label_1007->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1008 = new QLabel(widget_48);
+        label_1008->setObjectName("label_1008");
+        label_1008->setGeometry(QRect(230, 242, 31, 21));
+        label_1008->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 170, 255);"));
+        textEdit_48 = new QTextEdit(widget_48);
+        textEdit_48->setObjectName("textEdit_48");
+        textEdit_48->setGeometry(QRect(100, 190, 171, 41));
+        textEdit_48->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1010 = new QLabel(widget_48);
+        label_1010->setObjectName("label_1010");
+        label_1010->setGeometry(QRect(180, 10, 91, 20));
+        label_1010->setFont(font9);
+        label_1010->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(51, 65, 135);"));
+        label_1012 = new QLabel(widget_48);
+        label_1012->setObjectName("label_1012");
+        label_1012->setGeometry(QRect(190, 160, 63, 20));
+        label_1012->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(191, 193, 190);"));
+        stackedWidget_7->addWidget(page_27);
+        pushButton_126 = new QPushButton(page_2);
+        pushButton_126->setObjectName("pushButton_126");
+        pushButton_126->setGeometry(QRect(810, 50, 83, 29));
+        pushButton_126->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        pushButton_127 = new QPushButton(page_2);
+        pushButton_127->setObjectName("pushButton_127");
+        pushButton_127->setGeometry(QRect(710, 50, 83, 29));
+        pushButton_127->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(page_2);
         page_5 = new QWidget();
         page_5->setObjectName("page_5");
@@ -3794,7 +6489,7 @@ public:
         label_178->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_179 = new QLabel(page_18);
         label_179->setObjectName("label_179");
-        label_179->setGeometry(QRect(20, 260, 211, 31));
+        label_179->setGeometry(QRect(20, 270, 211, 31));
         QFont font13;
         font13.setPointSize(14);
         font13.setBold(true);
@@ -3802,12 +6497,12 @@ public:
         label_179->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_180 = new QLabel(page_18);
         label_180->setObjectName("label_180");
-        label_180->setGeometry(QRect(20, 380, 211, 31));
+        label_180->setGeometry(QRect(20, 370, 211, 31));
         label_180->setFont(font13);
         label_180->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_181 = new QLabel(page_18);
         label_181->setObjectName("label_181");
-        label_181->setGeometry(QRect(20, 140, 91, 31));
+        label_181->setGeometry(QRect(20, 170, 91, 31));
         label_181->setFont(font13);
         label_181->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         stackedWidget_5->addWidget(page_18);
@@ -3849,7 +6544,7 @@ public:
         label_184->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_185 = new QLabel(page_19);
         label_185->setObjectName("label_185");
-        label_185->setGeometry(QRect(470, 120, 111, 41));
+        label_185->setGeometry(QRect(480, 120, 81, 41));
         QFont font16;
         font16.setPointSize(22);
         font16.setBold(true);
@@ -3859,14 +6554,14 @@ public:
 "background-color: rgb(41, 109, 182);"));
         label_186 = new QLabel(page_19);
         label_186->setObjectName("label_186");
-        label_186->setGeometry(QRect(470, 430, 111, 41));
+        label_186->setGeometry(QRect(480, 430, 81, 41));
         label_186->setFont(font16);
         label_186->setAutoFillBackground(false);
         label_186->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(41, 109, 182);"));
         label_187 = new QLabel(page_19);
         label_187->setObjectName("label_187");
-        label_187->setGeometry(QRect(470, 270, 111, 41));
+        label_187->setGeometry(QRect(480, 270, 81, 41));
         label_187->setFont(font16);
         label_187->setAutoFillBackground(false);
         label_187->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
@@ -3899,6 +6594,11 @@ public:
 "background-color: rgb(41, 109, 182);"));
         label_190->setAlignment(Qt::AlignCenter);
         stackedWidget_5->addWidget(page_19);
+        label_652 = new QLabel(page_5);
+        label_652->setObjectName("label_652");
+        label_652->setGeometry(QRect(30, 10, 91, 91));
+        label_652->setPixmap(QPixmap(QString::fromUtf8(":/Logo.png")));
+        label_652->setScaledContents(true);
         stackedWidget->addWidget(page_5);
         page_4 = new QWidget();
         page_4->setObjectName("page_4");
@@ -3908,39 +6608,39 @@ public:
         label_9->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_10 = new QLabel(page_4);
         label_10->setObjectName("label_10");
-        label_10->setGeometry(QRect(260, 250, 91, 20));
+        label_10->setGeometry(QRect(250, 110, 91, 20));
         label_10->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_11 = new QLabel(page_4);
         label_11->setObjectName("label_11");
-        label_11->setGeometry(QRect(50, 290, 63, 20));
+        label_11->setGeometry(QRect(50, 260, 63, 20));
         label_11->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_12 = new QLabel(page_4);
         label_12->setObjectName("label_12");
-        label_12->setGeometry(QRect(120, 280, 251, 31));
+        label_12->setGeometry(QRect(120, 250, 91, 31));
         label_12->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_13 = new QLabel(page_4);
         label_13->setObjectName("label_13");
-        label_13->setGeometry(QRect(500, 280, 121, 20));
+        label_13->setGeometry(QRect(330, 260, 91, 20));
         label_13->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_14 = new QLabel(page_4);
         label_14->setObjectName("label_14");
-        label_14->setGeometry(QRect(630, 270, 291, 31));
+        label_14->setGeometry(QRect(430, 250, 161, 41));
         label_14->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_15 = new QLabel(page_4);
         label_15->setObjectName("label_15");
-        label_15->setGeometry(QRect(50, 340, 91, 41));
+        label_15->setGeometry(QRect(50, 320, 71, 41));
         label_15->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_20 = new QLabel(page_4);
         label_20->setObjectName("label_20");
-        label_20->setGeometry(QRect(50, 480, 63, 20));
+        label_20->setGeometry(QRect(60, 450, 63, 20));
         label_20->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_21 = new QLabel(page_4);
         label_21->setObjectName("label_21");
-        label_21->setGeometry(QRect(120, 470, 151, 41));
+        label_21->setGeometry(QRect(130, 440, 241, 41));
         label_21->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         textEdit_2 = new QTextEdit(page_4);
         textEdit_2->setObjectName("textEdit_2");
-        textEdit_2->setGeometry(QRect(170, 350, 651, 61));
+        textEdit_2->setGeometry(QRect(130, 320, 651, 61));
         textEdit_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_22 = new QLabel(page_4);
         label_22->setObjectName("label_22");
@@ -3948,15 +6648,15 @@ public:
         label_22->setScaledContents(true);
         pushButton_8 = new QPushButton(page_4);
         pushButton_8->setObjectName("pushButton_8");
-        pushButton_8->setGeometry(QRect(170, 40, 141, 21));
+        pushButton_8->setGeometry(QRect(60, 40, 141, 21));
         pushButton_8->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         pushButton_10 = new QPushButton(page_4);
         pushButton_10->setObjectName("pushButton_10");
-        pushButton_10->setGeometry(QRect(830, 380, 83, 29));
+        pushButton_10->setGeometry(QRect(790, 320, 83, 29));
         pushButton_10->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit = new QLineEdit(page_4);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(170, 350, 651, 61));
+        lineEdit->setGeometry(QRect(130, 320, 651, 61));
         lineEdit->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         comboBox = new QComboBox(page_4);
         comboBox->addItem(QString());
@@ -3974,15 +6674,15 @@ public:
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(120, 470, 151, 41));
+        comboBox->setGeometry(QRect(130, 440, 151, 41));
         comboBox->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit_2 = new QLineEdit(page_4);
         lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(120, 280, 241, 28));
+        lineEdit_2->setGeometry(QRect(120, 250, 91, 28));
         lineEdit_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit_3 = new QLineEdit(page_4);
         lineEdit_3->setObjectName("lineEdit_3");
-        lineEdit_3->setGeometry(QRect(630, 270, 281, 31));
+        lineEdit_3->setGeometry(QRect(430, 260, 151, 31));
         lineEdit_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         lineEdit_4 = new QLineEdit(page_4);
         lineEdit_4->setObjectName("lineEdit_4");
@@ -3990,19 +6690,19 @@ public:
         lineEdit_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         pushButton_11 = new QPushButton(page_4);
         pushButton_11->setObjectName("pushButton_11");
-        pushButton_11->setGeometry(QRect(300, 480, 83, 29));
+        pushButton_11->setGeometry(QRect(380, 440, 83, 29));
         pushButton_11->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         pushButton_12 = new QPushButton(page_4);
         pushButton_12->setObjectName("pushButton_12");
-        pushButton_12->setGeometry(QRect(940, 270, 83, 29));
+        pushButton_12->setGeometry(QRect(600, 260, 83, 29));
         pushButton_12->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         pushButton_13 = new QPushButton(page_4);
         pushButton_13->setObjectName("pushButton_13");
-        pushButton_13->setGeometry(QRect(380, 280, 83, 29));
+        pushButton_13->setGeometry(QRect(210, 250, 83, 29));
         pushButton_13->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         pushButton_14 = new QPushButton(page_4);
         pushButton_14->setObjectName("pushButton_14");
-        pushButton_14->setGeometry(QRect(470, 150, 83, 29));
+        pushButton_14->setGeometry(QRect(250, 190, 83, 29));
         pushButton_14->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_24 = new QLabel(page_4);
         label_24->setObjectName("label_24");
@@ -4919,47 +7619,65 @@ public:
         pushButton_18->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         label_128 = new QLabel(page_4);
         label_128->setObjectName("label_128");
-        label_128->setGeometry(QRect(40, 440, 49, 16));
+        label_128->setGeometry(QRect(60, 410, 61, 16));
         label_128->setStyleSheet(QString::fromUtf8("font: 9pt \"Segoe UI\";\n"
 "font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_129 = new QLabel(page_4);
         label_129->setObjectName("label_129");
-        label_129->setGeometry(QRect(480, 440, 49, 16));
+        label_129->setGeometry(QRect(480, 400, 49, 16));
         label_129->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_130 = new QLabel(page_4);
         label_130->setObjectName("label_130");
-        label_130->setGeometry(QRect(110, 430, 251, 31));
+        label_130->setGeometry(QRect(130, 400, 231, 31));
         label_130->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);\n"
 "font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_131 = new QLabel(page_4);
         label_131->setObjectName("label_131");
-        label_131->setGeometry(QRect(550, 430, 271, 31));
+        label_131->setGeometry(QRect(530, 390, 251, 31));
         label_131->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         pushButton_20 = new QPushButton(page_4);
         pushButton_20->setObjectName("pushButton_20");
-        pushButton_20->setGeometry(QRect(390, 430, 80, 24));
+        pushButton_20->setGeometry(QRect(380, 400, 80, 24));
         pushButton_20->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         pushButton_21 = new QPushButton(page_4);
         pushButton_21->setObjectName("pushButton_21");
-        pushButton_21->setGeometry(QRect(840, 430, 80, 24));
+        pushButton_21->setGeometry(QRect(790, 400, 80, 24));
         pushButton_21->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         lineEdit_8 = new QLineEdit(page_4);
         lineEdit_8->setObjectName("lineEdit_8");
-        lineEdit_8->setGeometry(QRect(110, 430, 251, 24));
+        lineEdit_8->setGeometry(QRect(130, 400, 221, 24));
         lineEdit_8->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         lineEdit_9 = new QLineEdit(page_4);
         lineEdit_9->setObjectName("lineEdit_9");
-        lineEdit_9->setGeometry(QRect(550, 430, 271, 31));
+        lineEdit_9->setGeometry(QRect(530, 390, 251, 31));
         lineEdit_9->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
+        label_2 = new QLabel(page_4);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(10, 500, 121, 20));
+        label_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_634 = new QLabel(page_4);
+        label_634->setObjectName("label_634");
+        label_634->setGeometry(QRect(10, 640, 121, 20));
+        label_634->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_3 = new QLabel(page_4);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(460, 390, 4, 121));
+        label_3->setPixmap(QPixmap(QString::fromUtf8(":/White.png")));
+        label_3->setScaledContents(true);
+        label_655 = new QLabel(page_4);
+        label_655->setObjectName("label_655");
+        label_655->setGeometry(QRect(900, 20, 91, 91));
+        label_655->setPixmap(QPixmap(QString::fromUtf8(":/Logo.png")));
+        label_655->setScaledContents(true);
         stackedWidget->addWidget(page_4);
         lineEdit_9->raise();
         lineEdit_8->raise();
@@ -4998,6 +7716,10 @@ public:
         label_131->raise();
         pushButton_20->raise();
         pushButton_21->raise();
+        label_2->raise();
+        label_634->raise();
+        label_3->raise();
+        label_655->raise();
         page_3 = new QWidget();
         page_3->setObjectName("page_3");
         label_4 = new QLabel(page_3);
@@ -5032,7 +7754,7 @@ public:
 "font: 9pt \"Segoe UI\";"));
         label_126 = new QLabel(page_16);
         label_126->setObjectName("label_126");
-        label_126->setGeometry(QRect(120, 250, 131, 20));
+        label_126->setGeometry(QRect(130, 250, 131, 20));
         label_126->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         lineEdit_6 = new QLineEdit(page_16);
@@ -5041,19 +7763,24 @@ public:
         lineEdit_6->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_7 = new QLineEdit(page_16);
         lineEdit_7->setObjectName("lineEdit_7");
-        lineEdit_7->setGeometry(QRect(280, 320, 401, 101));
+        lineEdit_7->setGeometry(QRect(280, 320, 231, 131));
         lineEdit_7->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         label_127 = new QLabel(page_16);
         label_127->setObjectName("label_127");
-        label_127->setGeometry(QRect(120, 320, 111, 20));
+        label_127->setGeometry(QRect(130, 320, 111, 20));
         label_127->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_132 = new QLabel(page_16);
         label_132->setObjectName("label_132");
-        label_132->setGeometry(QRect(120, 30, 741, 61));
+        label_132->setGeometry(QRect(120, 30, 561, 61));
         label_132->setStyleSheet(QString::fromUtf8("font: 16pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);\n"
 "font: 24pt \"Segoe UI\";"));
+        label_656 = new QLabel(page_16);
+        label_656->setObjectName("label_656");
+        label_656->setGeometry(QRect(880, 620, 91, 91));
+        label_656->setPixmap(QPixmap(QString::fromUtf8(":/Logo.png")));
+        label_656->setScaledContents(true);
         stackedWidget_4->addWidget(page_16);
         page_17 = new QWidget();
         page_17->setObjectName("page_17");
@@ -5074,14 +7801,14 @@ public:
         comboBox_2->addItem(QString());
         comboBox_2->addItem(QString());
         comboBox_2->setObjectName("comboBox_2");
-        comboBox_2->setGeometry(QRect(210, 120, 191, 31));
+        comboBox_2->setGeometry(QRect(240, 120, 111, 31));
         comboBox_2->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "background-color: rgb(27, 27, 109);\n"
 "background-color: rgb(30, 30, 120);\n"
 "color: rgb(255, 255, 255);"));
         label_133 = new QLabel(page_17);
         label_133->setObjectName("label_133");
-        label_133->setGeometry(QRect(480, 120, 71, 21));
+        label_133->setGeometry(QRect(430, 120, 71, 21));
         label_133->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_134 = new QLabel(page_17);
@@ -5096,7 +7823,7 @@ public:
 "color: rgb(255, 255, 255);"));
         label_136 = new QLabel(page_17);
         label_136->setObjectName("label_136");
-        label_136->setGeometry(QRect(510, 390, 71, 21));
+        label_136->setGeometry(QRect(630, 340, 111, 21));
         label_136->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "font: 11pt \"Segoe UI\";\n"
 "font: 10pt \"Segoe UI\";\n"
@@ -5113,7 +7840,7 @@ public:
 "color: rgb(255, 255, 255);"));
         label_139 = new QLabel(page_17);
         label_139->setObjectName("label_139");
-        label_139->setGeometry(QRect(460, 270, 91, 21));
+        label_139->setGeometry(QRect(430, 270, 91, 21));
         label_139->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "color: rgb(255, 255, 255);"));
         label_141 = new QLabel(page_17);
@@ -5123,11 +7850,11 @@ public:
 "color: rgb(255, 255, 255);"));
         lineEdit_10 = new QLineEdit(page_17);
         lineEdit_10->setObjectName("lineEdit_10");
-        lineEdit_10->setGeometry(QRect(250, 200, 101, 31));
+        lineEdit_10->setGeometry(QRect(240, 200, 111, 31));
         lineEdit_10->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_11 = new QLineEdit(page_17);
         lineEdit_11->setObjectName("lineEdit_11");
-        lineEdit_11->setGeometry(QRect(570, 420, 191, 31));
+        lineEdit_11->setGeometry(QRect(560, 370, 191, 31));
         lineEdit_11->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_12 = new QLineEdit(page_17);
         lineEdit_12->setObjectName("lineEdit_12");
@@ -5135,11 +7862,11 @@ public:
         lineEdit_12->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_13 = new QLineEdit(page_17);
         lineEdit_13->setObjectName("lineEdit_13");
-        lineEdit_13->setGeometry(QRect(210, 270, 191, 31));
+        lineEdit_13->setGeometry(QRect(240, 270, 111, 31));
         lineEdit_13->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_14 = new QLineEdit(page_17);
         lineEdit_14->setObjectName("lineEdit_14");
-        lineEdit_14->setGeometry(QRect(560, 270, 211, 31));
+        lineEdit_14->setGeometry(QRect(560, 270, 191, 31));
         lineEdit_14->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_16 = new QLineEdit(page_17);
         lineEdit_16->setObjectName("lineEdit_16");
@@ -5147,17 +7874,37 @@ public:
         lineEdit_16->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_17 = new QLineEdit(page_17);
         lineEdit_17->setObjectName("lineEdit_17");
-        lineEdit_17->setGeometry(QRect(210, 340, 271, 141));
+        lineEdit_17->setGeometry(QRect(230, 340, 251, 141));
         lineEdit_17->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         pushButton_22 = new QPushButton(page_17);
         pushButton_22->setObjectName("pushButton_22");
         pushButton_22->setGeometry(QRect(380, 530, 141, 41));
-        pushButton_22->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 90);"));
+        pushButton_22->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 90);\n"
+"color: rgb(85, 170, 255);"));
         label_142 = new QLabel(page_17);
         label_142->setObjectName("label_142");
         label_142->setGeometry(QRect(290, -10, 401, 61));
         label_142->setStyleSheet(QString::fromUtf8("font: 22pt \"Segoe UI\";\n"
 "color: rgb(248, 248, 248);"));
+        label_654 = new QLabel(page_17);
+        label_654->setObjectName("label_654");
+        label_654->setGeometry(QRect(870, 620, 91, 91));
+        label_654->setPixmap(QPixmap(QString::fromUtf8(":/Logo.png")));
+        label_654->setScaledContents(true);
+        label_648 = new QLabel(page_17);
+        label_648->setObjectName("label_648");
+        label_648->setGeometry(QRect(700, 460, 191, 41));
+        label_648->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(30, 30, 119);"));
+        pushButton_78 = new QPushButton(page_17);
+        pushButton_78->setObjectName("pushButton_78");
+        pushButton_78->setGeometry(QRect(650, 520, 201, 51));
+        pushButton_78->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_650 = new QLabel(page_17);
+        label_650->setObjectName("label_650");
+        label_650->setGeometry(QRect(620, 470, 71, 20));
+        label_650->setFont(font12);
+        label_650->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         stackedWidget_4->addWidget(page_17);
         stackedWidget->addWidget(page_3);
 
@@ -5226,8 +7973,9 @@ public:
 
         retranslateUi(Dashboard);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(4);
         stackedWidget_6->setCurrentIndex(0);
+        stackedWidget_7->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(0);
         stackedWidget_3->setCurrentIndex(0);
@@ -5238,7 +7986,7 @@ public:
 
     void retranslateUi(QMainWindow *Dashboard)
     {
-        Dashboard->setWindowTitle(QCoreApplication::translate("Dashboard", "MainWindow", nullptr));
+        Dashboard->setWindowTitle(QCoreApplication::translate("Dashboard", "Dashboard", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Dashboard", "Home", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Dashboard", "Search Car", nullptr));
         pushButton_5->setText(QCoreApplication::translate("Dashboard", "Become a Seller", nullptr));
@@ -5272,7 +8020,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_25->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_26->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_204->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_204->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_205->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_206->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_207->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5299,7 +8047,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_27->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_28->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_221->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_221->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_222->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_223->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_224->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5326,7 +8074,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_29->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_30->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_238->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_238->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_239->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_240->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_241->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5353,7 +8101,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_31->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_32->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_255->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_255->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_256->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_257->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_258->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5380,7 +8128,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_33->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_34->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_272->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_272->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_273->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_274->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_275->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5407,7 +8155,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_35->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_36->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_289->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_289->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_290->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_291->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_292->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5434,7 +8182,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_41->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_42->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_340->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_340->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_341->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_342->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_343->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5461,7 +8209,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_45->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_46->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_374->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_374->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_375->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_376->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_377->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5488,7 +8236,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_47->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_48->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_391->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_391->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_392->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_393->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_394->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5515,7 +8263,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_37->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_38->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_306->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_306->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_307->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_308->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_309->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5542,7 +8290,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_39->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_40->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_323->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_323->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_324->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_325->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_326->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5569,7 +8317,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_43->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_44->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_357->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_357->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_358->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_359->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_360->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5596,7 +8344,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_53->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_54->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_442->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_442->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_443->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_444->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_445->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5623,7 +8371,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_55->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_56->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_459->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_459->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_460->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_461->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_462->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5650,7 +8398,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_57->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_58->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_476->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_476->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_477->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_478->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_479->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5677,7 +8425,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_59->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_60->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_493->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_493->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_494->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_495->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_496->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5704,7 +8452,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_51->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_52->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_425->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_425->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_426->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_427->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_428->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5731,7 +8479,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_49->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_50->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_408->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_408->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_409->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_410->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_411->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5758,7 +8506,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_65->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_66->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_544->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_544->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_545->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_546->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_547->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5785,7 +8533,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_67->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_68->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_561->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_561->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_562->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_563->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_564->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5812,7 +8560,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_69->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_70->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_578->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_578->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_579->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_580->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_581->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5839,7 +8587,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_71->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_72->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_595->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_595->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_596->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_597->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_598->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5866,7 +8614,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_61->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_62->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_510->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_510->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_511->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_512->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_513->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -5893,14 +8641,581 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_63->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_64->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_527->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_527->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_528->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_529->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_530->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
         pushButton_73->setText(QCoreApplication::translate("Dashboard", "Next Page", nullptr));
         pushButton_74->setText(QCoreApplication::translate("Dashboard", "Previous Page", nullptr));
         pushButton_75->setText(QCoreApplication::translate("Dashboard", "Refresh Page", nullptr));
-        label_3->setText(QCoreApplication::translate("Dashboard", "Search car with sorting", nullptr));
+        lineEdit_15->setText(QString());
+        lineEdit_15->setPlaceholderText(QCoreApplication::translate("Dashboard", "Enter search criteria (color, cylinders, brand)....", nullptr));
+        comboBox_3->setItemText(0, QCoreApplication::translate("Dashboard", "Search", nullptr));
+        comboBox_3->setItemText(1, QCoreApplication::translate("Dashboard", "By Color", nullptr));
+        comboBox_3->setItemText(2, QCoreApplication::translate("Dashboard", "By Cylinders", nullptr));
+        comboBox_3->setItemText(3, QCoreApplication::translate("Dashboard", "By Brand", nullptr));
+
+        comboBox_4->setItemText(0, QCoreApplication::translate("Dashboard", "Sort", nullptr));
+        comboBox_4->setItemText(1, QCoreApplication::translate("Dashboard", "By Year", nullptr));
+        comboBox_4->setItemText(2, QCoreApplication::translate("Dashboard", "By Price ", nullptr));
+        comboBox_4->setItemText(3, QCoreApplication::translate("Dashboard", "By Fuel", nullptr));
+
+        pushButton_76->setText(QString());
+        pushButton_77->setText(QString());
+        label_635->setText(QString());
+        label_636->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_637->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_638->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_639->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_640->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_641->setText(QString());
+        label_642->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_643->setText(QString());
+        label_644->setText(QString());
+        label_645->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_646->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_647->setText(QString());
+        textEdit_27->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_649->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_651->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_653->setText(QString());
+        label_657->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_658->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_659->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_660->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_661->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_662->setText(QString());
+        label_663->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_664->setText(QString());
+        label_665->setText(QString());
+        label_666->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_667->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_668->setText(QString());
+        textEdit_28->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_670->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_672->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_673->setText(QString());
+        label_674->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_675->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_676->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_677->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_678->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_679->setText(QString());
+        label_680->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_681->setText(QString());
+        label_682->setText(QString());
+        label_683->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_684->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_685->setText(QString());
+        textEdit_29->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_687->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_689->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_690->setText(QString());
+        label_691->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_692->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_693->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_694->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_695->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_696->setText(QString());
+        label_697->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_698->setText(QString());
+        label_699->setText(QString());
+        label_700->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_701->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_702->setText(QString());
+        textEdit_30->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_704->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_706->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_707->setText(QString());
+        label_708->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_709->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_710->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_711->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_712->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_713->setText(QString());
+        label_714->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_715->setText(QString());
+        label_716->setText(QString());
+        label_717->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_718->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_719->setText(QString());
+        textEdit_31->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_721->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_723->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_724->setText(QString());
+        label_725->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_726->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_727->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_728->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_729->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_730->setText(QString());
+        label_731->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_732->setText(QString());
+        label_733->setText(QString());
+        label_734->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_735->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_736->setText(QString());
+        textEdit_32->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_738->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_740->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_758->setText(QString());
+        label_759->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_760->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_761->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_762->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_763->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_764->setText(QString());
+        label_765->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_766->setText(QString());
+        label_767->setText(QString());
+        label_768->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_769->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_770->setText(QString());
+        textEdit_34->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_772->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_774->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_809->setText(QString());
+        label_810->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_811->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_812->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_813->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_814->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_815->setText(QString());
+        label_816->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_817->setText(QString());
+        label_818->setText(QString());
+        label_819->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_820->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_821->setText(QString());
+        textEdit_37->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_823->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_825->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_826->setText(QString());
+        label_827->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_828->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_829->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_830->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_831->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_832->setText(QString());
+        label_833->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_834->setText(QString());
+        label_835->setText(QString());
+        label_836->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_837->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_838->setText(QString());
+        textEdit_38->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_840->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_842->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_741->setText(QString());
+        label_742->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_743->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_744->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_745->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_746->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_747->setText(QString());
+        label_748->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_749->setText(QString());
+        label_750->setText(QString());
+        label_751->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_752->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_753->setText(QString());
+        textEdit_33->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_755->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_757->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_775->setText(QString());
+        label_776->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_777->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_778->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_779->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_780->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_781->setText(QString());
+        label_782->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_783->setText(QString());
+        label_784->setText(QString());
+        label_785->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_786->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_787->setText(QString());
+        textEdit_35->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_789->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_791->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_792->setText(QString());
+        label_793->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_794->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_795->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_796->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_797->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_798->setText(QString());
+        label_799->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_800->setText(QString());
+        label_801->setText(QString());
+        label_802->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_803->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_804->setText(QString());
+        textEdit_36->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_806->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_808->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_894->setText(QString());
+        label_895->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_896->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_897->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_898->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_899->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_900->setText(QString());
+        label_901->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_902->setText(QString());
+        label_903->setText(QString());
+        label_904->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_905->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_906->setText(QString());
+        textEdit_42->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_908->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_910->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_911->setText(QString());
+        label_912->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_913->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_914->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_915->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_916->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_917->setText(QString());
+        label_918->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_919->setText(QString());
+        label_920->setText(QString());
+        label_921->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_922->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_923->setText(QString());
+        textEdit_43->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_925->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_927->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_928->setText(QString());
+        label_929->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_930->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_931->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_932->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_933->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_934->setText(QString());
+        label_935->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_936->setText(QString());
+        label_937->setText(QString());
+        label_938->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_939->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_940->setText(QString());
+        textEdit_44->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_942->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_944->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_843->setText(QString());
+        label_844->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_845->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_846->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_847->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_848->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_849->setText(QString());
+        label_850->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_851->setText(QString());
+        label_852->setText(QString());
+        label_853->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_854->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_855->setText(QString());
+        textEdit_39->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_857->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_859->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_860->setText(QString());
+        label_861->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_862->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_863->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_864->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_865->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_866->setText(QString());
+        label_867->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_868->setText(QString());
+        label_869->setText(QString());
+        label_870->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_871->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_872->setText(QString());
+        textEdit_40->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_874->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_876->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_877->setText(QString());
+        label_878->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_879->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_880->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_881->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_882->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_883->setText(QString());
+        label_884->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_885->setText(QString());
+        label_886->setText(QString());
+        label_887->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_888->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_889->setText(QString());
+        textEdit_41->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_891->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_893->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_1013->setText(QString());
+        label_1014->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_1015->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_1016->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_1017->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_1018->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_1019->setText(QString());
+        label_1020->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_1021->setText(QString());
+        label_1022->setText(QString());
+        label_1023->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_1024->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_1025->setText(QString());
+        textEdit_49->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_1027->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_1029->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_1030->setText(QString());
+        label_1031->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_1032->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_1033->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_1034->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_1035->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_1036->setText(QString());
+        label_1037->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_1038->setText(QString());
+        label_1039->setText(QString());
+        label_1040->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_1041->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_1042->setText(QString());
+        textEdit_50->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_1044->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_1046->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_945->setText(QString());
+        label_946->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_947->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_948->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_949->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_950->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_951->setText(QString());
+        label_952->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_953->setText(QString());
+        label_954->setText(QString());
+        label_955->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_956->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_957->setText(QString());
+        textEdit_45->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_959->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_961->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_962->setText(QString());
+        label_963->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_964->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_965->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_966->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_967->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_968->setText(QString());
+        label_969->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_970->setText(QString());
+        label_971->setText(QString());
+        label_972->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_973->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_974->setText(QString());
+        textEdit_46->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_976->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_978->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_979->setText(QString());
+        label_980->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_981->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_982->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_983->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_984->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_985->setText(QString());
+        label_986->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_987->setText(QString());
+        label_988->setText(QString());
+        label_989->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_990->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_991->setText(QString());
+        textEdit_47->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_993->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_995->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        label_996->setText(QString());
+        label_997->setText(QCoreApplication::translate("Dashboard", "Honda Civic", nullptr));
+        label_998->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
+        label_999->setText(QCoreApplication::translate("Dashboard", "5,20,000", nullptr));
+        label_1000->setText(QCoreApplication::translate("Dashboard", "MY:", nullptr));
+        label_1001->setText(QCoreApplication::translate("Dashboard", "2013", nullptr));
+        label_1002->setText(QString());
+        label_1003->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));
+        label_1004->setText(QString());
+        label_1005->setText(QString());
+        label_1006->setText(QCoreApplication::translate("Dashboard", "4", nullptr));
+        label_1007->setText(QCoreApplication::translate("Dashboard", "230", nullptr));
+        label_1008->setText(QString());
+        textEdit_48->setHtml(QCoreApplication::translate("Dashboard", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
+        label_1010->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
+        label_1012->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
+        pushButton_126->setText(QCoreApplication::translate("Dashboard", "Next Page", nullptr));
+        pushButton_127->setText(QCoreApplication::translate("Dashboard", "Previous Page", nullptr));
         label_176->setText(QCoreApplication::translate("Dashboard", "About Us", nullptr));
         pushButton_23->setText(QCoreApplication::translate("Dashboard", "Next Page", nullptr));
         label_177->setText(QString());
@@ -5954,6 +9269,7 @@ public:
 " reading this on!) it redefined car\n"
 " purchasing, allowing customers to browse\n"
 " and customize vehicles from their homes.", nullptr));
+        label_652->setText(QString());
         label_9->setText(QCoreApplication::translate("Dashboard", "TextLabel", nullptr));
         label_10->setText(QCoreApplication::translate("Dashboard", "UserName:", nullptr));
         label_11->setText(QCoreApplication::translate("Dashboard", "UserID:", nullptr));
@@ -6167,12 +9483,17 @@ public:
         label_131->setText(QCoreApplication::translate("Dashboard", "TextLabel", nullptr));
         pushButton_20->setText(QCoreApplication::translate("Dashboard", "Change", nullptr));
         pushButton_21->setText(QCoreApplication::translate("Dashboard", "Change", nullptr));
+        label_2->setText(QCoreApplication::translate("Dashboard", "Cars Put on Sale: ", nullptr));
+        label_634->setText(QCoreApplication::translate("Dashboard", "Cars Purchased:", nullptr));
+        label_3->setText(QString());
+        label_655->setText(QString());
         label_4->setText(QCoreApplication::translate("Dashboard", "Sell your car", nullptr));
         label_125->setText(QCoreApplication::translate("Dashboard", "Email:", nullptr));
         pushButton_19->setText(QCoreApplication::translate("Dashboard", "ENTER", nullptr));
         label_126->setText(QCoreApplication::translate("Dashboard", "Phone Number :", nullptr));
         label_127->setText(QCoreApplication::translate("Dashboard", "Description :", nullptr));
         label_132->setText(QCoreApplication::translate("Dashboard", "To Become A Seller Enter Few Details :", nullptr));
+        label_656->setText(QString());
         comboBox_2->setItemText(0, QCoreApplication::translate("Dashboard", "Corolla", nullptr));
         comboBox_2->setItemText(1, QCoreApplication::translate("Dashboard", "Ford Mustang", nullptr));
         comboBox_2->setItemText(2, QCoreApplication::translate("Dashboard", "Toyota Fortuner", nullptr));
@@ -6199,6 +9520,10 @@ public:
         label_141->setText(QCoreApplication::translate("Dashboard", "Description:", nullptr));
         pushButton_22->setText(QCoreApplication::translate("Dashboard", "Post", nullptr));
         label_142->setText(QCoreApplication::translate("Dashboard", "Enter Your Car Details", nullptr));
+        label_654->setText(QString());
+        label_648->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
+        pushButton_78->setText(QCoreApplication::translate("Dashboard", "Generate AI Price", nullptr));
+        label_650->setText(QCoreApplication::translate("Dashboard", "AI Price:", nullptr));
         label->setText(QCoreApplication::translate("Dashboard", "M. Shariq Nadeem", nullptr));
         label_6->setText(QString());
         label_17->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));

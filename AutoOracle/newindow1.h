@@ -12,6 +12,8 @@
 #include <QString>
 #include <QRandomGenerator>
 #include <QMessageBox>
+#include <QLocale>
+
 namespace Ui {
 class Newindow1;
 }
@@ -955,6 +957,83 @@ public:
 
     storage2[++top2]=add_purchase;
     ++restore2;
+    }
+
+};
+
+class Price{
+public:
+
+    int price;
+    Price* next;
+
+    Price(QString p)
+    {
+        QLocale locale;
+        price = locale.toInt(p);
+        next = NULL;
+    }
+};
+
+class Hashtable{
+       public:
+    Price* table[205];
+
+    Hashtable()
+    {
+        for(int i=0; i<205; i++)
+        {
+            table[i]=NULL;
+        }
+    }
+
+    int hashFunction(const QString& key) {
+        std::string copy= key.toStdString();
+        int hash = 0;
+
+        hash = copy[0]+ copy[copy.length()-1];
+        return hash;
+    }
+
+    void insert(QString key, QString value)
+    {
+        int index= hashFunction(key);
+        qDebug()<<index<<"\n";
+        Price* newNode= new Price(value);
+
+        if(table[index]==NULL)
+        {
+            table[index]= newNode;
+        }
+        else
+        {
+            Price* temp= table[index];
+            while(temp->next!=NULL)
+            {
+                temp= temp->next;
+            }
+            temp->next= newNode;
+        }
+    }
+    int search(const QString &model)
+    {
+        int average = 0;
+        int index = hashFunction(model);
+
+        Price *temp = table[index];
+        int count = 0;
+
+        while (temp != NULL)
+        {
+            average += temp->price;
+            count++;
+            temp = temp->next;
+        }
+        if (count > 0)
+        {
+            average /= count;
+        }
+        return average;
     }
 
 };

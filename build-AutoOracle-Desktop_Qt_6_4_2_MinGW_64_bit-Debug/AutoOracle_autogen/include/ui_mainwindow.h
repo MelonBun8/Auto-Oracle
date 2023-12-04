@@ -39,7 +39,7 @@ public:
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(1540, 800);
         QIcon icon;
-        icon.addFile(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/chrome_hqmSI9koUf (2).png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/Logo.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);
         MainWindow->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         centralwidget = new QWidget(MainWindow);
@@ -78,7 +78,7 @@ public:
         label_3->setFocusPolicy(Qt::TabFocus);
         label_3->setAutoFillBackground(false);
         label_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
-        label_3->setPixmap(QPixmap(QString::fromUtf8("C:/Users/SAAD COMMUNICATION/Downloads/Untitled (1).png")));
+        label_3->setPixmap(QPixmap(QString::fromUtf8("../../../../../SAAD COMMUNICATION/Downloads/Untitled (1).png")));
         label_3->setScaledContents(true);
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");

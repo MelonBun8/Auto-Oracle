@@ -30,6 +30,7 @@ int sortChoice = 0;
 int searchChoice = 0;
 QString searchInput = "";
 int currPage = 0;
+Hashtable h1;
 
 LinkedList2 carList;
 LinkedList L1;
@@ -221,8 +222,8 @@ Dashboard::Dashboard(QWidget *parent) :
     for(int i=0; i<numberOfCarObjects; ++i)
     {
         carList.addNode(carArray[i]);
+        h1.insert(carArray[i].manufacture, carArray[i].price);
     }
-
     current_user= L1.currentid_search(userDetails);
     s1= Stack_sell(current_user);
     p1= Stack_purchase(current_user);
@@ -2611,6 +2612,7 @@ void Dashboard::on_pushButton_22_clicked()
 
         current_car.setValues(pr, ye, mo, man, cy, fl, pai, desc);
         carList.addNode(current_car);
+        h1.insert(current_car.manufacture,current_car.price);
         q1.refresh();
         q1.add_cars(carList.head);
         totalCarsOnSale= q1.getCount();
@@ -3363,5 +3365,230 @@ void Dashboard::on_pushButton_127_clicked()
         currPage--;
         ui->stackedWidget_7->setCurrentIndex(2);
     }
+}
+
+
+void Dashboard::on_pushButton_26_clicked()
+{
+    QString m= ui->label_192->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_204->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_28_clicked()
+{
+    QString m= ui->label_209->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_221->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_30_clicked()
+{
+    QString m= ui->label_226->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_238->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_32_clicked()
+{
+    QString m= ui->label_243->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_255->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_34_clicked()
+{
+    QString m= ui->label_260->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_272->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_36_clicked()
+{
+    QString m= ui->label_277->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_289->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_38_clicked()
+{
+    QString m= ui->label_294->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_306->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_40_clicked()
+{
+    QString m= ui->label_311->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_323->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_42_clicked()
+{
+    QString m= ui->label_328->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_340->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_44_clicked()
+{
+    QString m= ui->label_345->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_357->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_46_clicked()
+{
+    QString m= ui->label_362->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_374->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_48_clicked()
+{
+    QString m= ui->label_379->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_391->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_50_clicked()
+{
+    QString m= ui->label_396->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_408->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_52_clicked()
+{
+    QString m= ui->label_413->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_425->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_54_clicked()
+{
+    QString m= ui->label_430->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_442->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_56_clicked()
+{
+    QString m= ui->label_447->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_459->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_58_clicked()
+{
+    QString m= ui->label_464->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_476->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_60_clicked()
+{
+    QString m= ui->label_481->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_493->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_62_clicked()
+{
+    QString m= ui->label_498->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_510->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_64_clicked()
+{
+    QString m= ui->label_515->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_527->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_66_clicked()
+{
+    QString m= ui->label_532->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_544->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_68_clicked()
+{
+    QString m= ui->label_549->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_561->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_70_clicked()
+{
+    QString m= ui->label_566->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_578->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_72_clicked()
+{
+    QString m= ui->label_583->text();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_595->setText(avg1);
+}
+
+
+void Dashboard::on_pushButton_78_clicked()
+{
+    QString m= ui->comboBox_2->currentText();
+    int avg= h1.search(m);
+    QString avg1= QString::number(avg);
+    ui->label_648->setText(avg1);
 }
 

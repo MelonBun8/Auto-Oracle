@@ -368,11 +368,11 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h
  mdp:D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/moc_predefs.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QDebug
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QFile
+ mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QLocale
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QRandomGenerator
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QString
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QStringList
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QTextStream
- mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qanystringview.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qarraydata.h
@@ -412,6 +412,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qiterator.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qline.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qlist.h
+ mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qlocale.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qlogging.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qmap.h
  mdp:C:/Qt/6.4.2/mingw_64/include/QtCore/qmargins.h

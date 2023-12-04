@@ -2,11 +2,11 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/AutoOracle_autogen/moc_predefs.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/QLocale \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QRandomGenerator \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.4.2/mingw_64/include/QtCore/QTextStream \
-  C:/Qt/6.4.2/mingw_64/include/QtCore/QtGlobal \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qarraydata.h \
@@ -46,6 +46,7 @@ D:/OneDrive/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_2_MinGW
   C:/Qt/6.4.2/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.4.2/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qmap.h \
   C:/Qt/6.4.2/mingw_64/include/QtCore/qmargins.h \

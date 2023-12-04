@@ -135,9 +135,9 @@ private slots:
 
     void on_pushButton_75_clicked();
 
-    void on_pushButton_79_clicked();
+   // void on_pushButton_79_clicked();
 
-    void on_pushButton_78_clicked();
+   // void on_pushButton_78_clicked();
 
     void on_comboBox_4_currentIndexChanged(int index);
 
@@ -145,7 +145,7 @@ private slots:
 
     void on_comboBox_3_currentIndexChanged(int index);
 
-    void on_lineEdit_15_cursorPositionChanged(int arg1, int arg2);
+   // void on_lineEdit_15_cursorPositionChanged(int arg1, int arg2);
 
     void on_lineEdit_15_returnPressed();
 
@@ -154,6 +154,56 @@ private slots:
     void on_pushButton_126_clicked();
 
     void on_pushButton_127_clicked();
+
+    void on_pushButton_26_clicked();
+
+    void on_pushButton_28_clicked();
+
+    void on_pushButton_30_clicked();
+
+    void on_pushButton_32_clicked();
+
+    void on_pushButton_34_clicked();
+
+    void on_pushButton_36_clicked();
+
+    void on_pushButton_38_clicked();
+
+    void on_pushButton_40_clicked();
+
+    void on_pushButton_42_clicked();
+
+    void on_pushButton_44_clicked();
+
+    void on_pushButton_46_clicked();
+
+    void on_pushButton_48_clicked();
+
+    void on_pushButton_50_clicked();
+
+    void on_pushButton_52_clicked();
+
+    void on_pushButton_54_clicked();
+
+    void on_pushButton_56_clicked();
+
+    void on_pushButton_58_clicked();
+
+    void on_pushButton_60_clicked();
+
+    void on_pushButton_62_clicked();
+
+    void on_pushButton_64_clicked();
+
+    void on_pushButton_66_clicked();
+
+    void on_pushButton_68_clicked();
+
+    void on_pushButton_70_clicked();
+
+    void on_pushButton_72_clicked();
+
+    void on_pushButton_78_clicked();
 
 private:
     Ui::Dashboard *ui;
