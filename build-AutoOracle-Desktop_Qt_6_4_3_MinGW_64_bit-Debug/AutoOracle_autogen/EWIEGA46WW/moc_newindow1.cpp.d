@@ -2,6 +2,7 @@ C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_Min
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/AutoOracle_autogen/moc_predefs.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QStringList \
@@ -45,6 +46,7 @@ C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_Min
   C:/Qt/6.4.3/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qmap.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qmargins.h \

@@ -417,6 +417,8 @@ CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj: \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
+ C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
  C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/AutoOracle_autogen/include/ui_newindow1.h \
  C:/Qt/6.4.3/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.4.3/mingw_64/include/QtCore/qvariant.h \

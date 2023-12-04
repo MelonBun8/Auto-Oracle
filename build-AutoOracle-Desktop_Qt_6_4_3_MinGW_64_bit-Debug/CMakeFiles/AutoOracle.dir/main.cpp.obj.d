@@ -417,6 +417,8 @@ CMakeFiles/AutoOracle.dir/main.cpp.obj: \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
+ C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.4.3/mingw_64/include/QtCore/qcoreapplication.h \

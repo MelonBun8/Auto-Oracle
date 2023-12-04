@@ -1218,7 +1218,8 @@ CMakeFiles/AutoOracle.dir/AutoOracle_autogen/mocs_compilation.cpp.obj: AutoOracl
   AutoOracle_autogen/EWIEGA46WW/moc_newindow1.cpp \
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale
 
 CMakeFiles/AutoOracle.dir/dashboard.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/dashboard.cpp \
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/dashboard.h \
@@ -2428,6 +2429,7 @@ CMakeFiles/AutoOracle.dir/dashboard.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Users/DELL/Documents/GitHub/Auto-Oracle/AutoOracle/newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
   AutoOracle_autogen/include/ui_dashboard.h \
   C:/Qt/6.4.3/mingw_64/include/QtGui/QIcon \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \
@@ -2864,6 +2866,8 @@ CMakeFiles/AutoOracle.dir/main.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto-Orac
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3292,6 +3296,8 @@ CMakeFiles/AutoOracle.dir/mainwindow.cpp.obj: C:/Users/DELL/Documents/GitHub/Aut
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
   AutoOracle_autogen/include/ui_newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qvariant.h \
@@ -3730,6 +3736,8 @@ CMakeFiles/AutoOracle.dir/newindow1.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.4.3/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
+  C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
   AutoOracle_autogen/include/ui_newindow1.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qvariant.h \
@@ -3923,7 +3931,6 @@ CMakeFiles/AutoOracle.dir/newindow1.cpp.obj: C:/Users/DELL/Documents/GitHub/Auto
   C:/Qt/6.4.3/mingw_64/include/QtCore/qversionnumber.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qlist.h \
-  C:/Qt/6.4.3/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qlockfile.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qloggingcategory.h \
   C:/Qt/6.4.3/mingw_64/include/QtCore/qmap.h \
@@ -4595,6 +4602,8 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime:
 C:/Qt/6.4.3/mingw_64/include/QtCore/QDebug:
 
 AutoOracle_autogen/EWIEGA46WW/qrc_resources.cpp:
+
+C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h:
 

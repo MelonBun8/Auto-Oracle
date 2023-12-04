@@ -430,7 +430,7 @@ void Dashboard::fillSearchSales(int iChoice, QString iData)
             stack1.add_cars(carList.head);
             return;
          }
-         inToggle(totalCars);
+         (totalCars);
          emptySearchSales(totalCars);
          QString id= stack1.pop()->data.id;
          Car temp= carList.currentid_search2(id);
@@ -2615,10 +2615,15 @@ void Dashboard::on_pushButton_22_clicked()
         h1.insert(current_car.manufacture,current_car.price);
         q1.refresh();
         q1.add_cars(carList.head);
+        stack1.refresh();
+        stack1.add_cars(carList.head);
         totalCarsOnSale= q1.getCount();
         toggle();
         emptySales();
         fillSales();
+        inToggle(totalCarsOnSale);
+        emptySortedSales();
+        fillSortedSales(0);
         current_user.addCarSold(current_car.id);
         s1.push(current_car.id);
         QMessageBox msgBox(QMessageBox::Information, "Success", "Posted Successfully", QMessageBox::Ok, this);
@@ -2628,6 +2633,7 @@ void Dashboard::on_pushButton_22_clicked()
         hideSells();
         soldData();
         putSell();
+
     }
 
 }

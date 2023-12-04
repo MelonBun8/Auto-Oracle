@@ -1207,6 +1207,7 @@ CMakeFiles/AutoOracle.dir/dashboard.cpp.obj: \
  C:\Users\DELL\Documents\GitHub\Auto-Oracle\AutoOracle\newindow1.h \
  C:/Qt/6.4.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.4.3/mingw_64/include/QtCore/QRandomGenerator \
+ C:/Qt/6.4.3/mingw_64/include/QtCore/QLocale \
  C:/Users/DELL/Documents/GitHub/Auto-Oracle/build-AutoOracle-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/AutoOracle_autogen/include/ui_dashboard.h \
  C:/Qt/6.4.3/mingw_64/include/QtGui/QIcon \
  C:/Qt/6.4.3/mingw_64/include/QtWidgets/QApplication \

@@ -1252,6 +1252,9 @@ public:
     QPushButton *pushButton_22;
     QLabel *label_142;
     QLabel *label_654;
+    QLabel *label_648;
+    QPushButton *pushButton_78;
+    QLabel *label_650;
     QWidget *widget_2;
     QLabel *label;
     QLabel *label_6;
@@ -7820,7 +7823,7 @@ public:
 "color: rgb(255, 255, 255);"));
         label_136 = new QLabel(page_17);
         label_136->setObjectName("label_136");
-        label_136->setGeometry(QRect(630, 340, 31, 21));
+        label_136->setGeometry(QRect(630, 340, 111, 21));
         label_136->setStyleSheet(QString::fromUtf8("font: 10pt \"Segoe UI\";\n"
 "font: 11pt \"Segoe UI\";\n"
 "font: 10pt \"Segoe UI\";\n"
@@ -7888,6 +7891,20 @@ public:
         label_654->setGeometry(QRect(870, 620, 91, 91));
         label_654->setPixmap(QPixmap(QString::fromUtf8(":/Logo.png")));
         label_654->setScaledContents(true);
+        label_648 = new QLabel(page_17);
+        label_648->setObjectName("label_648");
+        label_648->setGeometry(QRect(700, 460, 191, 41));
+        label_648->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"background-color: rgb(30, 30, 119);"));
+        pushButton_78 = new QPushButton(page_17);
+        pushButton_78->setObjectName("pushButton_78");
+        pushButton_78->setGeometry(QRect(650, 520, 201, 51));
+        pushButton_78->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
+        label_650 = new QLabel(page_17);
+        label_650->setObjectName("label_650");
+        label_650->setGeometry(QRect(620, 470, 71, 20));
+        label_650->setFont(font12);
+        label_650->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         stackedWidget_4->addWidget(page_17);
         stackedWidget->addWidget(page_3);
 
@@ -7956,7 +7973,7 @@ public:
 
         retranslateUi(Dashboard);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(4);
         stackedWidget_6->setCurrentIndex(0);
         stackedWidget_7->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
@@ -8003,7 +8020,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_25->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_26->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_204->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_204->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_205->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_206->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_207->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8030,7 +8047,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_27->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_28->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_221->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_221->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_222->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_223->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_224->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8057,7 +8074,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_29->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_30->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_238->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_238->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_239->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_240->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_241->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8084,7 +8101,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_31->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_32->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_255->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_255->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_256->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_257->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_258->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8111,7 +8128,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_33->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_34->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_272->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_272->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_273->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_274->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_275->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8138,7 +8155,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_35->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_36->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_289->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_289->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_290->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_291->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_292->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8165,7 +8182,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_41->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_42->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_340->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_340->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_341->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_342->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_343->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8192,7 +8209,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_45->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_46->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_374->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_374->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_375->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_376->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_377->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8219,7 +8236,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_47->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_48->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_391->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_391->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_392->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_393->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_394->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8246,7 +8263,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_37->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_38->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_306->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_306->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_307->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_308->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_309->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8273,7 +8290,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_39->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_40->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_323->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_323->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_324->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_325->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_326->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8300,7 +8317,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_43->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_44->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_357->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_357->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_358->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_359->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_360->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8327,7 +8344,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_53->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_54->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_442->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_442->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_443->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_444->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_445->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8354,7 +8371,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_55->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_56->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_459->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_459->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_460->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_461->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_462->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8381,7 +8398,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_57->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_58->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_476->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_476->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_477->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_478->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_479->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8408,7 +8425,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_59->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_60->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_493->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_493->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_494->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_495->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_496->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8435,7 +8452,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_51->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_52->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_425->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_425->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_426->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_427->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_428->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8462,7 +8479,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_49->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_50->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_408->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_408->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_409->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_410->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_411->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8489,7 +8506,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_65->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_66->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_544->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_544->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_545->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_546->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_547->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8516,7 +8533,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_67->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_68->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_561->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_561->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_562->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_563->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_564->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8543,7 +8560,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_69->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_70->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_578->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_578->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_579->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_580->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_581->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8570,7 +8587,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_71->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_72->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_595->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_595->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_596->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_597->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_598->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8597,7 +8614,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_61->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_62->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_510->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_510->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_511->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_512->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_513->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -8624,7 +8641,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Impressive Condition</p></body></html>", nullptr));
         pushButton_63->setText(QCoreApplication::translate("Dashboard", "Buy Now", nullptr));
         pushButton_64->setText(QCoreApplication::translate("Dashboard", "AI Price", nullptr));
-        label_527->setText(QCoreApplication::translate("Dashboard", "5,10,000", nullptr));
+        label_527->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
         label_528->setText(QCoreApplication::translate("Dashboard", "MT3004", nullptr));
         label_529->setText(QCoreApplication::translate("Dashboard", "Rs.", nullptr));
         label_530->setText(QCoreApplication::translate("Dashboard", "CarID", nullptr));
@@ -9504,6 +9521,9 @@ public:
         pushButton_22->setText(QCoreApplication::translate("Dashboard", "Post", nullptr));
         label_142->setText(QCoreApplication::translate("Dashboard", "Enter Your Car Details", nullptr));
         label_654->setText(QString());
+        label_648->setText(QCoreApplication::translate("Dashboard", "-", nullptr));
+        pushButton_78->setText(QCoreApplication::translate("Dashboard", "Generate AI Price", nullptr));
+        label_650->setText(QCoreApplication::translate("Dashboard", "AI Price:", nullptr));
         label->setText(QCoreApplication::translate("Dashboard", "M. Shariq Nadeem", nullptr));
         label_6->setText(QString());
         label_17->setText(QCoreApplication::translate("Dashboard", "Description", nullptr));

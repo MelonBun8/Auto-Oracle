@@ -719,24 +719,70 @@ public:
         return total;
     }
 
-    void sortFuel(){
-        int n = carArr.size();
-        bool swapped;
-        for (int i = 0; i < n - 1; ++i) {
-            swapped = false;
-            for (int j = 0; j < n - i - 1; ++j) {
-                if ((carArr[j]->data.fuel).compare((carArr[j+1]->data.fuel)) > 0) {
-                    // Swap vec[j] and vec[j + 1]
-                    std::swap(carArr[j], carArr[j + 1]);
-                    swapped = true;
-                }
-            }
+    // Merge function for merge sort
+    void merge(std::vector<Node2*>& arr, int left, int mid, int right) {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
 
-            // If no two elements were swapped in the inner loop, the array is sorted
-            if (!swapped) {
-                break;
+        // Create temporary arrays
+        std::vector<Node2*> leftArr(n1);
+        std::vector<Node2*> rightArr(n2);
+
+        // Copy data to temporary arrays leftArr[] and rightArr[]
+        for (int i = 0; i < n1; i++)
+            leftArr[i] = arr[left + i];
+        for (int j = 0; j < n2; j++)
+            rightArr[j] = arr[mid + 1 + j];
+
+        // Merge the temporary arrays back into arr[left..right]
+        int i = 0;
+        int j = 0;
+        int k = left;
+
+        while (i < n1 && j < n2) {
+            if ((leftArr[i]->data.fuel).compare((rightArr[j]->data.fuel)) >= 0) {
+                arr[k] = leftArr[i];
+                i++;
+            } else {
+                arr[k] = rightArr[j];
+                j++;
             }
+            k++;
         }
+
+        // Copy the remaining elements of leftArr[], if there are any
+        while (i < n1) {
+            arr[k] = leftArr[i];
+            i++;
+            k++;
+        }
+
+        // Copy the remaining elements of rightArr[], if there are any
+        while (j < n2) {
+            arr[k] = rightArr[j];
+            j++;
+            k++;
+        }
+    }
+
+    // Recursive function for merge sort
+    void mergeSort(std::vector<Node2*>& arr, int left, int right) {
+        if (left < right) {
+            // Same as (left+right)/2, but avoids overflow for large left and right
+            int mid = left + (right - left) / 2;
+
+            // Sort first and second halves
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid + 1, right);
+
+            // Merge the sorted halves
+            merge(arr, left, mid, right);
+        }
+    }
+
+    void sortFuel() {
+        int n = carArr.size();
+        mergeSort(carArr, 0, n - 1);
     }
 
     void sortPrice(){
@@ -745,7 +791,7 @@ public:
         for (int i = 0; i < n - 1; ++i) {
             swapped = false;
             for (int j = 0; j < n - i - 1; ++j) {
-                if ((carArr[j]->data.price).compare((carArr[j+1]->data.price)) > 0) {
+                if ((carArr[j]->data.price).compare((carArr[j+1]->data.price)) < 0) {
                     // Swap vec[j] and vec[j + 1]
                     std::swap(carArr[j], carArr[j + 1]);
                     swapped = true;
@@ -765,7 +811,7 @@ public:
         for (int i = 0; i < n - 1; ++i) {
             swapped = false;
             for (int j = 0; j < n - i - 1; ++j) {
-                if ((carArr[j]->data.year).compare((carArr[j+1]->data.year)) > 0) {
+                if ((carArr[j]->data.year).compare((carArr[j+1]->data.year)) < 0) {
                     // Swap vec[j] and vec[j + 1]
                     std::swap(carArr[j], carArr[j + 1]);
                     swapped = true;
